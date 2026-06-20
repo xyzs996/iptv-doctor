@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getWorldCup2026Dataset } from "@iptv-star/sports-data";
+import { getWorldCup2026Dataset } from "iptv-sports-data";
 import { generateICalendar, generateM3UPlaceholder, generateWorldCupGuideHtml, generateXMLTV } from "./generators";
 
 describe("match2epg generators", () => {

@@ -11,7 +11,7 @@ Convert sports fixtures into IPTV-friendly metadata outputs.
 ## CLI
 
 ```bash
-npx @iptv-star/match2epg xmltv US --out worldcup.xml
-npx @iptv-star/match2epg ics US --out worldcup.ics
-npx @iptv-star/match2epg m3u US --out worldcup.m3u
+npx match2epg xmltv US --out worldcup.xml
+npx match2epg ics US --out worldcup.ics
+npx match2epg m3u US --out worldcup.m3u
 ```

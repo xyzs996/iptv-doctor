@@ -1,6 +1,6 @@
 import { Eye, EyeOff } from "lucide-react";
 import { useState } from "react";
-import { getWorldCup2026Dataset } from "@iptv-star/sports-data";
+import { getWorldCup2026Dataset } from "iptv-sports-data";
 
 const dataset = getWorldCup2026Dataset();
 

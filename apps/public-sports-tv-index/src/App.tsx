@@ -1,5 +1,5 @@
 import { ExternalLink, ShieldCheck } from "lucide-react";
-import { publicSportsChannels } from "@iptv-star/sports-data";
+import { publicSportsChannels } from "iptv-sports-data";
 
 export function App() {
   return (

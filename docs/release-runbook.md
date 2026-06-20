@@ -36,7 +36,7 @@ Consumers should use:
 
 ## 3. npm publish
 
-Set `NPM_TOKEN` in repository secrets. The publish workflow runs `npm publish` through pnpm for `iptv-doctor` and `@iptv-star/*` packages.
+Set `NPM_TOKEN` in repository secrets. The publish workflow runs `npm publish` through pnpm for `iptv-doctor`, `iptv-doctor-core`, `iptv-sports-data`, and `match2epg`.
 
 ## 4. Docker / GHCR
 

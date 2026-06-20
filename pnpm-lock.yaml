@@ -48,57 +48,57 @@ importers:
 
   apps/iptv-doctor:
     dependencies:
-      '@iptv-star/iptv-core':
-        specifier: workspace:*
-        version: link:../../packages/iptv-core
-      '@iptv-star/match2epg':
-        specifier: workspace:*
-        version: link:../../packages/match2epg
-      '@iptv-star/sports-data':
-        specifier: workspace:*
-        version: link:../../packages/sports-data
       '@modelcontextprotocol/sdk':
         specifier: ^1.18.0
         version: 1.29.0(zod@4.4.3)
+      iptv-doctor-core:
+        specifier: workspace:*
+        version: link:../../packages/iptv-core
+      iptv-sports-data:
+        specifier: workspace:*
+        version: link:../../packages/sports-data
+      match2epg:
+        specifier: workspace:*
+        version: link:../../packages/match2epg
 
   apps/public-sports-tv-index:
     dependencies:
-      '@iptv-star/sports-data':
+      iptv-sports-data:
         specifier: workspace:*
         version: link:../../packages/sports-data
 
   apps/spoiler-free-iptv:
     dependencies:
-      '@iptv-star/sports-data':
+      iptv-sports-data:
         specifier: workspace:*
         version: link:../../packages/sports-data
 
   apps/wc26-mcp-tv:
     dependencies:
-      '@iptv-star/match2epg':
-        specifier: workspace:*
-        version: link:../../packages/match2epg
-      '@iptv-star/sports-data':
+      iptv-sports-data:
         specifier: workspace:*
         version: link:../../packages/sports-data
+      match2epg:
+        specifier: workspace:*
+        version: link:../../packages/match2epg
 
   apps/worldcup-tv-guide:
     dependencies:
-      '@iptv-star/iptv-core':
+      iptv-doctor-core:
         specifier: workspace:*
         version: link:../../packages/iptv-core
-      '@iptv-star/match2epg':
-        specifier: workspace:*
-        version: link:../../packages/match2epg
-      '@iptv-star/sports-data':
+      iptv-sports-data:
         specifier: workspace:*
         version: link:../../packages/sports-data
+      match2epg:
+        specifier: workspace:*
+        version: link:../../packages/match2epg
 
   packages/iptv-core: {}
 
   packages/match2epg:
     dependencies:
-      '@iptv-star/sports-data':
+      iptv-sports-data:
         specifier: workspace:*
         version: link:../sports-data
 

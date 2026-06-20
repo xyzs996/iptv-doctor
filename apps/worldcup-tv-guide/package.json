@@ -9,9 +9,9 @@
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
-    "@iptv-star/iptv-core": "workspace:*",
-    "@iptv-star/match2epg": "workspace:*",
-    "@iptv-star/sports-data": "workspace:*"
+    "iptv-doctor-core": "workspace:*",
+    "match2epg": "workspace:*",
+    "iptv-sports-data": "workspace:*"
   },
   "devDependencies": {}
 }

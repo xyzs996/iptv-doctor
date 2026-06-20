@@ -1,4 +1,4 @@
-import type { CountryCode, Fixture, SportsDataset } from "@iptv-star/sports-data";
+import type { CountryCode, Fixture, SportsDataset } from "iptv-sports-data";
 
 const PLACEHOLDER_STREAM_URL = "https://example.invalid/add-your-legal-stream";
 
@@ -44,7 +44,7 @@ export function generateXMLTV(dataset: SportsDataset, country: CountryCode): str
   const channelIds = new Set(channels.map((channel) => channel.id));
   const lines = [
     "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
-    "<tv generator-info-name=\"match2epg\" generator-info-url=\"https://github.com/iptv-star/match2epg\">"
+    "<tv generator-info-name=\"match2epg\" generator-info-url=\"https://github.com/xyzs996/iptv-doctor\">"
   ];
 
   for (const channel of channels) {
@@ -78,7 +78,7 @@ export function generateICalendar(dataset: SportsDataset): string {
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//iptv-star//match2epg//EN",
+    "PRODID:-//iptv-doctor//match2epg//EN",
     `X-WR-CALNAME:${textEscape(dataset.tournament.name)}`
   ];
 

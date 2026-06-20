@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync } from "node:fs";
-import { generateICalendar, generateM3UPlaceholder, generateWorldCupGuideHtml, generateXMLTV } from "@iptv-star/match2epg";
-import { getWorldCup2026Dataset, type CountryCode } from "@iptv-star/sports-data";
+import { generateICalendar, generateM3UPlaceholder, generateWorldCupGuideHtml, generateXMLTV } from "match2epg";
+import { getWorldCup2026Dataset, type CountryCode } from "iptv-sports-data";
 import { IPTV_DOCTOR_MCP_TOOLS, runIptvDoctorMcpServer } from "./mcp.js";
 import {
   parseM3U,
@@ -15,7 +15,7 @@ import {
   renderJsonReport,
   type ChannelDiagnostic,
   type ProbeOptions
-} from "@iptv-star/iptv-core";
+} from "iptv-doctor-core";
 
 function usage(): string {
   return `Usage:

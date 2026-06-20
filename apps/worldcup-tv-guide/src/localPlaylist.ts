@@ -1,4 +1,4 @@
-import { parseM3U } from "@iptv-star/iptv-core";
+import { parseM3U } from "iptv-doctor-core";
 
 export interface LocalPlaylistSummary {
   total: number;

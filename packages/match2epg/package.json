@@ -1,5 +1,5 @@
 {
-  "name": "@iptv-star/match2epg",
+  "name": "match2epg",
   "version": "0.1.0",
   "type": "module",
   "private": false,
@@ -30,6 +30,6 @@
     "test": "vitest run src/**/*.test.ts"
   },
   "dependencies": {
-    "@iptv-star/sports-data": "workspace:*"
+    "iptv-sports-data": "workspace:*"
   }
 }

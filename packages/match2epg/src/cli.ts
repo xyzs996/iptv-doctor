@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { writeFileSync } from "node:fs";
-import { getWorldCup2026Dataset } from "@iptv-star/sports-data";
+import { getWorldCup2026Dataset } from "iptv-sports-data";
 import { generateICalendar, generateM3UPlaceholder, generateXMLTV } from "./generators.js";
 
 type Format = "xmltv" | "ics" | "m3u";

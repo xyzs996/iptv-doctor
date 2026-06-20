@@ -11,7 +11,7 @@
     "start": "node --import tsx ./src/server.ts"
   },
   "dependencies": {
-    "@iptv-star/match2epg": "workspace:*",
-    "@iptv-star/sports-data": "workspace:*"
+    "match2epg": "workspace:*",
+    "iptv-sports-data": "workspace:*"
   }
 }

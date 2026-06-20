@@ -124,4 +124,4 @@ Run: `pnpm build`
 
 - Spec coverage: The plan covers the six requested projects plus the shared monorepo foundation.
 - Placeholder scan: No implementation placeholders are intended in shipped code; the plan tasks are concrete for this MVP.
-- Type consistency: Shared package names use the `@iptv-star/*` namespace throughout.
+- Type consistency: Shared package names should stay consistent throughout imports, package manifests, workflows, and docs.

@@ -49,7 +49,21 @@ jobs:
             echo "NPM_TOKEN is not configured; skipping npm publish"
             exit 0
           fi
-          pnpm -r --filter "@iptv-star/*" --filter "iptv-doctor" publish --no-git-checks
+          publish_if_missing() {
+            package_name="$1"
+            package_dir="$2"
+            version="$(node -p "require('./${package_dir}/package.json').version")"
+            if npm view "${package_name}@${version}" version >/dev/null 2>&1; then
+              echo "${package_name}@${version} already published; skipping"
+              return 0
+            fi
+            pnpm --filter "${package_name}" publish --no-git-checks
+          }
+
+          publish_if_missing "iptv-doctor-core" "packages/iptv-core"
+          publish_if_missing "iptv-sports-data" "packages/sports-data"
+          publish_if_missing "match2epg" "packages/match2epg"
+          publish_if_missing "iptv-doctor" "apps/iptv-doctor"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
