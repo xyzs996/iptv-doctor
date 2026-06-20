@@ -21,6 +21,7 @@ describe("release assets", () => {
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain("npm publish");
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain("NPM_TOKEN is not configured; skipping npm publish");
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain('publish_if_missing "iptv-doctor-core"');
+    expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain('publish_if_missing "@bjia666/match2epg"');
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain('publish_if_missing "iptv-doctor"');
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain("generate-release-artifacts");
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain("softprops/action-gh-release");

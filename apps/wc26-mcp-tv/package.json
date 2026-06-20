@@ -11,7 +11,7 @@
     "start": "node --import tsx ./src/server.ts"
   },
   "dependencies": {
-    "match2epg": "workspace:*",
+    "@bjia666/match2epg": "workspace:*",
     "iptv-sports-data": "workspace:*"
   }
 }

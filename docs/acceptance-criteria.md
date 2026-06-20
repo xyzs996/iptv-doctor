@@ -70,7 +70,7 @@ The project is not ready for public star-focused release until all required item
 - [x] `pnpm --filter iptv-doctor pack` creates an npm tarball.
 - [x] npm tarball includes a Node executable bin wrapper and excludes CLI test files.
 - [x] Published workspace package tarballs exclude test files and can be installed together in a clean npm project.
-- [x] `match2epg` tarball exposes a working `match2epg` Node bin wrapper in a clean npm project.
+- [x] `@bjia666/match2epg` tarball exposes a working `match2epg` Node bin wrapper in a clean npm project.
 - [x] Published package tarballs contain compiled `dist` JavaScript and declaration files, and can be imported by plain Node ESM without `tsx`.
 - [x] GitHub Pages demo supports browser-local M3U parsing.
 - [x] Five launch how-to documents exist for Actions health checks, cleaning M3U, fixing EPG IDs, World Cup metadata, and shareable reports.

@@ -1,6 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { generateXMLTV } from "match2epg";
+import { generateXMLTV } from "@bjia666/match2epg";
 import { getWorldCup2026Dataset } from "iptv-sports-data";
 
 export const IPTV_DOCTOR_MCP_TOOLS = ["list_worldcup_matches", "us_legal_viewing_paths", "generate_us_xmltv"] as const;

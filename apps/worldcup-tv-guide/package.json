@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "iptv-doctor-core": "workspace:*",
-    "match2epg": "workspace:*",
+    "@bjia666/match2epg": "workspace:*",
     "iptv-sports-data": "workspace:*"
   },
   "devDependencies": {}

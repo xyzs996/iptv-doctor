@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync } from "node:fs";
-import { generateICalendar, generateM3UPlaceholder, generateWorldCupGuideHtml, generateXMLTV } from "match2epg";
+import { generateICalendar, generateM3UPlaceholder, generateWorldCupGuideHtml, generateXMLTV } from "@bjia666/match2epg";
 import { getWorldCup2026Dataset, type CountryCode } from "iptv-sports-data";
 import { IPTV_DOCTOR_MCP_TOOLS, runIptvDoctorMcpServer } from "./mcp.js";
 import {

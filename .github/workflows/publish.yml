@@ -62,7 +62,7 @@ jobs:
 
           publish_if_missing "iptv-doctor-core" "packages/iptv-core"
           publish_if_missing "iptv-sports-data" "packages/sports-data"
-          publish_if_missing "match2epg" "packages/match2epg"
+          publish_if_missing "@bjia666/match2epg" "packages/match2epg"
           publish_if_missing "iptv-doctor" "apps/iptv-doctor"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

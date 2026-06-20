@@ -1,6 +1,6 @@
 import { CalendarDays, Download, Tv } from "lucide-react";
 import { useState } from "react";
-import { generateICalendar, generateM3UPlaceholder, generateXMLTV } from "match2epg";
+import { generateICalendar, generateM3UPlaceholder, generateXMLTV } from "@bjia666/match2epg";
 import { getWorldCup2026Dataset } from "iptv-sports-data";
 import { summarizeLocalPlaylist, type LocalPlaylistSummary } from "./localPlaylist";
 

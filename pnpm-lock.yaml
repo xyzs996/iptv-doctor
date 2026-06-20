@@ -48,6 +48,9 @@ importers:
 
   apps/iptv-doctor:
     dependencies:
+      '@bjia666/match2epg':
+        specifier: workspace:*
+        version: link:../../packages/match2epg
       '@modelcontextprotocol/sdk':
         specifier: ^1.18.0
         version: 1.29.0(zod@4.4.3)
@@ -57,9 +60,6 @@ importers:
       iptv-sports-data:
         specifier: workspace:*
         version: link:../../packages/sports-data
-      match2epg:
-        specifier: workspace:*
-        version: link:../../packages/match2epg
 
   apps/public-sports-tv-index:
     dependencies:
@@ -75,24 +75,24 @@ importers:
 
   apps/wc26-mcp-tv:
     dependencies:
+      '@bjia666/match2epg':
+        specifier: workspace:*
+        version: link:../../packages/match2epg
       iptv-sports-data:
         specifier: workspace:*
         version: link:../../packages/sports-data
-      match2epg:
-        specifier: workspace:*
-        version: link:../../packages/match2epg
 
   apps/worldcup-tv-guide:
     dependencies:
+      '@bjia666/match2epg':
+        specifier: workspace:*
+        version: link:../../packages/match2epg
       iptv-doctor-core:
         specifier: workspace:*
         version: link:../../packages/iptv-core
       iptv-sports-data:
         specifier: workspace:*
         version: link:../../packages/sports-data
-      match2epg:
-        specifier: workspace:*
-        version: link:../../packages/match2epg
 
   packages/iptv-core: {}
 
