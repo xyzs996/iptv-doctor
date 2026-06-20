@@ -230,7 +230,7 @@ npx iptv-doctor worldcup --country US --format xmltv --out worldcup.xml
        runs-on: ubuntu-latest
        steps:
          - uses: actions/checkout@v4
-         - uses: iptv-doctor/action@v1
+         - uses: xyzs996/iptv-doctor@v1
            with:
              playlist: playlist.m3u
              report: report.html
@@ -283,7 +283,7 @@ npx iptv-doctor worldcup --country US --format xmltv --out worldcup.xml
 4. **Docker 镜像**
 
    ```bash
-   docker run --rm -v "$PWD:/work" ghcr.io/iptv-doctor/iptv-doctor check /work/playlist.m3u
+   docker run --rm -v "$PWD:/work" ghcr.io/xyzs996/iptv-doctor check /work/playlist.m3u
    ```
 
 5. **在线 demo**
@@ -636,7 +636,7 @@ Includes a legal World Cup 2026 XMLTV/iCal/M3U metadata pack.
 
 仍未声明完成的外部发布项：
 
-1. GitHub Action 还没有在公开仓库以 `iptv-doctor/action@v1` 发布。
+1. GitHub Action 还没有在公开仓库以 `xyzs996/iptv-doctor@v1` 发布。
 2. Docker image 还没有推送到 GHCR/Docker Hub。
 3. npm package 还没有发布到 npm registry。
 4. Health badge JSON 还没有托管为公开静态 endpoint。

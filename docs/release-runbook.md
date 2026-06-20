@@ -25,7 +25,7 @@ git push origin v0.1.0
 Consumers should use:
 
 ```yaml
-- uses: iptv-doctor/action@v1
+- uses: xyzs996/iptv-doctor@v1
   with:
     playlist: playlist.m3u
     report: report.html
@@ -82,10 +82,10 @@ Do not publish private playlist URLs, credentials, or token-bearing report files
 After the release is public, run:
 
 ```bash
-GITHUB_REPOSITORY=iptv-doctor/action \
+GITHUB_REPOSITORY=xyzs996/iptv-doctor \
 NPM_TOKEN=present \
 NPM_PACKAGE=iptv-doctor \
-GHCR_IMAGE=ghcr.io/iptv-doctor/iptv-doctor \
+GHCR_IMAGE=ghcr.io/xyzs996/iptv-doctor \
 BADGE_ENDPOINT_URL=https://example.com/badge.json \
 node --import tsx scripts/verify-external-publish.ts
 ```

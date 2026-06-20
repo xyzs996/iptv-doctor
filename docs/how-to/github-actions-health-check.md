@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: iptv-doctor/action@v1
+      - uses: xyzs996/iptv-doctor@v1
         with:
           playlist: playlist.m3u
           report: report.html

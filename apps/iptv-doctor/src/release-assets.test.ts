@@ -70,9 +70,9 @@ describe("release assets", () => {
     const requested: string[] = [];
     const result = await verifyExternalPublication(
       {
-        githubRepository: "iptv-doctor/action",
+        githubRepository: "xyzs996/iptv-doctor",
         npmPackage: "iptv-doctor",
-        ghcrImage: "ghcr.io/iptv-doctor/iptv-doctor",
+        ghcrImage: "ghcr.io/xyzs996/iptv-doctor",
         badgeEndpointUrl: "https://example.com/badge.json"
       },
       {
@@ -89,8 +89,8 @@ describe("release assets", () => {
     expect(result.every((item) => item.ok)).toBe(true);
     expect(requested).toEqual([
       "https://registry.npmjs.org/iptv-doctor",
-      "https://api.github.com/repos/iptv-doctor/action/git/ref/tags/v1",
-      "https://ghcr.io/v2/iptv-doctor/iptv-doctor/manifests/latest",
+      "https://api.github.com/repos/xyzs996/iptv-doctor/git/ref/tags/v1",
+      "https://ghcr.io/v2/xyzs996/iptv-doctor/manifests/latest",
       "https://example.com/badge.json"
     ]);
   });

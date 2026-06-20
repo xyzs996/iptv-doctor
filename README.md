@@ -60,7 +60,7 @@ npx iptv-doctor worldcup --country US --format html --out worldcup-guide.html
 Use `.github/workflows/iptv-health-example.yml` as a copyable template. The composite action in `action.yml` writes `report.html`, `report.json`, `report.csv`, and `badge.json`.
 
 ```yaml
-- uses: iptv-doctor/action@v1
+- uses: xyzs996/iptv-doctor@v1
   with:
     playlist: playlist.m3u
     report: report.html
@@ -81,7 +81,7 @@ It also emits Linux, macOS, and Windows launcher artifacts that call `npx iptv-d
 ## Docker
 
 ```bash
-docker run --rm -v "$PWD:/work" ghcr.io/iptv-doctor/iptv-doctor check /work/playlist.m3u --report /work/report.html
+docker run --rm -v "$PWD:/work" ghcr.io/xyzs996/iptv-doctor check /work/playlist.m3u --report /work/report.html
 ```
 
 ## Monorepo Layout
