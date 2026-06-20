@@ -44,7 +44,12 @@ jobs:
       - run: pnpm test
       - run: pnpm build
       - name: npm publish packages
-        run: pnpm -r --filter "@iptv-star/*" --filter "iptv-doctor" publish --no-git-checks
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "NPM_TOKEN is not configured; skipping npm publish"
+            exit 0
+          fi
+          pnpm -r --filter "@iptv-star/*" --filter "iptv-doctor" publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 

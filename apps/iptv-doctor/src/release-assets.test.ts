@@ -19,6 +19,7 @@ describe("release assets", () => {
     expect(readFileSync(resolve(root, "Dockerfile"), "utf8")).toContain("pnpm --filter iptv-doctor doctor");
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain("ghcr.io");
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain("npm publish");
+    expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain("NPM_TOKEN is not configured; skipping npm publish");
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain("generate-release-artifacts");
     expect(readFileSync(resolve(root, ".github/workflows/publish.yml"), "utf8")).toContain("softprops/action-gh-release");
   });
@@ -32,6 +33,7 @@ describe("release assets", () => {
 
   it("includes a GitHub Pages workflow for the browser-local demo", () => {
     const workflow = readFileSync(resolve(root, ".github/workflows/pages.yml"), "utf8");
+    const viteConfig = readFileSync(resolve(root, "apps/worldcup-tv-guide/vite.config.ts"), "utf8");
 
     expect(workflow).toContain("worldcup-tv-guide");
     expect(workflow).toContain("@iptv-star/iptv-core build");
@@ -39,6 +41,8 @@ describe("release assets", () => {
     expect(workflow).toContain("@iptv-star/match2epg build");
     expect(workflow).toContain("upload-pages-artifact");
     expect(workflow).toContain("deploy-pages");
+    expect(viteConfig).toContain('base: "/iptv-doctor/"');
+    expect(readFileSync(resolve(root, "apps/worldcup-tv-guide/public/badge.json"), "utf8")).toContain("\"schemaVersion\": 1");
   });
 
   it("includes star-focused how-to documentation and a report screenshot block", () => {
