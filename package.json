@@ -1,0 +1,36 @@
+{
+  "name": "iptv-star",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.8.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "vitest run",
+    "typecheck": "tsc -b",
+    "lint": "pnpm typecheck",
+    "compliance:scan": "node --import tsx scripts/compliance-scan.ts",
+    "release:artifacts": "node --import tsx scripts/generate-release-artifacts.ts dist/release",
+    "release:preflight": "node --import tsx scripts/verify-external-publish.ts",
+    "doctor": "pnpm --filter iptv-doctor doctor",
+    "dev:guide": "pnpm --filter worldcup-tv-guide dev",
+    "dev:spoiler-free": "pnpm --filter spoiler-free-iptv dev",
+    "dev:index": "pnpm --filter public-sports-tv-index dev"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/node": "^24.0.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.0",
+    "vitest": "^4.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

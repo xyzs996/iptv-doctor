@@ -1,0 +1,17 @@
+{
+  "name": "wc26-mcp-tv",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "wc26-mcp-tv": "./src/server.ts"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node --import tsx ./src/server.ts"
+  },
+  "dependencies": {
+    "@iptv-star/match2epg": "workspace:*",
+    "@iptv-star/sports-data": "workspace:*"
+  }
+}

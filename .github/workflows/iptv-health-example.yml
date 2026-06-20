@@ -1,0 +1,29 @@
+name: IPTV Health Example
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.8.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter iptv-doctor doctor check playlist.m3u --report report.html --json report.json --csv report.csv --badge badge.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: iptv-health-report
+          path: |
+            report.html
+            report.json
+            report.csv
+            badge.json

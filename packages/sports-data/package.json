@@ -1,0 +1,27 @@
+{
+  "name": "@iptv-star/sports-data",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run src/**/*.test.ts"
+  }
+}

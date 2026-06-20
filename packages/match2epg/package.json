@@ -1,0 +1,35 @@
+{
+  "name": "@iptv-star/match2epg",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "files": [
+    "bin",
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "match2epg": "./bin/match2epg.mjs"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run src/**/*.test.ts"
+  },
+  "dependencies": {
+    "@iptv-star/sports-data": "workspace:*"
+  }
+}

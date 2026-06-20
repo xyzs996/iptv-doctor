@@ -1,0 +1,28 @@
+{
+  "name": "iptv-doctor",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "bin": {
+    "iptv-doctor": "./bin/iptv-doctor.mjs"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "doctor": "node --conditions=source --import tsx ./src/cli.ts"
+  },
+  "dependencies": {
+    "@iptv-star/iptv-core": "workspace:*",
+    "@iptv-star/match2epg": "workspace:*",
+    "@iptv-star/sports-data": "workspace:*",
+    "@modelcontextprotocol/sdk": "^1.18.0"
+  }
+}

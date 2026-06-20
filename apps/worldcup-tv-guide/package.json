@@ -1,0 +1,17 @@
+{
+  "name": "worldcup-tv-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@iptv-star/iptv-core": "workspace:*",
+    "@iptv-star/match2epg": "workspace:*",
+    "@iptv-star/sports-data": "workspace:*"
+  },
+  "devDependencies": {}
+}

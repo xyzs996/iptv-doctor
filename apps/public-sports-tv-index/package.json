@@ -1,0 +1,14 @@
+{
+  "name": "public-sports-tv-index",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@iptv-star/sports-data": "workspace:*"
+  }
+}
