@@ -1,6 +1,6 @@
-# IPTV Doctor
+# IPTV Doctor CLI - IPTV Playlist Checker and M3U Cleaner
 
-Flagship CLI for checking, cleaning, and reporting on IPTV M3U/HLS playlists.
+Flagship CLI for checking, cleaning, and reporting IPTV M3U, M3U8, HLS, and XMLTV playlist health. The published `iptv-doctor` package is designed for local playlist diagnostics, GitHub Actions health checks, XMLTV EPG repair, and World Cup 2026 metadata exports.
 
 ## Run
 

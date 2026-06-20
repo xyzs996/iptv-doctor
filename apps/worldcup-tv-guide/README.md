@@ -1,6 +1,6 @@
-# World Cup TV Guide
+# World Cup 2026 IPTV Metadata Guide
 
-Legal World Cup 2026 schedule, broadcaster metadata, and exports for XMLTV, iCalendar, and placeholder M3U.
+Browser-local World Cup 2026 IPTV metadata page for XMLTV, iCalendar, placeholder M3U, and local M3U playlist preview workflows. It supports IPTV Doctor search intent without publishing stream URLs.
 
 ## Run
 

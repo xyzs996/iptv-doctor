@@ -1,18 +1,25 @@
-# IPTV Doctor
+# IPTV Doctor - IPTV Playlist Checker, M3U Cleaner, and XMLTV EPG Fixer
 
-Check, clean, and repair IPTV playlists.
+IPTV Doctor is an open-source IPTV playlist checker for M3U, M3U8, HLS, XMLTV, and World Cup 2026 metadata workflows. It checks your own legal playlist, finds broken channels, cleans dead streams, fixes EPG IDs, and produces shareable HTML, JSON, CSV, and Shields badge reports.
 
-- Detect broken M3U/HLS channels
-- Sample HLS media segments, not just manifest URLs
-- Generate visual HTML, JSON, and CSV reports
-- Clean dead streams into a fresh M3U
-- Check and fix XMLTV `tvg-id` mismatches
-- Publish Shields-compatible health badge JSON
-- Generate legal World Cup 2026 XMLTV, iCalendar, and placeholder M3U metadata
-- Start a small MCP server for World Cup metadata tools
-- Add CI health checks for playlist repositories
+No pirated streams. No paid channel lists. No Xtream credentials. IPTV Doctor does not host or distribute channels; bring your own legal playlist.
 
-No pirated streams. No paid channel lists. No Xtream credentials. Bring your own legal playlist.
+```bash
+npx iptv-doctor check playlist.m3u --report report.html --json report.json --csv report.csv
+```
+
+Live demo and browser-local M3U preview: https://xyzs996.github.io/iptv-doctor/
+
+npm package: https://www.npmjs.com/package/iptv-doctor
+
+## Why People Search For IPTV Doctor
+
+- **IPTV playlist checker**: detect dead M3U/M3U8 entries, HTTP failures, slow HLS playlists, and broken media segments.
+- **M3U playlist cleaner**: remove failed channels and write a fresh playlist for VLC, Kodi, Plex, Jellyfin, or IPTVnator.
+- **XMLTV EPG fixer**: audit and repair `tvg-id` mismatches between an M3U playlist and a `guide.xml` file.
+- **HLS stream checker**: sample media segments instead of only testing the manifest URL.
+- **GitHub Actions IPTV health check**: publish report artifacts and badge JSON from CI.
+- **World Cup 2026 IPTV metadata**: generate legal XMLTV, iCalendar, placeholder M3U, and browser-local guide assets without stream URLs.
 
 ## Report Preview
 

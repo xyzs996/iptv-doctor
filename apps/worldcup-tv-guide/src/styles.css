@@ -8,7 +8,8 @@ body {
   margin: 0;
 }
 
-button {
+button,
+.button-link {
   align-items: center;
   background: #163d57;
   border: 0;
@@ -20,6 +21,7 @@ button {
   gap: 8px;
   min-height: 40px;
   padding: 0 14px;
+  text-decoration: none;
 }
 
 .shell {
@@ -47,6 +49,13 @@ h1 {
   font-size: 36px;
   line-height: 1.05;
   margin: 0;
+}
+
+.dek {
+  color: #53616d;
+  line-height: 1.55;
+  margin: 10px 0 0;
+  max-width: 700px;
 }
 
 h2 {
@@ -166,9 +175,30 @@ h2 {
   padding: 6px 10px;
 }
 
+.search-panel {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 18px;
+}
+
+.search-panel article {
+  background: white;
+  border: 1px solid #d7dfd5;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.search-panel p {
+  color: #61707a;
+  line-height: 1.5;
+  margin: 0;
+}
+
 @media (max-width: 820px) {
   .toolbar,
-  .grid {
+  .grid,
+  .search-panel {
     grid-template-columns: 1fr;
   }
 

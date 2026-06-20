@@ -1,4 +1,4 @@
-import { CalendarDays, Download, Tv } from "lucide-react";
+import { CalendarDays, Download, Github, Package, Tv } from "lucide-react";
 import { useState } from "react";
 import { generateICalendar, generateM3UPlaceholder, generateXMLTV } from "@bjia666/match2epg";
 import { getWorldCup2026Dataset } from "iptv-sports-data";
@@ -30,10 +30,19 @@ export function App() {
     <main className="shell">
       <section className="toolbar">
         <div>
-          <p className="eyebrow">Legal IPTV metadata</p>
-          <h1>World Cup TV Guide</h1>
+          <p className="eyebrow">IPTV playlist checker</p>
+          <h1>IPTV Doctor</h1>
+          <p className="dek">
+            Check M3U and M3U8 playlists, clean dead IPTV channels, fix XMLTV EPG IDs, and export legal World Cup 2026 metadata.
+          </p>
         </div>
         <div className="actions">
+          <a className="button-link" href="https://github.com/xyzs996/iptv-doctor" target="_blank" rel="noreferrer">
+            <Github size={16} /> GitHub
+          </a>
+          <a className="button-link" href="https://www.npmjs.com/package/iptv-doctor" target="_blank" rel="noreferrer">
+            <Package size={16} /> npm
+          </a>
           <button onClick={() => downloadFile("worldcup-2026-us.xml", generateXMLTV(dataset, "US"), "application/xml")}>
             <Download size={16} /> XMLTV
           </button>
@@ -84,8 +93,8 @@ export function App() {
       </section>
 
       <section className="panel local-panel">
-        <h2>Local Playlist Preview</h2>
-        <p>Parse an M3U file in your browser. The file stays on this device.</p>
+        <h2>Local M3U Playlist Preview</h2>
+        <p>Parse an M3U or M3U8 playlist in your browser. The file stays on this device.</p>
         <input
           aria-label="Local M3U file"
           type="file"
@@ -103,6 +112,21 @@ export function App() {
             <p>{localSummary.channels.slice(0, 6).join(", ")}</p>
           </div>
         ) : null}
+      </section>
+
+      <section className="search-panel">
+        <article>
+          <h2>M3U / M3U8 checker</h2>
+          <p>Detect broken IPTV playlist entries, slow HLS manifests, and failed media segment samples before match day.</p>
+        </article>
+        <article>
+          <h2>XMLTV EPG fixer</h2>
+          <p>Compare playlist `tvg-id` values with XMLTV display names and generate fixed M3U output from the CLI.</p>
+        </article>
+        <article>
+          <h2>GitHub Actions health reports</h2>
+          <p>Run `xyzs996/iptv-doctor@v1` in CI and publish HTML, JSON, CSV, and Shields-compatible badge artifacts.</p>
+        </article>
       </section>
     </main>
   );

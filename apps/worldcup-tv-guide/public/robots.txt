@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xyzs996.github.io/iptv-doctor/sitemap.xml
