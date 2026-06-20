@@ -83,4 +83,4 @@ These require external repository, registry, or hosting state. They are not clai
 - [x] GitHub Action is published as `xyzs996/iptv-doctor@v1`.
 - [ ] Docker image is published.
 - [ ] npm package is published.
-- [ ] Health badge endpoint JSON is published as a static artifact.
+- [x] Health badge endpoint JSON is published as a static artifact.
