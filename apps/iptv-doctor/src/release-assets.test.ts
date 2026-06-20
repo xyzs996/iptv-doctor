@@ -34,6 +34,9 @@ describe("release assets", () => {
     const workflow = readFileSync(resolve(root, ".github/workflows/pages.yml"), "utf8");
 
     expect(workflow).toContain("worldcup-tv-guide");
+    expect(workflow).toContain("@iptv-star/iptv-core build");
+    expect(workflow).toContain("@iptv-star/sports-data build");
+    expect(workflow).toContain("@iptv-star/match2epg build");
     expect(workflow).toContain("upload-pages-artifact");
     expect(workflow).toContain("deploy-pages");
   });
