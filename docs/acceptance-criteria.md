@@ -81,6 +81,6 @@ The project is not ready for public star-focused release until all required item
 These require external repository, registry, or hosting state. They are not claimed as complete by local implementation alone.
 
 - [x] GitHub Action is published as `xyzs996/iptv-doctor@v1`.
-- [ ] Docker image is published.
+- [x] Docker image is published.
 - [ ] npm package is published.
 - [x] Health badge endpoint JSON is published as a static artifact.
