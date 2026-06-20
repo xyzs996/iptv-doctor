@@ -57,7 +57,7 @@ export async function verifyExternalPublication(
   const results: ExternalPublicationCheck[] = [];
   for (const check of checks) {
     try {
-      const response = await fetchImpl(check.url, ghcrFetchInit(check.name));
+      const response = check.name === "ghcr" ? await fetchGhcrManifest(check.url, fetchImpl) : await fetchImpl(check.url, ghcrFetchInit(check.name));
       const ok = await check.validate(response);
       results.push({
         name: check.name,
@@ -76,6 +76,29 @@ export async function verifyExternalPublication(
   }
 
   return results;
+}
+
+async function fetchGhcrManifest(url: string, fetchImpl: typeof fetch): Promise<Response> {
+  const initial = await fetchImpl(url, ghcrFetchInit("ghcr"));
+  if (initial.status !== 401) return initial;
+
+  const challenge = initial.headers.get("www-authenticate");
+  const tokenUrl = challenge ? parseBearerChallenge(challenge) : undefined;
+  if (!tokenUrl) return initial;
+
+  const tokenResponse = await fetchImpl(tokenUrl);
+  if (!tokenResponse.ok) return initial;
+  const tokenBody = (await tokenResponse.json()) as { token?: string; access_token?: string };
+  const token = tokenBody.token ?? tokenBody.access_token;
+  if (!token) return initial;
+
+  return fetchImpl(url, {
+    ...ghcrFetchInit("ghcr"),
+    headers: {
+      ...(ghcrFetchInit("ghcr")?.headers as Record<string, string>),
+      authorization: `Bearer ${token}`
+    }
+  });
 }
 
 function readConfigFromEnvironment(): ExternalPublicationConfig {
@@ -104,6 +127,23 @@ function ghcrFetchInit(name: ExternalPublicationCheck["name"]): RequestInit | un
       accept: "application/vnd.oci.image.manifest.v1+json, application/vnd.docker.distribution.manifest.v2+json"
     }
   };
+}
+
+function parseBearerChallenge(value: string): string | undefined {
+  if (!value.toLowerCase().startsWith("bearer ")) return undefined;
+  const params = new Map<string, string>();
+  for (const part of value.slice("bearer ".length).split(",")) {
+    const [key, rawValue] = part.split("=");
+    if (!key || !rawValue) continue;
+    params.set(key.trim(), rawValue.trim().replace(/^"|"$/g, ""));
+  }
+
+  const realm = params.get("realm");
+  const service = params.get("service");
+  const scope = params.get("scope");
+  if (!realm || !service || !scope) return undefined;
+  const search = new URLSearchParams({ service, scope });
+  return `${realm}?${search.toString()}`;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

@@ -83,7 +83,7 @@ describe("release assets", () => {
         badgeEndpointUrl: "https://example.com/badge.json"
       },
       {
-        fetchImpl: async (url) => {
+        fetchImpl: async (url, init) => {
           requested.push(String(url));
           if (String(url).includes("registry.npmjs.org")) return new Response(JSON.stringify({ name: "iptv-doctor" }), { status: 200 });
           if (String(url).includes("api.github.com")) return new Response(JSON.stringify({ ref: "refs/tags/v1" }), { status: 200 });
@@ -100,6 +100,42 @@ describe("release assets", () => {
       "https://ghcr.io/v2/xyzs996/iptv-doctor/manifests/latest",
       "https://example.com/badge.json"
     ]);
+  });
+
+  it("follows the GHCR bearer-token challenge when verifying image manifests", async () => {
+    const requested: string[] = [];
+    const result = await verifyExternalPublication(
+      {
+        githubRepository: "xyzs996/iptv-doctor",
+        npmPackage: "iptv-doctor",
+        ghcrImage: "ghcr.io/xyzs996/iptv-doctor",
+        badgeEndpointUrl: "https://example.com/badge.json"
+      },
+      {
+        fetchImpl: async (url, init) => {
+          requested.push(String(url));
+          if (String(url).includes("registry.npmjs.org")) return new Response(JSON.stringify({ name: "iptv-doctor" }), { status: 200 });
+          if (String(url).includes("api.github.com")) return new Response(JSON.stringify({ ref: "refs/tags/v1" }), { status: 200 });
+          if (String(url).includes("ghcr.io/token")) return new Response(JSON.stringify({ token: "registry-token" }), { status: 200 });
+          if (String(url).includes("ghcr.io")) {
+            const authorized = init?.headers ? JSON.stringify(init.headers).includes("registry-token") : false;
+            return authorized
+              ? new Response(JSON.stringify({ schemaVersion: 2 }), { status: 200 })
+              : new Response("auth required", {
+                  status: 401,
+                  headers: {
+                    "www-authenticate":
+                      'Bearer realm="https://ghcr.io/token",service="ghcr.io",scope="repository:xyzs996/iptv-doctor:pull"'
+                  }
+                });
+          }
+          return new Response(JSON.stringify({ schemaVersion: 1, label: "IPTV health", message: "demo online" }), { status: 200 });
+        }
+      }
+    );
+
+    expect(result.find((item) => item.name === "ghcr")?.ok).toBe(true);
+    expect(requested).toContain("https://ghcr.io/token?service=ghcr.io&scope=repository%3Axyzs996%2Fiptv-doctor%3Apull");
   });
 
   it("marks the CLI package publish-ready", () => {
