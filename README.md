@@ -1,5 +1,9 @@
 # IPTV Doctor - IPTV Playlist Checker, M3U Cleaner, and XMLTV EPG Fixer
 
+[![Live IPTV status](https://img.shields.io/endpoint?url=https%3A%2F%2Fxyzs996.github.io%2Fiptv-doctor%2Fstatus-badge.json)](https://xyzs996.github.io/iptv-doctor/status-index.json)
+[![npm](https://img.shields.io/npm/v/iptv-doctor)](https://www.npmjs.com/package/iptv-doctor)
+[![GitHub Pages](https://img.shields.io/badge/live-demo-blue)](https://xyzs996.github.io/iptv-doctor/)
+
 IPTV Doctor is an open-source IPTV playlist checker for M3U, M3U8, HLS, XMLTV, and World Cup 2026 metadata workflows. It checks your own legal playlist, finds broken channels, cleans dead streams, fixes EPG IDs, and produces shareable HTML, JSON, CSV, and Shields badge reports.
 
 No pirated streams. No paid channel lists. No Xtream credentials. IPTV Doctor does not host or distribute channels; bring your own legal playlist.
@@ -11,6 +15,47 @@ npx iptv-doctor check playlist.m3u --report report.html --json report.json --csv
 Live demo and browser-local M3U preview: https://xyzs996.github.io/iptv-doctor/
 
 npm package: https://www.npmjs.com/package/iptv-doctor
+
+<!-- status-index:start -->
+## Live IPTV Status Index
+
+Auto-updated by GitHub Actions every 2 hours for official viewing paths and private M3U health checks. Public outputs never include stream URLs; private source URLs are reduced to host names and short hashes.
+
+| Metric | Value |
+|---|---:|
+| Last updated | 2026-06-21T02:29:33.295Z |
+| Source mode | official websites |
+| Total entries checked | 12 |
+| Online | 10 |
+| Slow / warning | 0 |
+| Offline | 2 |
+| Health score | 83% |
+| Countries | 4 |
+| Categories | 2 |
+
+| Country | Entry | Status | Latency ms | Host | Checked at |
+|---|---|---|---:|---|---|
+| CA | CTV | ONLINE | 601 | www.ctv.ca | 2026-06-21T02:29:24.865Z |
+| US | FOX | ONLINE | 63 | www.foxsports.com | 2026-06-21T02:29:24.831Z |
+| US | FS1 | ONLINE | 31 | www.foxsports.com | 2026-06-21T02:29:24.861Z |
+| US | Peacock | ONLINE | 529 | www.peacocktv.com | 2026-06-21T02:29:24.863Z |
+| GLOBAL | Red Bull TV | ONLINE | 415 | www.redbull.com | 2026-06-21T02:29:26.295Z |
+| US | Telemundo | ONLINE | 275 | www.telemundo.com | 2026-06-21T02:29:24.862Z |
+| MX | Televisa | ONLINE | 389 | www.televisa.com | 2026-06-21T02:29:24.868Z |
+| CA | TSN | ONLINE | 1427 | www.tsn.ca | 2026-06-21T02:29:24.866Z |
+| US | Tubi Sports | ONLINE | 1419 | tubitv.com | 2026-06-21T02:29:26.295Z |
+| MX | TUDN | ONLINE | 382 | www.tudn.com | 2026-06-21T02:29:24.867Z |
+| GLOBAL | FIFA+ | OFFLINE | 579 | www.plus.fifa.com | 2026-06-21T02:29:26.294Z |
+| GLOBAL | Olympics Channel | OFFLINE | - | olympics.com | 2026-06-21T02:29:26.293Z |
+
+Machine-readable outputs:
+
+- [status-index.json](data/status-index.json)
+- [status-index.csv](data/status-index.csv)
+- [status-badge.json](data/status-badge.json)
+
+Generated from official broadcaster and public sports website metadata. No stream URLs are stored or published.
+<!-- status-index:end -->
 
 ## Why People Search For IPTV Doctor
 

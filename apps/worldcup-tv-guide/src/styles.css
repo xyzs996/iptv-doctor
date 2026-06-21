@@ -107,6 +107,85 @@ h2 {
   padding: 18px;
 }
 
+.status-panel {
+  margin-bottom: 18px;
+}
+
+.panel-title {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.panel-title span {
+  color: #61707a;
+  font-size: 13px;
+}
+
+.status-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.status-actions a {
+  border: 1px solid #cbd6cf;
+  border-radius: 8px;
+  color: #163d57;
+  font-size: 13px;
+  font-weight: 700;
+  min-height: 30px;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+.status-table {
+  display: grid;
+  gap: 8px;
+}
+
+.status-row {
+  align-items: center;
+  border: 1px solid #e4e8e0;
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: minmax(160px, 1.1fr) minmax(160px, 1fr) 84px 80px minmax(120px, 0.8fr);
+  min-height: 46px;
+  padding: 10px 12px;
+}
+
+.status-row span {
+  color: #61707a;
+  font-size: 13px;
+}
+
+.status-pill {
+  border-radius: 999px;
+  color: white !important;
+  display: inline-flex;
+  font-weight: 700;
+  justify-content: center;
+  padding: 5px 9px;
+  text-transform: uppercase;
+}
+
+.status-pill.ok {
+  background: #2d7c4f;
+}
+
+.status-pill.warn {
+  background: #a66b00;
+}
+
+.status-pill.fail {
+  background: #a3422c;
+}
+
 .match-list,
 .channel-list {
   display: grid;
@@ -213,5 +292,19 @@ h2 {
 
   .summary {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .panel-title,
+  .status-row {
+    align-items: flex-start;
+    grid-template-columns: 1fr;
+  }
+
+  .panel-title {
+    flex-direction: column;
+  }
+
+  .status-actions {
+    justify-content: flex-start;
   }
 }

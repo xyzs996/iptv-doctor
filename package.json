@@ -12,6 +12,7 @@
     "compliance:scan": "node --import tsx scripts/compliance-scan.ts",
     "release:artifacts": "node --import tsx scripts/generate-release-artifacts.ts dist/release",
     "release:preflight": "node --import tsx scripts/verify-external-publish.ts",
+    "status:index": "node --import tsx scripts/generate-status-index.ts",
     "doctor": "pnpm --filter iptv-doctor doctor",
     "dev:guide": "pnpm --filter worldcup-tv-guide dev",
     "dev:spoiler-free": "pnpm --filter spoiler-free-iptv dev",

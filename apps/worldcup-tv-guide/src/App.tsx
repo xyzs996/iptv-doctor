@@ -1,11 +1,40 @@
 import { CalendarDays, Download, Github, Package, Tv } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { generateICalendar, generateM3UPlaceholder, generateXMLTV } from "@bjia666/match2epg";
 import { getWorldCup2026Dataset } from "iptv-sports-data";
 import { summarizeLocalPlaylist, type LocalPlaylistSummary } from "./localPlaylist";
 
 const dataset = getWorldCup2026Dataset();
 const usChannels = dataset.broadcasters.US?.channels ?? [];
+
+interface StatusIndex {
+  updatedAt: string;
+  sourceMode: string;
+  summary: {
+    total: number;
+    online: number;
+    slow: number;
+    offline: number;
+    healthScore: number;
+    countries: number;
+  };
+  records: Array<{
+    id: string;
+    name: string;
+    country: string;
+    category: string;
+    status: "ok" | "warn" | "fail";
+    latencyMs?: number;
+    urlHost: string;
+    checkedAt: string;
+  }>;
+}
+
+function statusLabel(status: StatusIndex["records"][number]["status"]): string {
+  if (status === "ok") return "online";
+  if (status === "warn") return "slow";
+  return "offline";
+}
 
 function downloadFile(name: string, content: string, type: string): void {
   const blob = new Blob([content], { type });
@@ -19,6 +48,27 @@ function downloadFile(name: string, content: string, type: string): void {
 
 export function App() {
   const [localSummary, setLocalSummary] = useState<LocalPlaylistSummary | undefined>();
+  const [statusIndex, setStatusIndex] = useState<StatusIndex | undefined>();
+  const summaryItems = statusIndex
+    ? [
+        { value: statusIndex.summary.total, label: "entries checked" },
+        { value: statusIndex.summary.online, label: "online" },
+        { value: statusIndex.summary.offline, label: "offline" },
+        { value: `${statusIndex.summary.healthScore}%`, label: "health score" }
+      ]
+    : [
+        { value: dataset.tournament.matchCount, label: "matches" },
+        { value: dataset.tournament.teamCount, label: "teams" },
+        { value: dataset.tournament.hostCountries.length, label: "hosts" },
+        { value: usChannels.length, label: "US paths" }
+      ];
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}status-index.json`)
+      .then((response) => (response.ok ? response.json() : undefined))
+      .then((value: StatusIndex | undefined) => setStatusIndex(value))
+      .catch(() => setStatusIndex(undefined));
+  }, []);
 
   async function handleLocalPlaylist(file: File | undefined): Promise<void> {
     if (!file) return;
@@ -56,11 +106,37 @@ export function App() {
       </section>
 
       <section className="summary">
-        <div><strong>{dataset.tournament.matchCount}</strong><span>matches</span></div>
-        <div><strong>{dataset.tournament.teamCount}</strong><span>teams</span></div>
-        <div><strong>{dataset.tournament.hostCountries.length}</strong><span>hosts</span></div>
-        <div><strong>{usChannels.length}</strong><span>US paths</span></div>
+        {summaryItems.map((item) => (
+          <div key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>
+        ))}
       </section>
+
+      {statusIndex ? (
+        <section className="panel status-panel">
+          <div className="panel-title">
+            <div>
+              <p className="eyebrow">Auto-updated index</p>
+              <h2>Live IPTV Status Index</h2>
+            </div>
+            <div className="status-actions">
+              <a href={`${import.meta.env.BASE_URL}status-index.json`}>JSON</a>
+              <a href={`${import.meta.env.BASE_URL}status-index.csv`}>CSV</a>
+              <span>{new Date(statusIndex.updatedAt).toLocaleString()}</span>
+            </div>
+          </div>
+          <div className="status-table">
+            {statusIndex.records.slice(0, 10).map((record) => (
+              <article className="status-row" key={record.id}>
+                <strong>{record.name}</strong>
+                <span>{record.country} · {record.category}</span>
+                <span className={`status-pill ${record.status}`}>{statusLabel(record.status)}</span>
+                <span>{typeof record.latencyMs === "number" ? `${record.latencyMs} ms` : "-"}</span>
+                <span>{record.urlHost}</span>
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="grid">
         <div className="panel">

@@ -10,6 +10,12 @@
     />
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href="https://xyzs996.github.io/iptv-doctor/" />
+    <link rel="alternate" type="application/json" href="https://xyzs996.github.io/iptv-doctor/status-index.json" title="Live IPTV Status Index JSON" />
+    <link rel="alternate" type="text/csv" href="https://xyzs996.github.io/iptv-doctor/status-index.csv" title="Live IPTV Status Index CSV" />
+    <meta
+      name="keywords"
+      content="IPTV playlist checker, M3U checker, M3U cleaner, M3U8 checker, HLS checker, XMLTV EPG fixer, IPTV GitHub Actions, World Cup 2026 IPTV metadata, live IPTV status index"
+    />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="IPTV Doctor - IPTV Playlist Checker and M3U Cleaner" />
     <meta
@@ -51,6 +57,39 @@
         ]
       }
     </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Live IPTV Status Index",
+        "description": "Auto-updated IPTV status index for official viewing paths and private M3U health checks. Public data hides stream URLs and publishes host names, hashes, status, latency, JSON, CSV, and Shields badge output.",
+        "url": "https://xyzs996.github.io/iptv-doctor/status-index.json",
+        "creator": {
+          "@type": "Organization",
+          "name": "IPTV Doctor"
+        },
+        "distribution": [
+          {
+            "@type": "DataDownload",
+            "encodingFormat": "application/json",
+            "contentUrl": "https://xyzs996.github.io/iptv-doctor/status-index.json"
+          },
+          {
+            "@type": "DataDownload",
+            "encodingFormat": "text/csv",
+            "contentUrl": "https://xyzs996.github.io/iptv-doctor/status-index.csv"
+          }
+        ],
+        "keywords": [
+          "live IPTV status index",
+          "IPTV playlist checker",
+          "M3U checker",
+          "M3U8 checker",
+          "HLS checker",
+          "World Cup 2026 IPTV metadata"
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root">
@@ -63,6 +102,12 @@
         <p>
           The project does not host streams, publish paid channel lists, or distribute Xtream credentials.
           Use it with your own legal IPTV playlist.
+        </p>
+        <p>
+          Live IPTV Status Index:
+          <a href="https://xyzs996.github.io/iptv-doctor/status-index.json">JSON</a>,
+          <a href="https://xyzs996.github.io/iptv-doctor/status-index.csv">CSV</a>,
+          and <a href="https://github.com/xyzs996/iptv-doctor">GitHub source</a>.
         </p>
       </main>
     </div>
