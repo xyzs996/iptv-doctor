@@ -7,10 +7,19 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -37,3 +46,12 @@ jobs:
           git add README.md data apps/worldcup-tv-guide/public/status-index.json apps/worldcup-tv-guide/public/status-index.csv apps/worldcup-tv-guide/public/status-badge.json
           git commit -m "Update IPTV status index"
           git push
+      - run: pnpm --filter iptv-doctor-core build
+      - run: pnpm --filter iptv-sports-data build
+      - run: pnpm --filter @bjia666/match2epg build
+      - run: pnpm --filter worldcup-tv-guide build
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: apps/worldcup-tv-guide/dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
