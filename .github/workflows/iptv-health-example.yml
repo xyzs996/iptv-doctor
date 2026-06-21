@@ -18,6 +18,13 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - name: Write redacted sample playlist
+        run: |
+          cat > playlist.m3u <<'EOF'
+          #EXTM3U
+          #EXTINF:-1 tvg-id="example.channel" group-title="Demo",Example Legal Placeholder
+          https://example.com/legal-placeholder.m3u8
+          EOF
       - run: pnpm --filter iptv-doctor doctor check playlist.m3u --report report.html --json report.json --csv report.csv --badge badge.json
       - uses: actions/upload-artifact@v4
         with:
