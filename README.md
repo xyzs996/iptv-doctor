@@ -146,8 +146,9 @@ docker run --rm -v "$PWD:/work" ghcr.io/xyzs996/iptv-doctor check /work/playlist
 
 ## Documentation
 
-- [Project proposal](docs/project-proposal.md): Chinese review document revised for GitHub star maximization.
-- [Acceptance criteria](docs/acceptance-criteria.md): executable release checklist for Phase 1.
+- [Acceptance criteria](docs/acceptance-criteria.md): public quality checklist for the CLI, reports, compliance guard, and release packaging.
+- [Release runbook](docs/release-runbook.md): public release and verification steps.
+- [How-to guides](docs/how-to): focused guides for GitHub Actions health checks, M3U cleanup, EPG fixes, shareable reports, and World Cup metadata.
 
 ## Commands
 

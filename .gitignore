@@ -6,3 +6,9 @@ coverage/
 *.tsbuildinfo
 .DS_Store
 *.log
+
+# Internal planning and launch notes.
+docs/internal/
+docs/superpowers/
+*.private.md
+*.internal.md

@@ -185,7 +185,7 @@ describe("release assets", () => {
     expect(readFileSync(resolve(root, "packages/match2epg/bin/match2epg.mjs"), "utf8")).toContain("../dist/cli.js");
   });
 
-  it("generates release artifacts listed in the project proposal", () => {
+  it("generates release artifacts for the public release bundle", () => {
     const outDir = mkdtempSync(resolve(tmpdir(), "iptv-release-"));
 
     const artifacts = generateReleaseArtifacts(outDir);

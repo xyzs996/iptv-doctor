@@ -1,11 +1,10 @@
 # IPTV Doctor Acceptance Criteria
 
-Status: active implementation checklist  
-Source: `docs/project-proposal.md` v2  
+Status: public quality checklist
 
 ## Phase 1 Release Gate
 
-The project is not ready for public star-focused release until all required items below are true.
+The project is not ready for a public release until all required items below are true.
 
 ### Core CLI
 
