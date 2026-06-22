@@ -23,30 +23,30 @@ Auto-updated by GitHub Actions every 2 hours for official viewing paths and priv
 
 | Metric | Value |
 |---|---:|
-| Last updated | 2026-06-22T09:44:39.665Z |
+| Last updated | 2026-06-22T15:20:31.940Z |
 | Source mode | official websites |
 | Total entries checked | 12 |
-| Online | 11 |
+| Online | 10 |
 | Slow / warning | 0 |
-| Offline | 1 |
-| Health score | 92% |
+| Offline | 2 |
+| Health score | 83% |
 | Countries | 4 |
 | Categories | 2 |
 
 | Country | Entry | Status | Latency ms | Host | Checked at |
 |---|---|---|---:|---|---|
-| CA | CTV | ONLINE | 530 | www.ctv.ca | 2026-06-22T09:44:32.124Z |
-| GLOBAL | FIFA+ | ONLINE | 226 | www.plus.fifa.com | 2026-06-22T09:44:32.665Z |
-| US | FOX | ONLINE | 211 | www.foxsports.com | 2026-06-22T09:44:32.092Z |
-| US | FS1 | ONLINE | 180 | www.foxsports.com | 2026-06-22T09:44:32.121Z |
-| US | Peacock | ONLINE | 380 | www.peacocktv.com | 2026-06-22T09:44:32.123Z |
-| GLOBAL | Red Bull TV | ONLINE | 507 | www.redbull.com | 2026-06-22T09:44:32.665Z |
-| US | Telemundo | ONLINE | 249 | www.telemundo.com | 2026-06-22T09:44:32.122Z |
-| MX | Televisa | ONLINE | 537 | www.televisa.com | 2026-06-22T09:44:32.127Z |
-| CA | TSN | ONLINE | 420 | www.tsn.ca | 2026-06-22T09:44:32.124Z |
-| US | Tubi Sports | ONLINE | 2216 | tubitv.com | 2026-06-22T09:44:32.666Z |
-| MX | TUDN | ONLINE | 486 | www.tudn.com | 2026-06-22T09:44:32.125Z |
-| GLOBAL | Olympics Channel | OFFLINE | - | olympics.com | 2026-06-22T09:44:32.664Z |
+| CA | CTV | ONLINE | 205 | www.ctv.ca | 2026-06-22T15:20:24.731Z |
+| US | FOX | ONLINE | 85 | www.foxsports.com | 2026-06-22T15:20:24.697Z |
+| US | FS1 | ONLINE | 50 | www.foxsports.com | 2026-06-22T15:20:24.728Z |
+| US | Peacock | ONLINE | 103 | www.peacocktv.com | 2026-06-22T15:20:24.730Z |
+| GLOBAL | Red Bull TV | ONLINE | 706 | www.redbull.com | 2026-06-22T15:20:24.940Z |
+| US | Telemundo | ONLINE | 121 | www.telemundo.com | 2026-06-22T15:20:24.729Z |
+| MX | Televisa | ONLINE | 156 | www.televisa.com | 2026-06-22T15:20:24.735Z |
+| CA | TSN | ONLINE | 206 | www.tsn.ca | 2026-06-22T15:20:24.732Z |
+| US | Tubi Sports | ONLINE | 2070 | tubitv.com | 2026-06-22T15:20:24.941Z |
+| MX | TUDN | ONLINE | 143 | www.tudn.com | 2026-06-22T15:20:24.733Z |
+| GLOBAL | FIFA+ | OFFLINE | 117 | www.plus.fifa.com | 2026-06-22T15:20:24.939Z |
+| GLOBAL | Olympics Channel | OFFLINE | - | olympics.com | 2026-06-22T15:20:24.938Z |
 
 Machine-readable outputs:
 
