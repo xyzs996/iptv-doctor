@@ -48,7 +48,7 @@ describe("release assets", () => {
     expect(readFileSync(resolve(root, "apps/worldcup-tv-guide/public/badge.json"), "utf8")).toContain("\"schemaVersion\": 1");
   });
 
-  it("includes star-focused how-to documentation and a report screenshot block", () => {
+  it("includes public how-to documentation and a report screenshot block", () => {
     const readme = readFileSync(resolve(root, "README.md"), "utf8");
 
     expect(readme).toContain("IPTV Doctor Report");

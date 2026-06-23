@@ -1,0 +1,51 @@
+name: Add official channel metadata
+description: Suggest an official website to include in the public IPTV status index.
+title: "Add channel: "
+labels: ["data", "channel-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest official metadata only. Do not paste M3U/M3U8 stream URLs, paid channel links, credentials, tokens, Xtream URLs, Stalker portal data, or DRM bypass details.
+  - type: input
+    id: name
+    attributes:
+      label: Channel or website name
+      placeholder: "Example: BBC Sport"
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country or region code
+      placeholder: "Example: GB"
+    validations:
+      required: true
+  - type: input
+    id: official_website
+    attributes:
+      label: Official website URL
+      placeholder: "https://www.bbc.co.uk/sport"
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Primary language
+      placeholder: "English"
+    validations:
+      required: true
+  - type: textarea
+    id: sports
+    attributes:
+      label: Sports or categories
+      placeholder: "Football, tennis, highlights"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Why is this official?
+      description: Link to the broadcaster, league, federation, or public media organization page proving this is an official website.
+    validations:
+      required: true

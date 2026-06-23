@@ -1,0 +1,37 @@
+name: Request country coverage
+description: Ask for a country or region to be expanded in the public status index.
+title: "Request country: "
+labels: ["data", "country-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request public metadata coverage only. Do not paste private playlist URLs, credentials, tokenized links, or paid channel lists.
+  - type: input
+    id: country
+    attributes:
+      label: Country or region
+      placeholder: "Example: Japan"
+    validations:
+      required: true
+  - type: textarea
+    id: official_sources
+    attributes:
+      label: Official sources to consider
+      description: List official broadcaster, public media, league, federation, or sports network websites.
+      placeholder: |
+        - NHK Sports: https://www3.nhk.or.jp/sports/
+        - J SPORTS: https://www.jsports.co.jp/
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Why should this be prioritized?
+      options:
+        - World Cup or major tournament coverage
+        - Popular IPTV/Jellyfin/Plex/Kodi use case
+        - Public broadcaster coverage
+        - Missing region in current index
+    validations:
+      required: true

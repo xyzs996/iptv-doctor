@@ -1,4 +1,4 @@
-export type CountryCode = "US" | "CA" | "MX" | "GB" | "GLOBAL";
+export type CountryCode = string;
 
 export interface TournamentInfo {
   name: string;

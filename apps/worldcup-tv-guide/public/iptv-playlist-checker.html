@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IPTV Playlist Checker - IPTV Doctor</title>
+  <meta name="description" content="Open-source IPTV playlist checker for M3U, M3U8, HLS, XMLTV, GitHub Actions health reports, and Shields badges.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://xyzs996.github.io/iptv-doctor/iptv-playlist-checker.html">
+  <link rel="alternate" type="application/json" href="https://xyzs996.github.io/iptv-doctor/status-index.json" title="Live IPTV Status Index JSON">
+  <link rel="alternate" type="text/csv" href="https://xyzs996.github.io/iptv-doctor/status-index.csv" title="Live IPTV Status Index CSV">
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "IPTV Playlist Checker",
+  "description": "Open-source IPTV playlist checker for M3U, M3U8, HLS, XMLTV, GitHub Actions health reports, and Shields badges.",
+  "url": "https://xyzs996.github.io/iptv-doctor/status-index.json",
+  "dateModified": "2026-06-23T07:18:15.206Z",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://xyzs996.github.io/iptv-doctor/status-index.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://xyzs996.github.io/iptv-doctor/status-index.csv"
+    }
+  ],
+  "keywords": [
+    "IPTV status index",
+    "IPTV playlist checker",
+    "M3U checker",
+    "M3U8 checker",
+    "HLS checker"
+  ]
+}</script>
+  <style>
+    body { background: #f6f8f4; color: #172026; font-family: Inter, ui-sans-serif, system-ui, sans-serif; margin: 0; }
+    main { margin: 0 auto; max-width: 1120px; padding: 32px; }
+    a { color: #163d57; font-weight: 700; }
+    h1 { font-size: 36px; line-height: 1.05; margin: 0 0 10px; }
+    p { color: #52626d; line-height: 1.55; max-width: 820px; }
+    .summary { display: grid; gap: 1px; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 24px 0; }
+    .summary div { background: #e5ece3; padding: 16px; }
+    .summary strong { color: #163d57; display: block; font-size: 28px; }
+    table { background: white; border: 1px solid #d7dfd5; border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #e4e8e0; padding: 10px 12px; text-align: left; }
+    th { background: #edf3f7; font-size: 13px; text-transform: uppercase; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+    @media (max-width: 760px) { main { padding: 20px; } .summary { grid-template-columns: repeat(2, minmax(0, 1fr)); } table { font-size: 13px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>IPTV Playlist Checker</h1>
+  <p>Use IPTV Doctor to check your own legal M3U or M3U8 playlist, detect broken HLS manifests, sample media segments, and publish health reports from CI.</p>
+  <nav>
+    <a href="https://xyzs996.github.io/iptv-doctor/">App</a>
+    <a href="https://xyzs996.github.io/iptv-doctor/status-index.json">JSON</a>
+    <a href="https://xyzs996.github.io/iptv-doctor/status-index.csv">CSV</a>
+    <a href="https://github.com/xyzs996/iptv-doctor">GitHub</a>
+  </nav>
+  <section class="summary">
+    <div><strong>135</strong><span>entries checked</span></div>
+    <div><strong>106</strong><span>online</span></div>
+    <div><strong>21</strong><span>offline</span></div>
+    <div><strong>81%</strong><span>health score</span></div>
+  </section>
+  <table>
+    <thead><tr><th>Country</th><th>Entry</th><th>Status</th><th>Latency ms</th><th>Host</th><th>Checked at</th></tr></thead>
+    <tbody><tr>
+  <td>AU</td>
+  <td>7plus Sport</td>
+  <td>ONLINE</td>
+  <td>72</td>
+  <td>7plus.com.au</td>
+  <td>2026-06-23T07:17:46.803Z</td>
+</tr>
+<tr>
+  <td>PT</td>
+  <td>A Bola</td>
+  <td>ONLINE</td>
+  <td>226</td>
+  <td>www.abola.pt</td>
+  <td>2026-06-23T07:17:40.541Z</td>
+</tr>
+<tr>
+  <td>AU</td>
+  <td>ABC Sport</td>
+  <td>ONLINE</td>
+  <td>743</td>
+  <td>www.abc.net.au</td>
+  <td>2026-06-23T07:17:41.615Z</td>
+</tr>
+<tr>
+  <td>JP</td>
+  <td>ABEMA Sports</td>
+  <td>ONLINE</td>
+  <td>324</td>
+  <td>abema.tv</td>
+  <td>2026-06-23T07:17:48.497Z</td>
+</tr>
+<tr>
+  <td>AE</td>
+  <td>Abu Dhabi Sports</td>
+  <td>ONLINE</td>
+  <td>1210</td>
+  <td>adsports.ae</td>
+  <td>2026-06-23T07:18:01.929Z</td>
+</tr>
+<tr>
+  <td>QA</td>
+  <td>Al Kass Sports</td>
+  <td>ONLINE</td>
+  <td>655</td>
+  <td>www.alkass.net</td>
+  <td>2026-06-23T07:18:01.928Z</td>
+</tr>
+<tr>
+  <td>ES</td>
+  <td>AS</td>
+  <td>ONLINE</td>
+  <td>717</td>
+  <td>as.com</td>
+  <td>2026-06-23T07:17:37.142Z</td>
+</tr>
+<tr>
+  <td>MY</td>
+  <td>Astro Arena</td>
+  <td>ONLINE</td>
+  <td>615</td>
+  <td>www.astro.com.my</td>
+  <td>2026-06-23T07:18:06.443Z</td>
+</tr>
+<tr>
+  <td>GB</td>
+  <td>BBC Sport</td>
+  <td>ONLINE</td>
+  <td>481</td>
+  <td>www.bbc.co.uk</td>
+  <td>2026-06-23T07:17:23.124Z</td>
+</tr>
+<tr>
+  <td>QA</td>
+  <td>beIN SPORTS MENA</td>
+  <td>ONLINE</td>
+  <td>828</td>
+  <td>www.beinsports.com</td>
+  <td>2026-06-23T07:18:01.927Z</td>
+</tr>
+<tr>
+  <td>DE</td>
+  <td>BILD Sport</td>
+  <td>ONLINE</td>
+  <td>1235</td>
+  <td>sportbild.bild.de</td>
+  <td>2026-06-23T07:17:30.994Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>Bleacher Report</td>
+  <td>ONLINE</td>
+  <td>238</td>
+  <td>bleacherreport.com</td>
+  <td>2026-06-23T07:17:21.592Z</td>
+</tr>
+<tr>
+  <td>CO</td>
+  <td>Caracol Deportes</td>
+  <td>ONLINE</td>
+  <td>1166</td>
+  <td>www.caracoltv.com</td>
+  <td>2026-06-23T07:17:56.607Z</td>
+</tr>
+<tr>
+  <td>CA</td>
+  <td>CBC Sports</td>
+  <td>ONLINE</td>
+  <td>309</td>
+  <td>www.cbc.ca</td>
+  <td>2026-06-23T07:17:23.121Z</td>
+</tr>
+<tr>
+  <td>CN</td>
+  <td>CCTV Sports</td>
+  <td>ONLINE</td>
+  <td>176</td>
+  <td>sports.cctv.com</td>
+  <td>2026-06-23T07:18:06.436Z</td>
+</tr>
+<tr>
+  <td>GB</td>
+  <td>Channel 4 Sport</td>
+  <td>ONLINE</td>
+  <td>787</td>
+  <td>www.channel4.com</td>
+  <td>2026-06-23T07:17:30.126Z</td>
+</tr>
+<tr>
+  <td>SG</td>
+  <td>CNA Sport</td>
+  <td>ONLINE</td>
+  <td>508</td>
+  <td>www.channelnewsasia.com</td>
+  <td>2026-06-23T07:18:06.441Z</td>
+</tr>
+<tr>
+  <td>CA</td>
+  <td>CTV</td>
+  <td>ONLINE</td>
+  <td>860</td>
+  <td>www.ctv.ca</td>
+  <td>2026-06-23T07:17:13.731Z</td>
+</tr>
+<tr>
+  <td>IN</td>
+  <td>DD Sports</td>
+  <td>ONLINE</td>
+  <td>1030</td>
+  <td>prasarbharati.gov.in</td>
+  <td>2026-06-23T07:17:48.502Z</td>
+</tr>
+<tr>
+  <td>DK</td>
+  <td>DR Sporten</td>
+  <td>ONLINE</td>
+  <td>908</td>
+  <td>www.dr.dk</td>
+  <td>2026-06-23T07:17:59.581Z</td>
+</tr>
+<tr>
+  <td>AE</td>
+  <td>Dubai Sports</td>
+  <td>ONLINE</td>
+  <td>650</td>
+  <td>www.dubaisports.ae</td>
+  <td>2026-06-23T07:18:01.928Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>ESPN</td>
+  <td>ONLINE</td>
+  <td>549</td>
+  <td>www.espn.com</td>
+  <td>2026-06-23T07:17:14.595Z</td>
+</tr>
+<tr>
+  <td>AR</td>
+  <td>ESPN Argentina</td>
+  <td>ONLINE</td>
+  <td>1877</td>
+  <td>www.espn.com.ar</td>
+  <td>2026-06-23T07:17:49.609Z</td>
+</tr>
+<tr>
+  <td>BR</td>
+  <td>ESPN Brasil</td>
+  <td>ONLINE</td>
+  <td>526</td>
+  <td>www.espn.com.br</td>
+  <td>2026-06-23T07:17:49.605Z</td>
+</tr>
+<tr>
+  <td>NL</td>
+  <td>ESPN Netherlands</td>
+  <td>ONLINE</td>
+  <td>1069</td>
+  <td>www.espn.nl</td>
+  <td>2026-06-23T07:17:40.543Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>FOX</td>
+  <td>ONLINE</td>
+  <td>240</td>
+  <td>www.foxsports.com</td>
+  <td>2026-06-23T07:17:13.697Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>FOX Sports</td>
+  <td>ONLINE</td>
+  <td>268</td>
+  <td>www.foxsports.com</td>
+  <td>2026-06-23T07:17:14.595Z</td>
+</tr>
+<tr>
+  <td>AU</td>
+  <td>FOX Sports Australia</td>
+  <td>ONLINE</td>
+  <td>1692</td>
+  <td>www.foxsports.com.au</td>
+  <td>2026-06-23T07:17:46.805Z</td>
+</tr>
+<tr>
+  <td>FR</td>
+  <td>France TV Sport</td>
+  <td>ONLINE</td>
+  <td>863</td>
+  <td>www.france.tv</td>
+  <td>2026-06-23T07:17:30.128Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>FS1</td>
+  <td>ONLINE</td>
+  <td>211</td>
+  <td>www.foxsports.com</td>
+  <td>2026-06-23T07:17:13.728Z</td>
+</tr>
+<tr>
+  <td>BR</td>
+  <td>ge.globo</td>
+  <td>ONLINE</td>
+  <td>2180</td>
+  <td>ge.globo.com</td>
+  <td>2026-06-23T07:17:49.605Z</td>
+</tr>
+<tr>
+  <td>PH</td>
+  <td>GMA Sports</td>
+  <td>ONLINE</td>
+  <td>522</td>
+  <td>www.gmanetwork.com</td>
+  <td>2026-06-23T07:18:08.206Z</td>
+</tr>
+<tr>
+  <td>JP</td>
+  <td>J SPORTS</td>
+  <td>ONLINE</td>
+  <td>1016</td>
+  <td>www.jsports.co.jp</td>
+  <td>2026-06-23T07:17:46.807Z</td>
+</tr>
+<tr>
+  <td>IN</td>
+  <td>JioCinema Sports</td>
+  <td>ONLINE</td>
+  <td>602</td>
+  <td>www.jiocinema.com</td>
+  <td>2026-06-23T07:17:48.501Z</td>
+</tr>
+<tr>
+  <td>KR</td>
+  <td>KBS Sports</td>
+  <td>ONLINE</td>
+  <td>456</td>
+  <td>sports.kbs.co.kr</td>
+  <td>2026-06-23T07:17:48.499Z</td>
+</tr>
+<tr>
+  <td>FR</td>
+  <td>L Equipe</td>
+  <td>ONLINE</td>
+  <td>846</td>
+  <td>www.lequipe.fr</td>
+  <td>2026-06-23T07:17:30.129Z</td>
+</tr>
+<tr>
+  <td>IT</td>
+  <td>La Gazzetta dello Sport</td>
+  <td>ONLINE</td>
+  <td>2133</td>
+  <td>www.gazzetta.it</td>
+  <td>2026-06-23T07:17:37.145Z</td>
+</tr>
+<tr>
+  <td>ES</td>
+  <td>MARCA</td>
+  <td>ONLINE</td>
+  <td>1736</td>
+  <td>www.marca.com</td>
+  <td>2026-06-23T07:17:30.995Z</td>
+</tr>
+<tr>
+  <td>MX</td>
+  <td>MARCA Mexico</td>
+  <td>ONLINE</td>
+  <td>1195</td>
+  <td>www.marca.com</td>
+  <td>2026-06-23T07:17:23.123Z</td>
+</tr>
+<tr>
+  <td>SG</td>
+  <td>meWATCH Sport</td>
+  <td>ONLINE</td>
+  <td>823</td>
+  <td>www.mewatch.sg</td>
+  <td>2026-06-23T07:18:06.442Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>MLB</td>
+  <td>ONLINE</td>
+  <td>789</td>
+  <td>www.mlb.com</td>
+  <td>2026-06-23T07:17:21.593Z</td>
+</tr>
+<tr>
+  <td>FI</td>
+  <td>MTV Urheilu</td>
+  <td>ONLINE</td>
+  <td>2081</td>
+  <td>www.mtvuutiset.fi</td>
+  <td>2026-06-23T07:17:59.583Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>NBA</td>
+  <td>ONLINE</td>
+  <td>1527</td>
+  <td>www.nba.com</td>
+  <td>2026-06-23T07:17:21.594Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>NBC Sports</td>
+  <td>ONLINE</td>
+  <td>915</td>
+  <td>www.nbcsports.com</td>
+  <td>2026-06-23T07:17:14.596Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>NCAA</td>
+  <td>ONLINE</td>
+  <td>934</td>
+  <td>www.ncaa.com</td>
+  <td>2026-06-23T07:17:21.595Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>NFL</td>
+  <td>ONLINE</td>
+  <td>951</td>
+  <td>www.nfl.com</td>
+  <td>2026-06-23T07:17:21.594Z</td>
+</tr>
+<tr>
+  <td>JP</td>
+  <td>NHK Sports</td>
+  <td>ONLINE</td>
+  <td>1225</td>
+  <td>www3.nhk.or.jp</td>
+  <td>2026-06-23T07:17:46.806Z</td>
+</tr>
+<tr>
+  <td>US</td>
+  <td>NHL</td>
+  <td>ONLINE</td>
+  <td>664</td>
+  <td>www.nhl.com</td>
+  <td>2026-06-23T07:17:21.595Z</td>
+</tr>
+<tr>
+  <td>NL</td>
+  <td>NOS Sport</td>
+  <td>ONLINE</td>
+  <td>715</td>
+  <td>nos.nl</td>
+  <td>2026-06-23T07:17:40.542Z</td>
+</tr>
+<tr>
+  <td>HK</td>
+  <td>Now Sports</td>
+  <td>ONLINE</td>
+  <td>535</td>
+  <td>sports.now.com</td>
+  <td>2026-06-23T07:18:06.440Z</td>
+</tr></tbody>
+  </table>
+</main>
+</body>
+</html>
