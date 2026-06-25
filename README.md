@@ -32,38 +32,38 @@ Auto-updated by GitHub Actions every 2 hours for official viewing paths and priv
 
 | Metric | Value |
 |---|---:|
-| Last updated | 2026-06-25T18:07:27.648Z |
+| Last updated | 2026-06-25T21:28:42.076Z |
 | Source mode | official websites |
 | Total entries checked | 135 |
-| Online | 115 |
-| Slow / warning | 4 |
-| Offline | 16 |
-| Health score | 87% |
+| Online | 114 |
+| Slow / warning | 2 |
+| Offline | 19 |
+| Health score | 85% |
 | Countries | 41 |
 | Categories | 2 |
 
 | Country | Entry | Status | Latency ms | Host | Checked at |
 |---|---|---|---:|---|---|
-| AU | 7plus Sport | ONLINE | 69 | 7plus.com.au | 2026-06-25T18:07:02.270Z |
-| PT | A Bola | ONLINE | 537 | www.abola.pt | 2026-06-25T18:06:57.889Z |
-| AU | ABC Sport | ONLINE | 705 | www.abc.net.au | 2026-06-25T18:06:59.190Z |
-| JP | ABEMA Sports | ONLINE | 594 | abema.tv | 2026-06-25T18:07:04.824Z |
-| AE | Abu Dhabi Sports | ONLINE | 635 | adsports.ae | 2026-06-25T18:07:21.762Z |
-| CL | ADN Deportes | ONLINE | 412 | www.adnradio.cl | 2026-06-25T18:07:13.647Z |
-| QA | Al Kass Sports | ONLINE | 1678 | www.alkass.net | 2026-06-25T18:07:21.761Z |
-| SA | Arriyadiyah | ONLINE | 744 | www.arriyadiyah.com | 2026-06-25T18:07:21.763Z |
-| MY | Astro Arena | ONLINE | 717 | www.astro.com.my | 2026-06-25T18:07:23.697Z |
-| GB | BBC Sport | ONLINE | 172 | www.bbc.co.uk | 2026-06-25T18:06:45.491Z |
-| QA | beIN SPORTS MENA | ONLINE | 1932 | www.beinsports.com | 2026-06-25T18:07:21.760Z |
-| DE | BILD Sport | ONLINE | 1629 | sportbild.bild.de | 2026-06-25T18:06:53.182Z |
-| US | Bleacher Report | ONLINE | 33 | bleacherreport.com | 2026-06-25T18:06:43.096Z |
-| CA | CBC Sports | ONLINE | 419 | www.cbc.ca | 2026-06-25T18:06:45.488Z |
-| US | CBS Sports | ONLINE | 49 | www.cbssports.com | 2026-06-25T18:06:36.100Z |
-| CN | CCTV Sports | ONLINE | 456 | sports.cctv.com | 2026-06-25T18:07:23.692Z |
-| GB | Channel 4 Sport | ONLINE | 242 | www.channel4.com | 2026-06-25T18:06:52.492Z |
-| SG | CNA Sport | ONLINE | 625 | www.channelnewsasia.com | 2026-06-25T18:07:23.696Z |
-| CA | CTV | ONLINE | 218 | www.ctv.ca | 2026-06-25T18:06:35.825Z |
-| IT | DAZN Italia | ONLINE | 2071 | www.dazn.com | 2026-06-25T18:06:55.744Z |
+| AU | 7plus Sport | ONLINE | 532 | 7plus.com.au | 2026-06-25T21:28:12.659Z |
+| PT | A Bola | ONLINE | 259 | www.abola.pt | 2026-06-25T21:28:08.446Z |
+| AU | ABC Sport | ONLINE | 680 | www.abc.net.au | 2026-06-25T21:28:09.373Z |
+| JP | ABEMA Sports | ONLINE | 938 | abema.tv | 2026-06-25T21:28:13.926Z |
+| AE | Abu Dhabi Sports | ONLINE | 562 | adsports.ae | 2026-06-25T21:28:30.607Z |
+| CL | ADN Deportes | ONLINE | 668 | www.adnradio.cl | 2026-06-25T21:28:22.855Z |
+| QA | Al Kass Sports | ONLINE | 1429 | www.alkass.net | 2026-06-25T21:28:30.606Z |
+| SA | Arriyadiyah | ONLINE | 715 | www.arriyadiyah.com | 2026-06-25T21:28:30.608Z |
+| MY | Astro Arena | ONLINE | 803 | www.astro.com.my | 2026-06-25T21:28:32.731Z |
+| GB | BBC Sport | ONLINE | 710 | www.bbc.co.uk | 2026-06-25T21:27:57.047Z |
+| FR | beIN SPORTS France | ONLINE | 1858 | www.beinsports.com | 2026-06-25T21:28:04.530Z |
+| QA | beIN SPORTS MENA | ONLINE | 2121 | www.beinsports.com | 2026-06-25T21:28:30.606Z |
+| DE | BILD Sport | ONLINE | 1447 | sportbild.bild.de | 2026-06-25T21:28:04.534Z |
+| US | Bleacher Report | ONLINE | 79 | bleacherreport.com | 2026-06-25T21:27:56.243Z |
+| CA | CBC Sports | ONLINE | 350 | www.cbc.ca | 2026-06-25T21:27:57.044Z |
+| US | CBS Sports | ONLINE | 145 | www.cbssports.com | 2026-06-25T21:27:49.245Z |
+| CN | CCTV Sports | ONLINE | 687 | sports.cctv.com | 2026-06-25T21:28:32.727Z |
+| GB | Channel 4 Sport | ONLINE | 480 | www.channel4.com | 2026-06-25T21:28:04.050Z |
+| SG | CNA Sport | ONLINE | 664 | www.channelnewsasia.com | 2026-06-25T21:28:32.730Z |
+| CA | CTV | ONLINE | 216 | www.ctv.ca | 2026-06-25T21:27:48.901Z |
 
 Machine-readable outputs:
 
