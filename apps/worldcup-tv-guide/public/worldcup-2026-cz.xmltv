@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="ct.cz">
+    <display-name>ČT</display-name>
+    <url>https://www.ceskatelevize.cz/</url>
+  </channel>
+</tv>

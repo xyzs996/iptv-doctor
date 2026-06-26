@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="caracol.co" tvg-name="Caracol TV" group-title="FIFA World Cup 2026",Caracol TV
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="rcn.co" tvg-name="RCN" group-title="FIFA World Cup 2026",RCN
+https://example.invalid/add-your-legal-stream

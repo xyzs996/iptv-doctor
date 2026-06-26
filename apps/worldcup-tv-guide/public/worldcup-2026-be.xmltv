@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="rtbf.be">
+    <display-name>RTBF</display-name>
+    <url>https://www.rtbf.be/auvio</url>
+  </channel>
+  <channel id="sporza.be">
+    <display-name>Sporza</display-name>
+    <url>https://sporza.be/</url>
+  </channel>
+</tv>

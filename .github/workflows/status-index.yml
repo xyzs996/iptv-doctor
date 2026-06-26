@@ -35,16 +35,17 @@ jobs:
           STATUS_INDEX_M3U_URL: ${{ secrets.STATUS_INDEX_M3U_URL }}
           STATUS_INDEX_M3U_TEXT: ${{ secrets.STATUS_INDEX_M3U_TEXT }}
           STATUS_INDEX_LIMIT: "250"
+      - run: node --import tsx scripts/generate-worldcup-pages.ts
       - name: Commit status index
         run: |
-          if [ -z "$(git status --porcelain -- README.md data apps/worldcup-tv-guide/public)" ]; then
+          if [ -z "$(git status --porcelain -- README.md data apps/worldcup-tv-guide/public dist/release)" ]; then
             echo "No status index changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md data apps/worldcup-tv-guide/public
-          git commit -m "Update IPTV status index"
+          git add README.md data apps/worldcup-tv-guide/public dist/release
+          git commit -m "Update IPTV status index and World Cup TV guide pages"
           git push
       - run: pnpm --filter iptv-doctor-core build
       - run: pnpm --filter iptv-sports-data build

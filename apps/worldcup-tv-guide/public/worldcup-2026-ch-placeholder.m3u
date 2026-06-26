@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="srf.ch" tvg-name="SRF" group-title="FIFA World Cup 2026",SRF
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="rts.ch" tvg-name="RTS" group-title="FIFA World Cup 2026",RTS
+https://example.invalid/add-your-legal-stream

@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="bbc.gb" tvg-name="BBC" group-title="FIFA World Cup 2026",BBC
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="itv.gb" tvg-name="ITV" group-title="FIFA World Cup 2026",ITV
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="bbciplayer.gb" tvg-name="BBC iPlayer" group-title="FIFA World Cup 2026",BBC iPlayer
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="itvx.gb" tvg-name="ITVX" group-title="FIFA World Cup 2026",ITVX
+https://example.invalid/add-your-legal-stream

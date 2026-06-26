@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="true4u.th">
+    <display-name>True4U</display-name>
+    <url>https://true4u.com/</url>
+  </channel>
+</tv>

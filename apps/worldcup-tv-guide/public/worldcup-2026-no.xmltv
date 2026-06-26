@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="nrk.no">
+    <display-name>NRK</display-name>
+    <url>https://www.nrk.no/</url>
+  </channel>
+  <channel id="tv2no.no">
+    <display-name>TV 2 Norway</display-name>
+    <url>https://www.tv2.no/</url>
+  </channel>
+</tv>

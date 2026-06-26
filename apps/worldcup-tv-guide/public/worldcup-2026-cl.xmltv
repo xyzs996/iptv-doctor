@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="chv.cl">
+    <display-name>Chilevisión</display-name>
+    <url>https://www.chilevision.cl/</url>
+  </channel>
+  <channel id="tntsports.cl">
+    <display-name>TNT Sports Chile</display-name>
+    <url>https://tntsports.cl/</url>
+  </channel>
+</tv>

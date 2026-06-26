@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="ecuavisa.ec">
+    <display-name>Ecuavisa</display-name>
+    <url>https://www.ecuavisa.com/</url>
+  </channel>
+</tv>

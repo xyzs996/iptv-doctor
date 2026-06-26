@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="ontime.eg">
+    <display-name>ON Time Sports</display-name>
+    <url>https://www.ontimesports.com/</url>
+  </channel>
+</tv>

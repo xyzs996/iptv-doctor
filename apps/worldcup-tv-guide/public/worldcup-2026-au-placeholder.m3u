@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="sbs.au" tvg-name="SBS" group-title="FIFA World Cup 2026",SBS
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="optus.au" tvg-name="Optus Sport" group-title="FIFA World Cup 2026",Optus Sport
+https://example.invalid/add-your-legal-stream

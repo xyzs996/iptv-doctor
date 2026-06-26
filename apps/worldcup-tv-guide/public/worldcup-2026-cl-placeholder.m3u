@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="chv.cl" tvg-name="Chilevisión" group-title="FIFA World Cup 2026",Chilevisión
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="tntsports.cl" tvg-name="TNT Sports Chile" group-title="FIFA World Cup 2026",TNT Sports Chile
+https://example.invalid/add-your-legal-stream

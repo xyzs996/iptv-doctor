@@ -1,6 +1,13 @@
 import { chmodSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { generateICalendar, generateM3UPlaceholder, generateWorldCupGuideHtml, generateXMLTV } from "../packages/match2epg/src/generators";
+import {
+  generateCountryWorldCupGuidePage,
+  generateICalendar,
+  generateM3UPlaceholder,
+  generateWorldCupCountryIndexPage,
+  generateWorldCupGuideHtml,
+  generateXMLTV
+} from "../packages/match2epg/src/generators";
 import { getWorldCup2026Dataset } from "../packages/sports-data/src/worldcup2026";
 import { renderCleanM3U } from "../packages/iptv-core/src/clean";
 import type { ChannelDiagnostic } from "../packages/iptv-core/src/diagnostics";
@@ -21,14 +28,24 @@ export function generateReleaseArtifacts(outDir: string): ReleaseArtifact[] {
     ["iptv-doctor-linux-x64", createPosixLauncher()],
     ["iptv-doctor-macos-arm64", createPosixLauncher()],
     ["iptv-doctor-windows-x64.cmd", createWindowsLauncher()],
-    ["worldcup-2026-us.xmltv", generateXMLTV(dataset, "US")],
-    ["worldcup-2026-us.ics", generateICalendar(dataset)],
-    ["worldcup-2026-us-placeholder.m3u", generateM3UPlaceholder(dataset, "US")],
-    ["worldcup-2026-guide.html", generateWorldCupGuideHtml(dataset, "US")],
+    ["worldcup-2026-guide.html", generateWorldCupCountryIndexPage(dataset)],
+    ["worldcup-2026.ics", generateICalendar(dataset)],
     ["sample-report.html", renderDiagnosticsHtml(sampleDiagnostics)],
     ["sample-report.json", renderJsonReport(sampleDiagnostics)],
     ["sample-clean.m3u", renderCleanM3U(sampleDiagnostics)]
   ];
+
+  // Per-country World Cup metadata artifacts
+  for (const country of Object.keys(dataset.broadcasters)) {
+    files.push([`worldcup-2026-${country.toLowerCase()}.xmltv`, generateXMLTV(dataset, country)]);
+    files.push([`worldcup-2026-${country.toLowerCase()}-placeholder.m3u`, generateM3UPlaceholder(dataset, country)]);
+    files.push([`worldcup-2026-tv-guide-${country.toLowerCase()}.html`, generateCountryWorldCupGuidePage(dataset, country)]);
+  }
+
+  // Backwards-compatible legacy US guide
+  files.push(["worldcup-2026-us.xmltv", generateXMLTV(dataset, "US")]);
+  files.push(["worldcup-2026-us-placeholder.m3u", generateM3UPlaceholder(dataset, "US")]);
+  files.push(["worldcup-2026-us-guide.html", generateWorldCupGuideHtml(dataset, "US")]);
 
   return files.map(([name, content]) => {
     const path = join(outDir, name);

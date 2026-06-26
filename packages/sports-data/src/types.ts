@@ -10,12 +10,16 @@ export interface TournamentInfo {
   matchCount: number;
 }
 
+export type BroadcasterKind = "broadcast" | "streaming" | "public";
+
 export interface Broadcaster {
   id: string;
   name: string;
   country: CountryCode;
   language: string;
-  kind: "broadcast" | "streaming" | "public";
+  kind: BroadcasterKind;
+  /** Whether the viewing path is free-to-air / free-to-stream. */
+  isFree?: boolean;
   website: string;
   notes: string;
 }

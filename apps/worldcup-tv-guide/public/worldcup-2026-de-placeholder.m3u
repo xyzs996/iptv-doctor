@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ard.de" tvg-name="ARD / Das Erste" group-title="FIFA World Cup 2026",ARD / Das Erste
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="zdf.de" tvg-name="ZDF" group-title="FIFA World Cup 2026",ZDF
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="sportschau.de" tvg-name="Sportschau" group-title="FIFA World Cup 2026",Sportschau
+https://example.invalid/add-your-legal-stream

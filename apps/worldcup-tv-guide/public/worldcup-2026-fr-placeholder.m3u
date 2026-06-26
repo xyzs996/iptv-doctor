@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="tf1.fr" tvg-name="TF1" group-title="FIFA World Cup 2026",TF1
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="beinfrance.fr" tvg-name="beIN SPORTS France" group-title="FIFA World Cup 2026",beIN SPORTS France
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="mycanal.fr" tvg-name="MyCanal" group-title="FIFA World Cup 2026",MyCanal
+https://example.invalid/add-your-legal-stream

@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="cctv.cn" tvg-name="CCTV" group-title="FIFA World Cup 2026",CCTV
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="migu.cn" tvg-name="Migu" group-title="FIFA World Cup 2026",Migu
+https://example.invalid/add-your-legal-stream

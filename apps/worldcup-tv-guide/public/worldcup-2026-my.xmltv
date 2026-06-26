@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="rtm.my">
+    <display-name>RTM</display-name>
+    <url>https://rtmklik.rtm.gov.my/</url>
+  </channel>
+</tv>

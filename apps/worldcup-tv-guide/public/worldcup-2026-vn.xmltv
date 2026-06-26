@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="vtv.vn">
+    <display-name>VTV</display-name>
+    <url>https://vtv.vn/</url>
+  </channel>
+</tv>

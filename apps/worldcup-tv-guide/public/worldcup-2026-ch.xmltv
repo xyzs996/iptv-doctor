@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="srf.ch">
+    <display-name>SRF</display-name>
+    <url>https://www.srf.ch/</url>
+  </channel>
+  <channel id="rts.ch">
+    <display-name>RTS</display-name>
+    <url>https://www.rts.ch/</url>
+  </channel>
+</tv>

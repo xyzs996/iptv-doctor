@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="rai.it" tvg-name="RAI" group-title="FIFA World Cup 2026",RAI
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="skyitalia.it" tvg-name="Sky Sport Italia" group-title="FIFA World Cup 2026",Sky Sport Italia
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="dazn.it" tvg-name="DAZN Italy" group-title="FIFA World Cup 2026",DAZN Italy
+https://example.invalid/add-your-legal-stream

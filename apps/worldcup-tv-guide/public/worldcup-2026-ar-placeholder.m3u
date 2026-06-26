@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="tycsports.ar" tvg-name="TyC Sports" group-title="FIFA World Cup 2026",TyC Sports
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="tntsports.ar" tvg-name="TNT Sports Argentina" group-title="FIFA World Cup 2026",TNT Sports Argentina
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="tvp.ar" tvg-name="TV Pública" group-title="FIFA World Cup 2026",TV Pública
+https://example.invalid/add-your-legal-stream

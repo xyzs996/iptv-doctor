@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="orf.at">
+    <display-name>ORF</display-name>
+    <url>https://tvthek.orf.at/</url>
+  </channel>
+</tv>

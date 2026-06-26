@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="sabc.za" tvg-name="SABC" group-title="FIFA World Cup 2026",SABC
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="supersport.za" tvg-name="SuperSport" group-title="FIFA World Cup 2026",SuperSport
+https://example.invalid/add-your-legal-stream

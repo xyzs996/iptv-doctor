@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ad_sports.ae" tvg-name="Abu Dhabi Sports" group-title="FIFA World Cup 2026",Abu Dhabi Sports
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="dubaisports.ae" tvg-name="Dubai Sports" group-title="FIFA World Cup 2026",Dubai Sports
+https://example.invalid/add-your-legal-stream

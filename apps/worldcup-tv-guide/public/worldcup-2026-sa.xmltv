@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="ssc.sa">
+    <display-name>Saudi Sports Company (SSC)</display-name>
+    <url>https://ssc.tv/</url>
+  </channel>
+  <channel id="sba.sa">
+    <display-name>SBA</display-name>
+    <url>https://www.sba.sa/</url>
+  </channel>
+</tv>

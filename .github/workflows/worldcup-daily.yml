@@ -1,0 +1,36 @@
+name: World Cup 2026 Daily Refresh
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.8.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: node --import tsx scripts/generate-worldcup-pages.ts
+      - run: node --import tsx scripts/generate-release-artifacts.ts dist/release
+      - name: Commit World Cup artifacts
+        run: |
+          if [ -z "$(git status --porcelain -- apps/worldcup-tv-guide/public dist/release)" ]; then
+            echo "No World Cup changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apps/worldcup-tv-guide/public dist/release
+          git commit -m "Update World Cup 2026 TV guide pages and release artifacts"
+          git push

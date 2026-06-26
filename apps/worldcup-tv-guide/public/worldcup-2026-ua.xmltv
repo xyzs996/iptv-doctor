@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="xsport.ua">
+    <display-name>Xsport+</display-name>
+    <url>https://xsport.ua/</url>
+  </channel>
+</tv>

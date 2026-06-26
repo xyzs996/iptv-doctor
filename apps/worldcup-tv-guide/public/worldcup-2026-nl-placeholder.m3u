@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="npo.nl" tvg-name="NPO" group-title="FIFA World Cup 2026",NPO
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="ziggo.nl" tvg-name="Ziggo Sport" group-title="FIFA World Cup 2026",Ziggo Sport
+https://example.invalid/add-your-legal-stream

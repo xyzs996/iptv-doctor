@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="tudn.mx" tvg-name="TUDN" group-title="FIFA World Cup 2026",TUDN
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="televisa.mx" tvg-name="Televisa" group-title="FIFA World Cup 2026",Televisa
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="azteca.mx" tvg-name="TV Azteca" group-title="FIFA World Cup 2026",TV Azteca
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="vix.mx" tvg-name="Vix" group-title="FIFA World Cup 2026",Vix
+https://example.invalid/add-your-legal-stream

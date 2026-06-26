@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="tf1.fr">
+    <display-name>TF1</display-name>
+    <url>https://www.tf1.fr/</url>
+  </channel>
+  <channel id="beinfrance.fr">
+    <display-name>beIN SPORTS France</display-name>
+    <url>https://www.beinsports.com/fr-fr</url>
+  </channel>
+  <channel id="mycanal.fr">
+    <display-name>MyCanal</display-name>
+    <url>https://www.canalplus.com/</url>
+  </channel>
+  <programme start="20260611190000 +0000" stop="20260611210000 +0000" channel="tf1.fr">
+    <title lang="en">Mexico vs South Africa</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">Estadio Azteca, Mexico City. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260611190000 +0000" stop="20260611210000 +0000" channel="beinfrance.fr">
+    <title lang="en">Mexico vs South Africa</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">Estadio Azteca, Mexico City. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260611190000 +0000" stop="20260611210000 +0000" channel="mycanal.fr">
+    <title lang="en">Mexico vs South Africa</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">Estadio Azteca, Mexico City. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260612020000 +0000" stop="20260612040000 +0000" channel="tf1.fr">
+    <title lang="en">United States vs Wales</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">SoFi Stadium, Los Angeles. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260612020000 +0000" stop="20260612040000 +0000" channel="beinfrance.fr">
+    <title lang="en">United States vs Wales</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">SoFi Stadium, Los Angeles. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260612020000 +0000" stop="20260612040000 +0000" channel="mycanal.fr">
+    <title lang="en">United States vs Wales</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">SoFi Stadium, Los Angeles. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260612190000 +0000" stop="20260612210000 +0000" channel="tf1.fr">
+    <title lang="en">Canada vs Japan</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">BMO Field, Toronto. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260612190000 +0000" stop="20260612210000 +0000" channel="beinfrance.fr">
+    <title lang="en">Canada vs Japan</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">BMO Field, Toronto. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260612190000 +0000" stop="20260612210000 +0000" channel="mycanal.fr">
+    <title lang="en">Canada vs Japan</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">BMO Field, Toronto. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260613220000 +0000" stop="20260614000000 +0000" channel="tf1.fr">
+    <title lang="en">Brazil vs Morocco</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">MetLife Stadium, New York/New Jersey. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260613220000 +0000" stop="20260614000000 +0000" channel="beinfrance.fr">
+    <title lang="en">Brazil vs Morocco</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">MetLife Stadium, New York/New Jersey. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260613220000 +0000" stop="20260614000000 +0000" channel="mycanal.fr">
+    <title lang="en">Brazil vs Morocco</title>
+    <sub-title lang="en">Group Stage</sub-title>
+    <desc lang="en">MetLife Stadium, New York/New Jersey. Status: scheduled. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260628200000 +0000" stop="20260628220000 +0000" channel="tf1.fr">
+    <title lang="en">Winner Group A vs Third Place Group C/D/E</title>
+    <sub-title lang="en">Round of 32</sub-title>
+    <desc lang="en">AT&amp;T Stadium, Dallas. Status: unknown. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260628200000 +0000" stop="20260628220000 +0000" channel="beinfrance.fr">
+    <title lang="en">Winner Group A vs Third Place Group C/D/E</title>
+    <sub-title lang="en">Round of 32</sub-title>
+    <desc lang="en">AT&amp;T Stadium, Dallas. Status: unknown. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260628200000 +0000" stop="20260628220000 +0000" channel="mycanal.fr">
+    <title lang="en">Winner Group A vs Third Place Group C/D/E</title>
+    <sub-title lang="en">Round of 32</sub-title>
+    <desc lang="en">AT&amp;T Stadium, Dallas. Status: unknown. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260719190000 +0000" stop="20260719210000 +0000" channel="tf1.fr">
+    <title lang="en">TBD vs TBD</title>
+    <sub-title lang="en">Final</sub-title>
+    <desc lang="en">MetLife Stadium, New York/New Jersey. Status: unknown. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260719190000 +0000" stop="20260719210000 +0000" channel="beinfrance.fr">
+    <title lang="en">TBD vs TBD</title>
+    <sub-title lang="en">Final</sub-title>
+    <desc lang="en">MetLife Stadium, New York/New Jersey. Status: unknown. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+  <programme start="20260719190000 +0000" stop="20260719210000 +0000" channel="mycanal.fr">
+    <title lang="en">TBD vs TBD</title>
+    <sub-title lang="en">Final</sub-title>
+    <desc lang="en">MetLife Stadium, New York/New Jersey. Status: unknown. Add your legal stream URL in your IPTV player.</desc>
+    <category lang="en">Football</category>
+  </programme>
+</tv>

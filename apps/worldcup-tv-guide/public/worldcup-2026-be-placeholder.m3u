@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="rtbf.be" tvg-name="RTBF" group-title="FIFA World Cup 2026",RTBF
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="sporza.be" tvg-name="Sporza" group-title="FIFA World Cup 2026",Sporza
+https://example.invalid/add-your-legal-stream

@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="nrk.no" tvg-name="NRK" group-title="FIFA World Cup 2026",NRK
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="tv2no.no" tvg-name="TV 2 Norway" group-title="FIFA World Cup 2026",TV 2 Norway
+https://example.invalid/add-your-legal-stream

@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="globo.br" tvg-name="TV Globo" group-title="FIFA World Cup 2026",TV Globo
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="casatv.br" tvg-name="Cazé TV" group-title="FIFA World Cup 2026",Cazé TV
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="sportv.br" tvg-name="SporTV" group-title="FIFA World Cup 2026",SporTV
+https://example.invalid/add-your-legal-stream

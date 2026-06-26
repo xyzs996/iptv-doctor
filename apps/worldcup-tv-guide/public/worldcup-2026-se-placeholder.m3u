@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="svt.se" tvg-name="SVT" group-title="FIFA World Cup 2026",SVT
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="viaplay.se" tvg-name="Viaplay" group-title="FIFA World Cup 2026",Viaplay
+https://example.invalid/add-your-legal-stream

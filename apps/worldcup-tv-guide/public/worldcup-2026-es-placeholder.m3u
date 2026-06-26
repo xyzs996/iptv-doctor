@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="rtve.es" tvg-name="RTVE" group-title="FIFA World Cup 2026",RTVE
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="movistar.es" tvg-name="Movistar Plus+" group-title="FIFA World Cup 2026",Movistar Plus+
+https://example.invalid/add-your-legal-stream

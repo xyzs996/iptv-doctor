@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="nhk.jp" tvg-name="NHK" group-title="FIFA World Cup 2026",NHK
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="abema.jp" tvg-name="ABEMA" group-title="FIFA World Cup 2026",ABEMA
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="dazn.jp" tvg-name="DAZN Japan" group-title="FIFA World Cup 2026",DAZN Japan
+https://example.invalid/add-your-legal-stream

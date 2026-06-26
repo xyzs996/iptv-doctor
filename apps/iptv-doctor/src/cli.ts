@@ -182,8 +182,9 @@ function runWorldCup(args: string[]): void {
   const output = readFlag(args, "--out");
   if (!output) throw new Error(usage());
 
-  if (!["US", "CA", "MX"].includes(country)) {
-    throw new Error("World Cup country must be one of US, CA, MX.");
+  const supportedCountries = ["AE", "AR", "AT", "AU", "BE", "BG", "BR", "CA", "CH", "CL", "CN", "CO", "CR", "CZ", "DE", "DK", "DZ", "EC", "EG", "ES", "FI", "FR", "GB", "GR", "HR", "HU", "ID", "IE", "IL", "IN", "IR", "IT", "JP", "KR", "MA", "MX", "MY", "NG", "NL", "NO", "NZ", "PE", "PH", "PL", "PT", "QA", "RO", "RS", "RU", "SA", "SE", "SG", "SK", "TH", "TN", "TR", "UA", "US", "UY", "VN", "ZA"];
+  if (!supportedCountries.includes(country)) {
+    throw new Error(`World Cup country must be one of: ${supportedCountries.join(", ")}.`);
   }
 
   const dataset = getWorldCup2026Dataset();

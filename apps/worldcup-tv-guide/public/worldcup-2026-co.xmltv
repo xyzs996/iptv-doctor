@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="caracol.co">
+    <display-name>Caracol TV</display-name>
+    <url>https://www.caracoltv.com/</url>
+  </channel>
+  <channel id="rcn.co">
+    <display-name>RCN</display-name>
+    <url>https://www.canalrcn.com/</url>
+  </channel>
+</tv>

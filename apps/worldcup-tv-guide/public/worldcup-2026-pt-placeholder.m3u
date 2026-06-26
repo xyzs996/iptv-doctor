@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="rtp.pt" tvg-name="RTP" group-title="FIFA World Cup 2026",RTP
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="sporttv.pt" tvg-name="Sport TV" group-title="FIFA World Cup 2026",Sport TV
+https://example.invalid/add-your-legal-stream

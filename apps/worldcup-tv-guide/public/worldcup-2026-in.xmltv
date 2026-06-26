@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="sports18.in">
+    <display-name>Sports18</display-name>
+    <url>https://www.sports18.com/</url>
+  </channel>
+  <channel id="jiocinema.in">
+    <display-name>JioCinema</display-name>
+    <url>https://www.jiocinema.com/sports</url>
+  </channel>
+</tv>

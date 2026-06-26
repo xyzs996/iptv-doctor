@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="svt.se">
+    <display-name>SVT</display-name>
+    <url>https://www.svt.se/</url>
+  </channel>
+  <channel id="viaplay.se">
+    <display-name>Viaplay</display-name>
+    <url>https://www.viaplay.se/</url>
+  </channel>
+</tv>

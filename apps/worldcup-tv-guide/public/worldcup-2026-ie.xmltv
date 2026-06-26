@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="match2epg" generator-info-url="https://github.com/xyzs996/iptv-doctor">
+  <channel id="rte.ie">
+    <display-name>RTÉ</display-name>
+    <url>https://www.rte.ie/player/</url>
+  </channel>
+</tv>

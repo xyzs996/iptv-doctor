@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ctv.ca" tvg-name="CTV" group-title="FIFA World Cup 2026",CTV
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="tsn.ca" tvg-name="TSN" group-title="FIFA World Cup 2026",TSN
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="sportsnet.ca" tvg-name="Sportsnet" group-title="FIFA World Cup 2026",Sportsnet
+https://example.invalid/add-your-legal-stream
+#EXTINF:-1 tvg-id="tvasports.ca" tvg-name="TVA Sports" group-title="FIFA World Cup 2026",TVA Sports
+https://example.invalid/add-your-legal-stream
