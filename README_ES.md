@@ -19,6 +19,12 @@
 
 ---
 
+## 🌐 Languages
+
+[English](README.md) · [简体中文](README_CN.md) · Español（este documento） · [Português](README_PT.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [العربية](README_AR.md)
+
+---
+
 ## 🌍 Guía TV del Mundial 2026 por País
 
 La forma más fácil de encontrar **canales oficiales y opciones legales de streaming** para cada país del Mundial FIFA 2026.

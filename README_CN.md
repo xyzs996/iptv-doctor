@@ -19,6 +19,12 @@
 
 ---
 
+## 🌐 Languages
+
+[English](README.md) · 简体中文（本文） · [Español](README_ES.md) · [Português](README_PT.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [العربية](README_AR.md)
+
+---
+
 ## 🌍 2026 FIFA 世界杯各国电视指南
 
 查找每个参赛国的**官方、合法转播商和流媒体选项**的最简单方式。不存储任何流媒体 URL。

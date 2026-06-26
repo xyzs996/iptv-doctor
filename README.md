@@ -21,6 +21,12 @@
 
 ---
 
+## 🌐 Languages
+
+English (this README) · [简体中文](README_CN.md) · [Español](README_ES.md) · [Português](README_PT.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [العربية](README_AR.md)
+
+---
+
 ## 🌍 FIFA World Cup 2026 TV Guide by Country
 
 The easiest way to find **official, legal broadcasters and streaming options** for every FIFA World Cup 2026 country. No pirated streams. No paid channel lists. No Xtream credentials. We only store metadata — never stream URLs.
@@ -77,38 +83,38 @@ Auto-updated by GitHub Actions every 2 hours for official viewing paths and priv
 
 | Metric | Value |
 |---|---:|
-| Last updated | 2026-06-25T23:13:52.734Z |
+| Last updated | 2026-06-26T01:35:47.459Z |
 | Source mode | official websites |
-| Total entries checked | 135 |
-| Online | 116 |
-| Slow / warning | 1 |
-| Offline | 18 |
-| Health score | 86% |
-| Countries | 41 |
+| Total entries checked | 212 |
+| Online | 156 |
+| Slow / warning | 13 |
+| Offline | 43 |
+| Health score | 77% |
+| Countries | 63 |
 | Categories | 2 |
 
 | Country | Entry | Status | Latency ms | Host | Checked at |
 |---|---|---|---:|---|---|
-| AU | 7plus Sport | ONLINE | 695 | 7plus.com.au | 2026-06-25T23:13:28.839Z |
-| PT | A Bola | ONLINE | 332 | www.abola.pt | 2026-06-25T23:13:24.478Z |
-| AU | ABC Sport | ONLINE | 890 | www.abc.net.au | 2026-06-25T23:13:25.619Z |
-| JP | ABEMA Sports | ONLINE | 1556 | abema.tv | 2026-06-25T23:13:30.204Z |
-| AE | Abu Dhabi Sports | ONLINE | 767 | adsports.ae | 2026-06-25T23:13:46.724Z |
-| CL | ADN Deportes | ONLINE | 148 | www.adnradio.cl | 2026-06-25T23:13:38.762Z |
-| QA | Al Kass Sports | ONLINE | 1476 | www.alkass.net | 2026-06-25T23:13:46.723Z |
-| SA | Arriyadiyah | ONLINE | 928 | www.arriyadiyah.com | 2026-06-25T23:13:46.724Z |
-| MY | Astro Arena | ONLINE | 772 | www.astro.com.my | 2026-06-25T23:13:48.773Z |
-| GB | BBC Sport | ONLINE | 344 | www.bbc.co.uk | 2026-06-25T23:13:13.042Z |
-| FR | beIN SPORTS France | ONLINE | 945 | www.beinsports.com | 2026-06-25T23:13:21.217Z |
-| QA | beIN SPORTS MENA | ONLINE | 2048 | www.beinsports.com | 2026-06-25T23:13:46.722Z |
-| DE | BILD Sport | ONLINE | 620 | sportbild.bild.de | 2026-06-25T23:13:21.220Z |
-| US | Bleacher Report | ONLINE | 43 | bleacherreport.com | 2026-06-25T23:13:12.628Z |
-| CA | CBC Sports | ONLINE | 257 | www.cbc.ca | 2026-06-25T23:13:13.039Z |
-| US | CBS Sports | ONLINE | 109 | www.cbssports.com | 2026-06-25T23:13:05.630Z |
-| CN | CCTV Sports | ONLINE | 373 | sports.cctv.com | 2026-06-25T23:13:48.770Z |
-| GB | Channel 4 Sport | ONLINE | 209 | www.channel4.com | 2026-06-25T23:13:20.043Z |
-| SG | CNA Sport | ONLINE | 2232 | www.channelnewsasia.com | 2026-06-25T23:13:48.772Z |
-| CA | CTV | ONLINE | 421 | www.ctv.ca | 2026-06-25T23:13:04.540Z |
+| AU | 7plus Sport | ONLINE | 866 | 7plus.com.au | 2026-06-26T01:35:31.465Z |
+| PT | A Bola | ONLINE | 372 | www.abola.pt | 2026-06-26T01:35:23.230Z |
+| AU | ABC Sport | ONLINE | 398 | www.abc.net.au | 2026-06-26T01:35:27.757Z |
+| JP | ABEMA | ONLINE | 519 | abema.tv | 2026-06-26T01:34:47.761Z |
+| JP | ABEMA Sports | ONLINE | 555 | abema.tv | 2026-06-26T01:35:31.469Z |
+| AE | Abu Dhabi Sports | ONLINE | 1561 | adsports.ae | 2026-06-26T01:34:15.143Z |
+| CL | ADN Deportes | ONLINE | 1219 | www.adnradio.cl | 2026-06-26T01:35:37.583Z |
+| QA | Al Kass | ONLINE | 180 | www.alkass.net | 2026-06-26T01:34:52.915Z |
+| QA | Al Kass Sports | ONLINE | 344 | www.alkass.net | 2026-06-26T01:35:41.905Z |
+| PE | América Televisión | ONLINE | 760 | www.americatv.com.pe | 2026-06-26T01:34:50.437Z |
+| DE | ARD / Das Erste | ONLINE | 2011 | www.daserste.de | 2026-06-26T01:34:27.681Z |
+| SA | Arriyadiyah | ONLINE | 1289 | www.arriyadiyah.com | 2026-06-26T01:35:41.906Z |
+| ES | AS | ONLINE | 334 | as.com | 2026-06-26T01:35:20.572Z |
+| MY | Astro Arena | ONLINE | 246 | www.astro.com.my | 2026-06-26T01:35:45.643Z |
+| GB | BBC | ONLINE | 126 | www.bbc.co.uk | 2026-06-26T01:34:33.752Z |
+| GB | BBC iPlayer | ONLINE | 522 | www.bbc.co.uk | 2026-06-26T01:34:33.754Z |
+| GB | BBC Sport | ONLINE | 381 | www.bbc.co.uk | 2026-06-26T01:35:11.620Z |
+| QA | beIN SPORTS MENA | ONLINE | 2475 | www.beinsports.com | 2026-06-26T01:34:50.440Z |
+| DE | BILD Sport | ONLINE | 833 | sportbild.bild.de | 2026-06-26T01:35:20.570Z |
+| US | Bleacher Report | ONLINE | 612 | bleacherreport.com | 2026-06-26T01:35:09.391Z |
 
 Machine-readable outputs:
 
@@ -185,13 +191,6 @@ docker run --rm -v "$PWD:/work" ghcr.io/xyzs996/iptv-doctor check /work/playlist
 
 ---
 
-## 🌐 Languages
-
-- English (this README)
-- [简体中文](README_CN.md) · [Español](README_ES.md) · [Português](README_PT.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [العربية](README_AR.md)
-
----
-
 ## 🤝 Contribute
 
 - **Add a channel or country:** Use the issue templates to request official broadcaster metadata.
@@ -215,3 +214,48 @@ docker run --rm -v "$PWD:/work" ghcr.io/xyzs996/iptv-doctor check /work/playlist
 ## 📄 License
 
 [MIT](LICENSE)
+
+---
+
+## 🔖 Keywords
+
+People find this repo by searching for:
+
+`iptv playlist checker`, `m3u checker`, `m3u8 checker`, `hls checker`, `iptv cleaner`, `m3u cleaner`, `iptv playlist cleaner`, `free iptv status index`, `xmltv epg fixer`, `epg checker`, `iptv doctor`, `github actions iptv health check`, `iptv status badge`, `kodi iptv setup`, `jellyfin iptv`, `plex iptv`, `world cup 2026 tv guide`, `fifa world cup 2026 broadcasters`, `where to watch world cup 2026`, `world cup 2026 streaming`, `world cup 2026 free to air`, `legal iptv tools`, `iptv diagnostics`, `iptv channel checker`, `playlist validator`, `stream url checker`, `hls playlist validator`, `iptv epg generator`, `m3u editor`, `iptv automation`.
+
+---
+
+## ❓ FAQ
+
+**Q: Does IPTV Doctor provide free IPTV streams or M3U playlists?**
+A: No. IPTV Doctor only checks playlists and websites you already own or that are publicly listed as official broadcasters. We never host, share, or link to unauthorized stream URLs.
+
+**Q: Can I use this to check if my IPTV subscription M3U is still working?**
+A: Yes. Run `iptv-doctor check playlist.m3u` to detect dead channels, slow hosts, and EPG mismatches.
+
+**Q: What is the World Cup 2026 TV guide?**
+A: A searchable directory of official broadcasters and free/paid streaming options for 61 countries, with XMLTV, iCalendar, and placeholder M3U metadata.
+
+**Q: Is the status index updated automatically?**
+A: Yes. GitHub Actions refreshes the IPTV status index and World Cup pages on a scheduled basis.
+
+**Q: Can I self-host the report on GitHub Pages?**
+A: Yes. The `status-index.yml` workflow publishes JSON, CSV, badge, and HTML pages to GitHub Pages.
+
+**Q: Does it work with Kodi, Jellyfin, Plex, and VLC?**
+A: Yes. The cleaned M3U and fixed XMLTV outputs are compatible with Kodi, Jellyfin, Plex, VLC, IPTVnator, and any standard IPTV player.
+
+---
+
+## 📚 Glossary
+
+- **IPTV**: Internet Protocol television; TV content delivered over IP networks.
+- **M3U / M3U8**: Playlist file formats used by IPTV players and streaming apps.
+- **HLS**: HTTP Live Streaming, an adaptive bitrate streaming protocol by Apple.
+- **XMLTV**: A file format for TV listings and electronic program guides (EPG).
+- **EPG**: Electronic Program Guide; the schedule metadata mapped to channels.
+- **tvg-id**: An XMLTV identifier used to link an M3U channel to its EPG entry.
+- **EPG fixer**: A tool that detects and repairs mismatched `tvg-id` values between a playlist and a guide.
+- **Status index**: A regularly checked table of website or stream endpoint health.
+- **Placeholder M3U**: An M3U file with channel metadata but no actual stream URL.
+- **Compliance scan**: A check that verifies no unauthorized stream URLs are present in outputs.

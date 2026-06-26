@@ -302,7 +302,9 @@ function writeOutputs(index: StatusIndex): void {
     writeFileSync(target, page.html);
   }
 
-  writeFileSync(resolve(publicDir, "sitemap.xml"), renderSitemap(index));
+  const worldCupCountries = Object.keys(getWorldCup2026Dataset().broadcasters).map((c) => c.toLowerCase());
+  writeFileSync(resolve(publicDir, "sitemap.xml"), renderSitemap(index, worldCupCountries));
+  writeFileSync(resolve(publicDir, "robots.txt"), renderRobots());
 }
 
 function renderCsv(index: StatusIndex): string {
@@ -560,15 +562,22 @@ function datasetJsonLd(index: StatusIndex, name: string, description: string): o
   };
 }
 
-function renderSitemap(index: StatusIndex): string {
+function renderSitemap(index: StatusIndex, worldCupCountries: string[] = []): string {
   const today = index.updatedAt.slice(0, 10);
-  const urls = ["", ...renderStaticPages(index).map((page) => page.path)].map((path) => {
+  const staticPaths = ["", ...renderStaticPages(index).map((page) => page.path)];
+  const worldCupPaths = [
+    "world-cup-2026-tv-guide.html",
+    ...worldCupCountries.map((cc) => `world-cup-2026-tv-guide-${cc}.html`)
+  ];
+  const allPaths = Array.from(new Set([...staticPaths, ...worldCupPaths]));
+  const urls = allPaths.map((path) => {
     const loc = path ? `${siteUrl}/${path}` : `${siteUrl}/`;
+    const priority = path === "" ? "1.0" : path.startsWith("world-cup-2026") ? "0.9" : "0.8";
     return `  <url>
     <loc>${loc}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>
-    <priority>${path ? "0.8" : "1.0"}</priority>
+    <priority>${priority}</priority>
   </url>`;
   });
 
@@ -576,6 +585,14 @@ function renderSitemap(index: StatusIndex): string {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.join("\n")}
 </urlset>
+`;
+}
+
+function renderRobots(): string {
+  return `User-agent: *
+Allow: /
+
+Sitemap: ${siteUrl}/sitemap.xml
 `;
 }
 

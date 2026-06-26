@@ -212,6 +212,13 @@ export function generateCountryWorldCupGuidePage(dataset: SportsDataset, country
   <title>World Cup 2026 TV Guide — ${xmlEscape(countryName)}</title>
   <meta name="description" content="Official World Cup 2026 broadcasters and streaming options for ${xmlEscape(countryName)}. No stream URLs. Download XMLTV, iCal and placeholder M3U.">
   <link rel="canonical" href="https://xyzs996.github.io/iptv-doctor/world-cup-2026-tv-guide-${country.toLowerCase()}.html">
+  <meta property="og:title" content="World Cup 2026 TV Guide — ${xmlEscape(countryName)}">
+  <meta property="og:description" content="Official FIFA World Cup 2026 broadcasters and free streaming options for ${xmlEscape(countryName)}. No stream URLs. Download XMLTV, iCal and M3U playlist placeholders.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xyzs996.github.io/iptv-doctor/world-cup-2026-tv-guide-${country.toLowerCase()}.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="World Cup 2026 TV Guide — ${xmlEscape(countryName)}">
+  <meta name="twitter:description" content="Official FIFA World Cup 2026 broadcasters and free streaming options for ${xmlEscape(countryName)}. No stream URLs.">
   <style>
     body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; margin: 0; color: #172026; background: #f6f8f4; }
     main { margin: 0 auto; max-width: 960px; padding: 32px; }
@@ -287,6 +294,13 @@ export function generateWorldCupCountryIndexPage(dataset: SportsDataset): string
   <title>World Cup 2026 TV Guide by Country</title>
   <meta name="description" content="Find official FIFA World Cup 2026 broadcasters and streaming options for every country. No stream URLs. Download XMLTV, iCal and M3U placeholders.">
   <link rel="canonical" href="https://xyzs996.github.io/iptv-doctor/world-cup-2026-tv-guide.html">
+  <meta property="og:title" content="World Cup 2026 TV Guide by Country">
+  <meta property="og:description" content="Find official FIFA World Cup 2026 broadcasters and streaming options for 61 countries. Free and paid viewing paths. No stream URLs. Download XMLTV, iCal and M3U placeholders.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xyzs996.github.io/iptv-doctor/world-cup-2026-tv-guide.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="World Cup 2026 TV Guide by Country">
+  <meta name="twitter:description" content="Find official FIFA World Cup 2026 broadcasters and streaming options for 61 countries. No stream URLs.">
   <style>
     body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; margin: 0; color: #172026; background: #f6f8f4; }
     main { margin: 0 auto; max-width: 1120px; padding: 32px; }

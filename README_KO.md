@@ -19,6 +19,12 @@
 
 ---
 
+## 🌐 Languages
+
+[English](README.md) · [简体中文](README_CN.md) · [Español](README_ES.md) · [Português](README_PT.md) · [日本語](README_JA.md) · 한국어（이 문서） · [العربية](README_AR.md)
+
+---
+
 ## 🌍 FIFA 월드컵 2026 국가별 TV 가이드
 
 FIFA 월드컵 2026의 **공식적이고 합법적인 중계사 및 스트리밍 옵션**을 국가별로 찾는 가장 쉬운 방법.

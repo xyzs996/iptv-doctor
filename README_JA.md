@@ -19,6 +19,12 @@
 
 ---
 
+## 🌐 Languages
+
+[English](README.md) · [简体中文](README_CN.md) · [Español](README_ES.md) · [Português](README_PT.md) · 日本語（このドキュメント） · [한국어](README_KO.md) · [العربية](README_AR.md)
+
+---
+
 ## 🌍 FIFA ワールドカップ 2026 国別 TV ガイド
 
 FIFA ワールドカップ 2026 の **公式・合法的な放送局とストリーミングオプション** を国別に検索できる最も簡単な方法。

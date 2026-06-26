@@ -19,6 +19,12 @@
 
 ---
 
+## 🌐 Languages
+
+[English](README.md) · [简体中文](README_CN.md) · [Español](README_ES.md) · Português（este documento） · [日本語](README_JA.md) · [한국어](README_KO.md) · [العربية](README_AR.md)
+
+---
+
 ## 🌍 Guia TV da Copa 2026 por País
 
 A forma mais fácil de encontrar **canais oficiais e opções legais de streaming** para cada país da Copa do Mundo FIFA 2026.
