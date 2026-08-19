@@ -51,6 +51,47 @@ const publicDir = resolve(root, "apps/worldcup-tv-guide/public");
 const readmePath = resolve(root, "README.md");
 const siteUrl = "https://xyzs996.github.io/iptv-doctor";
 
+// Sibling sites on the same origin, linked from every generated page.
+//
+// These are plain same-origin <a> links on purpose. The same links already
+// exist in the READMEs of the sibling repositories, but GitHub rewrites every
+// outbound link in rendered README markdown to rel="nofollow" -- including the
+// repository sidebar homepage link. Those pages therefore return 200, look
+// fine to a human, and pass nothing to a crawler. The pages generated here are
+// the only crawled surface on xyzs996.github.io, so a followable link has to
+// start from one of them.
+//
+// Keep this list short and keep it to open data. A long link farm in a footer
+// is the thing search engines demote, and it is not what these pages are for.
+const siblingSites = [
+  {
+    href: "https://xyzs996.github.io/",
+    label: "All projects",
+    note: "index of the open-data sites published from this account"
+  },
+  {
+    href: "https://xyzs996.github.io/ai-coding-field-notes/figures.html",
+    label: "AI coding cost figures",
+    note: "every published number about running AI coding agents, with the sentence it came from"
+  }
+] as const;
+
+function renderSiblingFooter(): string {
+  const items = siblingSites
+    .map(
+      (site) =>
+        `    <li><a href="${site.href}">${escapeHtml(site.label)}</a> &mdash; ${escapeHtml(site.note)}</li>`
+    )
+    .join("\n");
+
+  return `  <footer>
+    <h2>Other open data from the same maintainer</h2>
+    <ul>
+${items}
+    </ul>
+  </footer>`;
+}
+
 async function main(): Promise<void> {
   const index = await generateStatusIndex();
   writeOutputs(index);
@@ -517,6 +558,9 @@ function renderSeoPage(
     th, td { border-bottom: 1px solid #e4e8e0; padding: 10px 12px; text-align: left; }
     th { background: #edf3f7; font-size: 13px; text-transform: uppercase; }
     nav { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+    footer { border-top: 1px solid #d7dfd5; margin-top: 36px; padding-top: 16px; }
+    footer h2 { color: #52626d; font-size: 13px; letter-spacing: 0.04em; margin: 0 0 10px; text-transform: uppercase; }
+    footer ul { color: #52626d; line-height: 1.6; margin: 0; padding-left: 20px; }
     @media (max-width: 760px) { main { padding: 20px; } .summary { grid-template-columns: repeat(2, minmax(0, 1fr)); } table { font-size: 13px; } }
   </style>
 </head>
@@ -540,6 +584,7 @@ function renderSeoPage(
     <thead><tr><th>Country</th><th>Entry</th><th>Status</th><th>Latency ms</th><th>Host</th><th>Checked at</th></tr></thead>
     <tbody>${rows}</tbody>
   </table>
+${renderSiblingFooter()}
 </main>
 </body>
 </html>

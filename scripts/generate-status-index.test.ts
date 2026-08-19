@@ -86,4 +86,25 @@ describe("renderStaticPages", () => {
     expect(statusPage?.html).toContain("<td>FOX</td>");
     expect(statusPage?.html).toContain("status-index.json");
   });
+
+  it("links the sibling sites from every generated page, followably", () => {
+    const pages = renderStaticPages(fixture);
+    expect(pages.length).toBeGreaterThan(4);
+
+    for (const page of pages) {
+      // The point of these links is that a crawler can follow them. GitHub
+      // rewrites every outbound link in a rendered README to rel="nofollow",
+      // so the same links in the sibling repositories' READMEs pass nothing;
+      // a footer link that picked up rel="nofollow" here would look identical
+      // and be worth exactly as little.
+      expect(page.html).toContain('<a href="https://xyzs996.github.io/">');
+      expect(page.html).toContain(
+        '<a href="https://xyzs996.github.io/ai-coding-field-notes/figures.html">'
+      );
+      expect(page.html).not.toMatch(/xyzs996\.github\.io[^<]*"[^>]*rel="nofollow"/);
+      // Inside <main>, not after </html>: markup a browser drops on parse is
+      // markup a crawler is entitled to drop too.
+      expect(page.html.indexOf("Other open data")).toBeLessThan(page.html.indexOf("</main>"));
+    }
+  });
 });
