@@ -1,7 +1,16 @@
 import { createHash } from "node:crypto";
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  SITE_URL,
+  type SiteAddresses,
+  collectAddresses,
+  renderLlms,
+  renderRobots,
+  renderSitemap,
+  slug
+} from "./site-index.js";
 import { parseM3U, probePlaylist, type ChannelDiagnostic, type DiagnosticStatus, type M3UChannel } from "../packages/iptv-core/src/index.js";
 import { getWorldCup2026Dataset, publicSportsChannels } from "../packages/sports-data/src/index.js";
 
@@ -49,7 +58,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = resolve(root, "data");
 const publicDir = resolve(root, "apps/worldcup-tv-guide/public");
 const readmePath = resolve(root, "README.md");
-const siteUrl = "https://xyzs996.github.io/iptv-doctor";
+const siteUrl = SITE_URL;
 
 // Sibling sites on the same origin, linked from every generated page.
 //
@@ -319,10 +328,6 @@ function statusWeight(status: DiagnosticStatus): number {
   return 2;
 }
 
-function slug(value: string): string {
-  return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "channel";
-}
-
 function writeOutputs(index: StatusIndex): void {
   mkdirSync(dataDir, { recursive: true });
   mkdirSync(publicDir, { recursive: true });
@@ -343,9 +348,31 @@ function writeOutputs(index: StatusIndex): void {
     writeFileSync(target, page.html);
   }
 
-  const worldCupCountries = Object.keys(getWorldCup2026Dataset().broadcasters).map((c) => c.toLowerCase());
-  writeFileSync(resolve(publicDir, "sitemap.xml"), renderSitemap(index, worldCupCountries));
+  writeSiteIndexes(index, publicDir);
+}
+
+/**
+ * Writes the three files a crawler reads first, from one list of addresses.
+ *
+ * Exported because the offline regenerator needs exactly this and nothing
+ * else: the moment it grows its own copy of the path list, the two disagree
+ * and the pages that fall out of the disagreement go unlinked.
+ */
+export function writeSiteIndexes(index: StatusIndex, publicDir: string): SiteAddresses {
+  const addresses = collectAddresses({
+    generated: renderStaticPages(index).map((page) => page.path),
+    worldCupCountries: Object.keys(getWorldCup2026Dataset().broadcasters).map((c) => c.toLowerCase()),
+    // Vite copies everything under `public/` into the built site verbatim and
+    // builds the app entry from the directory above it. Checking only one of
+    // the two drops the home page out of every index -- which is what the
+    // first run of this writer did.
+    exists: (path) => existsSync(resolve(publicDir, path)) || existsSync(resolve(publicDir, "..", path))
+  });
+
+  writeFileSync(resolve(publicDir, "sitemap.xml"), renderSitemap(addresses, index.updatedAt));
   writeFileSync(resolve(publicDir, "robots.txt"), renderRobots());
+  writeFileSync(resolve(publicDir, "llms.txt"), renderLlms(index, addresses));
+  return addresses;
 }
 
 function renderCsv(index: StatusIndex): string {
@@ -605,40 +632,6 @@ function datasetJsonLd(index: StatusIndex, name: string, description: string): o
     ],
     keywords: ["IPTV status index", "IPTV playlist checker", "M3U checker", "M3U8 checker", "HLS checker"]
   };
-}
-
-function renderSitemap(index: StatusIndex, worldCupCountries: string[] = []): string {
-  const today = index.updatedAt.slice(0, 10);
-  const staticPaths = ["", ...renderStaticPages(index).map((page) => page.path)];
-  const worldCupPaths = [
-    "world-cup-2026-tv-guide.html",
-    ...worldCupCountries.map((cc) => `world-cup-2026-tv-guide-${cc}.html`)
-  ];
-  const allPaths = Array.from(new Set([...staticPaths, ...worldCupPaths]));
-  const urls = allPaths.map((path) => {
-    const loc = path ? `${siteUrl}/${path}` : `${siteUrl}/`;
-    const priority = path === "" ? "1.0" : path.startsWith("world-cup-2026") ? "0.9" : "0.8";
-    return `  <url>
-    <loc>${loc}</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>${priority}</priority>
-  </url>`;
-  });
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.join("\n")}
-</urlset>
-`;
-}
-
-function renderRobots(): string {
-  return `User-agent: *
-Allow: /
-
-Sitemap: ${siteUrl}/sitemap.xml
-`;
 }
 
 function groupBy<T>(items: T[], keyOf: (item: T) => string): Map<string, T[]> {
