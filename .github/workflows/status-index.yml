@@ -36,15 +36,21 @@ jobs:
           STATUS_INDEX_M3U_TEXT: ${{ secrets.STATUS_INDEX_M3U_TEXT }}
           STATUS_INDEX_LIMIT: "250"
       - run: node --import tsx scripts/generate-worldcup-pages.ts
+      # Only paths this job actually writes, and only paths git can hold.
+      # `dist/` is in .gitignore and is not in a fresh checkout, so naming
+      # `dist/release` here made `git add` exit 128 on every single run from
+      # 2026-06-26 onward: the index froze on that date, the deploy steps
+      # below never ran again, and the failure was invisible because the site
+      # kept serving the last good snapshot.
       - name: Commit status index
         run: |
-          if [ -z "$(git status --porcelain -- README.md data apps/worldcup-tv-guide/public dist/release)" ]; then
+          if [ -z "$(git status --porcelain -- README.md data apps/worldcup-tv-guide/public)" ]; then
             echo "No status index changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md data apps/worldcup-tv-guide/public dist/release
+          git add README.md data apps/worldcup-tv-guide/public
           git commit -m "Update IPTV status index and World Cup TV guide pages"
           git push
       - run: pnpm --filter iptv-doctor-core build
