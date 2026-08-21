@@ -3,7 +3,7 @@ import { tmpdir } from "node:os";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 import { renderStaticPages, writeSiteIndexes, type StatusIndex } from "./generate-status-index";
-import { SITE_URL, collectAddresses, renderLlms, renderSitemap } from "./site-index";
+import { REPO_URL, SITE_URL, THREAD_QA, collectAddresses, renderLlms, renderSitemap } from "./site-index";
 
 const fixture: StatusIndex = {
   updatedAt: "2026-06-26T01:35:47.459Z",
@@ -256,5 +256,54 @@ describe("renderLlms", () => {
     for (const line of body.split("\n")) {
       expect(line).toBe(line.trimEnd());
     }
+  });
+});
+
+describe("the threads that answer", () => {
+  // ⚠ 三帖早就在,三帖都 200,而 README 和这份索引加起来一条链接都没有 ——
+  // 讨论区不是谁会自己逛过去的地方。同门那三个仓库刚修的就是这个:东西是
+  // 好的、自己也返回 200,只是没有一条路指向它。
+  const addresses = collectAddresses({
+    generated: ["status-index.html", "iptv-playlist-checker.html", "m3u-checker.html"],
+    worldCupCountries: [],
+    exists: () => true
+  });
+
+  // ⚠ **标题得和线上那一帖一字不差。** 两边各写各的那天,索引上写一句、
+  // 点进去是另一句 —— 链接照样 200,而顺着标题找过来的人看到的是别的东西。
+  it("quotes the live thread titles verbatim", () => {
+    const live = new Map([
+      [1, "How do I check an IPTV M3U playlist with GitHub Actions?"],
+      [2, "What is the difference between an IPTV checker, M3U checker, and HLS checker?"],
+      [3, "Can IPTV Doctor help with World Cup 2026 TV guide and public sports channels?"]
+    ]);
+    for (const [number, question] of THREAD_QA) {
+      expect(question).toBe(live.get(number));
+    }
+  });
+
+  it("is reachable from both the machine index and the README", () => {
+    const llms = renderLlms(fixture, addresses);
+    const readme = readFileSync(resolve(__dirname, "..", "README.md"), "utf8");
+    for (const [number, question] of THREAD_QA) {
+      expect(llms).toContain(`${REPO_URL}/discussions/${number}`);
+      expect(llms).toContain(question);
+      expect(readme).toContain(`${REPO_URL}/discussions/${number}`);
+      expect(readme).toContain(question);
+    }
+  });
+
+  // ⚠ 这三帖答的是散文,一个测出来的数都没有 —— 和同门那几帖不一样。说明句
+  // 里一旦许了个数,顺着来的人会去帖子里找,而帖子里没有;这个项目真有的
+  // 那些数在上面的状态索引里。
+  it("promises no measured figure the threads do not carry", () => {
+    for (const [, , note] of THREAD_QA) {
+      expect(note).not.toMatch(/\d/);
+    }
+  });
+
+  it("sits ahead of Elsewhere, where a reader is still reading", () => {
+    const llms = renderLlms(fixture, addresses);
+    expect(llms.indexOf("## Questions answered in full")).toBeLessThan(llms.indexOf("## Elsewhere"));
   });
 });

@@ -226,6 +226,42 @@ Which broadcaster holds the rights in each country, with guide metadata for the 
 ${lines.join("\n")}${calendar}`;
 }
 
+/**
+ * The three threads that answer instead of asking.
+ *
+ * ⚠ **They existed and nothing pointed at them.** All three were opened,
+ * all three answer 200, and the READMEs and this index between them carried
+ * zero links: the discussion tab is not a place anyone browses to. That is
+ * the same defect the sibling repositories were just fixed for — the thing
+ * is fine, there is simply no route to it.
+ *
+ * ⚠ **The notes say what each thread holds, and no more.** These threads
+ * answer in prose; unlike the sibling repositories' threads they carry no
+ * measured figure, so nothing here may promise one. The measured numbers on
+ * this project live in the status index above, which is where a note that
+ * claimed them would send someone looking — and they would not find them in
+ * the thread.
+ */
+export const THREAD_QA: Array<[number, string, string]> = [
+  [1, "How do I check an IPTV M3U playlist with GitHub Actions?",
+    "the workflow shape, which parts of a playlist the Action reads, and why the playlist URL stays in Secrets while only the summary is published"],
+  [2, "What is the difference between an IPTV checker, M3U checker, and HLS checker?",
+    "what each of the three actually tests, which one catches a malformed entry and which one catches a dead endpoint"],
+  [3, "Can IPTV Doctor help with World Cup 2026 TV guide and public sports channels?",
+    "which broadcaster metadata is published per country, what the guide pages carry, and the line this project does not cross"]
+];
+
+export const REPO_URL = "https://github.com/xyzs996/iptv-doctor";
+
+function answers(): string {
+  const lines = THREAD_QA.map(
+    ([number, question, note]) => `- **${question}** — ${note}. ${REPO_URL}/discussions/${number}`
+  );
+  return `## Questions answered in full
+
+${lines.join("\n")}`;
+}
+
 function elsewhere(): string {
   return `## Elsewhere
 
@@ -247,6 +283,7 @@ export function renderLlms(index: StatusIndex, addresses: SiteAddresses): string
     worldCup(addresses),
     countries(index, addresses),
     channels(index, addresses),
+    answers(),
     elsewhere()
   ];
   return `${sections.filter((section) => section).join("\n\n")}\n`;

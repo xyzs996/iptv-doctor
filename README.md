@@ -245,6 +245,14 @@ A: Yes. The `status-index.yml` workflow publishes JSON, CSV, badge, and HTML pag
 **Q: Does it work with Kodi, Jellyfin, Plex, and VLC?**
 A: Yes. The cleaned M3U and fixed XMLTV outputs are compatible with Kodi, Jellyfin, Plex, VLC, IPTVnator, and any standard IPTV player.
 
+## 🧾 Answered in full
+
+The answers above are short on purpose. These are not — each one opens with a direct answer and then walks the whole thing, including where this project stops:
+
+- [How do I check an IPTV M3U playlist with GitHub Actions?](https://github.com/xyzs996/iptv-doctor/discussions/1) — the workflow shape, which parts of a playlist the Action reads, and why the playlist URL stays in Secrets while only the summary is published.
+- [What is the difference between an IPTV checker, M3U checker, and HLS checker?](https://github.com/xyzs996/iptv-doctor/discussions/2) — what each of the three actually tests, which one catches a malformed entry and which one catches a dead endpoint.
+- [Can IPTV Doctor help with World Cup 2026 TV guide and public sports channels?](https://github.com/xyzs996/iptv-doctor/discussions/3) — which broadcaster metadata is published per country, what the guide pages carry, and the line this project does not cross.
+
 ---
 
 ## 📚 Glossary
