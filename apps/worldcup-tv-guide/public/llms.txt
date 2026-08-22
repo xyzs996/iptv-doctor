@@ -386,4 +386,4 @@ Sibling projects by the same maintainer. Same idea: public data readable without
 
 - Free proxy health list — verified HTTP, HTTPS, SOCKS4 and SOCKS5 proxies, re-checked every 30 minutes, published with the measured share that answers again. https://xyzs996.github.io/free-proxy-health-list/llms.txt
 - Free LLM API catalog — permanent free tiers for language models, every published limit linked to the page it was read from. https://xyzs996.github.io/free-llm-api/llms.txt
-- AI coding field notes — write-ups on what AI coding agents actually cost, and a dataset of every figure they cite, each row kept with the sentence it was published in. https://xyzs996.github.io/ai-coding-field-notes/llms.txt
+- AI coding field notes — write-ups on what AI coding agents actually cost, and a dataset of every figure they cite, each row kept with the sentence it was published in. https://xyzs996.github.io/llm-api-pricing/llms.txt

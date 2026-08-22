@@ -222,7 +222,7 @@ describe("renderLlms", () => {
 
     expect(body).toContain("https://xyzs996.github.io/free-proxy-health-list/llms.txt");
     expect(body).toContain("https://xyzs996.github.io/free-llm-api/llms.txt");
-    expect(body).toContain("https://xyzs996.github.io/ai-coding-field-notes/llms.txt");
+    expect(body).toContain("https://xyzs996.github.io/llm-api-pricing/llms.txt");
     expect(body).toContain("https://github.com/xyzs996/iptv-doctor");
   });
 

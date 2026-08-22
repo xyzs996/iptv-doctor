@@ -99,7 +99,7 @@ describe("renderStaticPages", () => {
       // and be worth exactly as little.
       expect(page.html).toContain('<a href="https://xyzs996.github.io/">');
       expect(page.html).toContain(
-        '<a href="https://xyzs996.github.io/ai-coding-field-notes/figures.html">'
+        '<a href="https://xyzs996.github.io/llm-api-pricing/figures.html">'
       );
       expect(page.html).not.toMatch(/xyzs996\.github\.io[^<]*"[^>]*rel="nofollow"/);
       // Inside <main>, not after </html>: markup a browser drops on parse is

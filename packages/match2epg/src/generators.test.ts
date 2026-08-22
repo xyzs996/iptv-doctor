@@ -66,7 +66,7 @@ describe("match2epg generators", () => {
 
     for (const html of pages) {
       const footer = html.split("<footer>")[1] ?? "";
-      expect(footer).toContain("ai-coding-field-notes/figures.html");
+      expect(footer).toContain("llm-api-pricing/figures.html");
       expect(footer).toContain("github.com/xyzs996/iptv-doctor");
     }
   });
@@ -78,7 +78,7 @@ describe("match2epg generators", () => {
     const footer = generateWorldCupCountryIndexPage(dataset).split("<footer>")[1] ?? "";
 
     expect(footer.indexOf("github.com/xyzs996/iptv-doctor")).toBeLessThan(
-      footer.indexOf("ai-coding-field-notes/figures.html")
+      footer.indexOf("llm-api-pricing/figures.html")
     );
   });
 });

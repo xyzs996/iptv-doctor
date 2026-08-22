@@ -79,7 +79,7 @@ const siblingSites = [
     note: "index of the open-data sites published from this account"
   },
   {
-    href: "https://xyzs996.github.io/ai-coding-field-notes/figures.html",
+    href: "https://xyzs996.github.io/llm-api-pricing/figures.html",
     label: "AI coding cost figures",
     note: "every published number about running AI coding agents, with the sentence it came from"
   }
