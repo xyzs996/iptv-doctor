@@ -2,6 +2,26 @@ import type { CountryCode, Fixture, SportsDataset } from "iptv-sports-data";
 
 const PLACEHOLDER_STREAM_URL = "https://example.invalid/add-your-legal-stream";
 
+// The status index and the checker page have carried a way out to the sibling
+// sites since they were written; the World Cup guides never did. Counted
+// 2026-08-22 against the live sitemap: 62 of the 340 pages on this site end
+// without one, and all 62 are these guides — the country pages plus the index
+// that the repository itself advertises as its home page. They are also the
+// highest-intent pages here: someone reading "where do I watch this in Brazil"
+// has arrived on purpose.
+//
+// The star is first because it is the only reader action this account has ever
+// measured: 25 stars on the proxy list and 6 on the LLM catalog, against 0
+// issues and 0 discussion replies across the whole family.
+const SIBLING_FOOTER = `  <footer>
+    <h2>Other open data from the same maintainer</h2>
+    <p><strong>Useful?</strong> <a href="https://github.com/xyzs996/iptv-doctor">A star on the repository</a> is the whole ask &mdash; it is what puts these pages in front of the next person looking. Everything here stays free either way.</p>
+    <ul>
+    <li><a href="https://xyzs996.github.io/">All projects</a> &mdash; index of the open-data sites published from this account</li>
+    <li><a href="https://xyzs996.github.io/ai-coding-field-notes/figures.html">AI coding cost figures</a> &mdash; every published number about running AI coding agents, with the sentence it came from</li>
+    </ul>
+  </footer>`;
+
 function xmlEscape(value: string): string {
   return value
     .replaceAll("&", "&amp;")
@@ -263,6 +283,7 @@ export function generateCountryWorldCupGuidePage(dataset: SportsDataset, country
   </table>
   <p><a href="world-cup-2026-tv-guide.html">← All countries</a></p>
 </main>
+${SIBLING_FOOTER}
 </body>
 </html>
 `;
@@ -327,6 +348,7 @@ export function generateWorldCupCountryIndexPage(dataset: SportsDataset): string
   </section>
   <div class="grid">${countryCards}</div>
 </main>
+${SIBLING_FOOTER}
 </body>
 </html>
 `;

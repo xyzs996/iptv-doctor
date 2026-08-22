@@ -1,6 +1,13 @@
 import { describe, expect, it } from "vitest";
 import { getWorldCup2026Dataset } from "iptv-sports-data";
-import { generateICalendar, generateM3UPlaceholder, generateWorldCupGuideHtml, generateXMLTV } from "./generators";
+import {
+  generateCountryWorldCupGuidePage,
+  generateICalendar,
+  generateM3UPlaceholder,
+  generateWorldCupCountryIndexPage,
+  generateWorldCupGuideHtml,
+  generateXMLTV
+} from "./generators";
 
 describe("match2epg generators", () => {
   const dataset = getWorldCup2026Dataset();
@@ -40,5 +47,38 @@ describe("match2epg generators", () => {
     expect(html).toContain("scheduled");
     expect(html).toContain("FOX");
     expect(html).toContain("No stream URLs are included");
+  });
+
+  // Counted against the live sitemap on 2026-08-22: 62 of this site's 340
+  // pages ended without any way out to the sibling projects, and all 62 were
+  // these guides -- every country page plus the index the repository lists as
+  // its home page. Every criterion that had asked "does a page link out" until
+  // then checked the status index or the checker, which had carried one since
+  // they were written, so the question was green the whole time it was broken.
+  //
+  // This counts instead: every country in the dataset, plus the index.
+  it("every guide page it generates ends with a way out, not just the sampled one", () => {
+    const countries = Object.keys(dataset.broadcasters) as Array<keyof typeof dataset.broadcasters>;
+    expect(countries.length).toBeGreaterThan(20);
+
+    const pages = countries.map((country) => generateCountryWorldCupGuidePage(dataset, country as never));
+    pages.push(generateWorldCupCountryIndexPage(dataset));
+
+    for (const html of pages) {
+      const footer = html.split("<footer>")[1] ?? "";
+      expect(footer).toContain("ai-coding-field-notes/figures.html");
+      expect(footer).toContain("github.com/xyzs996/iptv-doctor");
+    }
+  });
+
+  // The star is measured, not assumed: it is the only reader action this
+  // account has ever recorded. A criterion that only asked whether the link
+  // exists would stay green if it were moved below the sibling list.
+  it("the star comes before the list of other projects", () => {
+    const footer = generateWorldCupCountryIndexPage(dataset).split("<footer>")[1] ?? "";
+
+    expect(footer.indexOf("github.com/xyzs996/iptv-doctor")).toBeLessThan(
+      footer.indexOf("ai-coding-field-notes/figures.html")
+    );
   });
 });
