@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "IPTV status",
-  "message": "167/212 online · 80%",
-  "color": "brightgreen"
+  "message": "163/212 online · 79%",
+  "color": "yellow"
 }
