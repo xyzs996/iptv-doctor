@@ -235,6 +235,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/countries/hu.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://xyzs996.github.io/iptv-doctor/countries/hk.html</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
@@ -344,12 +350,6 @@
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/countries/ua.html</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/countries/hu.html</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -811,6 +811,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/mtva.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/nba.html</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
@@ -1069,13 +1075,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/sbs.html</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/sbs-sport.html</loc>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/sbs-sports-korea.html</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1423,13 +1423,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/mtva.html</loc>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/sbs.html</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/sbs-sports-korea.html</loc>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/sbs-sport.html</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
