@@ -2,7 +2,7 @@
 
 > Reachability of 212 official broadcaster and public-sports websites across 63 countries, published as HTML, JSON and CSV. No account, no API key. https://xyzs996.github.io/iptv-doctor/
 
-Last checked 2026-09-05T11:47:06.120Z: 165 online, 6 slow, 41 unreachable — a health score of 79 out of 100. Each record is one HTTP request to a broadcaster's own public website, with the latency and status code it returned.
+Last checked 2026-09-05T14:26:56.568Z: 160 online, 11 slow, 41 unreachable — a health score of 78 out of 100. Each record is one HTTP request to a broadcaster's own public website, with the latency and status code it returned.
 
 ## Boundary
 
@@ -95,40 +95,40 @@ Every match as one iCalendar file: https://xyzs996.github.io/iptv-doctor/worldcu
 
 - US — 17 tracked, 16 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/us.html
 - GB — 9 tracked, 5 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/gb.html
-- AU — 7 tracked, 5 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/au.html
+- AU — 7 tracked, 6 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/au.html
 - PT — 7 tracked, 6 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/pt.html
 - DE — 7 tracked, 7 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/de.html
-- ES — 7 tracked, 7 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/es.html
+- ES — 7 tracked, 6 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/es.html
 - FR — 7 tracked, 5 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/fr.html
 - IT — 7 tracked, 5 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/it.html
 - MX — 7 tracked, 7 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/mx.html
 - JP — 6 tracked, 5 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/jp.html
 - CA — 6 tracked, 5 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/ca.html
-- BR — 6 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/br.html
-- CN — 5 tracked, 4 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/cn.html
+- BR — 6 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/br.html
+- CN — 5 tracked, 5 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/cn.html
 - IN — 5 tracked, 4 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/in.html
 - AR — 5 tracked, 4 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/ar.html
 - SA — 4 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/sa.html
 - CO — 4 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/co.html
 - NL — 4 tracked, 4 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/nl.html
-- KR — 4 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/kr.html
+- KR — 4 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/kr.html
 - NO — 4 tracked, 4 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/no.html
 - CH — 4 tracked, 4 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/ch.html
 - SE — 4 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/se.html
 - CL — 3 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/cl.html
-- QA — 3 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/qa.html
+- QA — 3 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/qa.html
 - MY — 3 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/my.html
 - SG — 3 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/sg.html
 - ID — 3 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/id.html
 - DK — 3 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/dk.html
 - PH — 3 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/ph.html
-- FI — 3 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/fi.html
 - TR — 3 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/tr.html
 - AT — 3 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/at.html
+- PL — 3 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/pl.html
 - BE — 3 tracked, 3 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/be.html
 - IE — 3 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/ie.html
 - TH — 3 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/th.html
-- PL — 3 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/pl.html
+- FI — 3 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/fi.html
 - GLOBAL — 3 tracked, 0 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/global.html
 - AE — 2 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/ae.html
 - HK — 2 tracked, 2 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/hk.html
@@ -142,13 +142,13 @@ Every match as one iCalendar file: https://xyzs996.github.io/iptv-doctor/worldcu
 - GR — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/gr.html
 - HR — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/hr.html
 - IL — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/il.html
-- HU — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/hu.html
 - EG — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/eg.html
-- RS — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/rs.html
 - SK — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/sk.html
 - CR — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/cr.html
-- VN — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/vn.html
 - UA — 1 tracked, 1 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/ua.html
+- HU — 1 tracked, 0 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/hu.html
+- RS — 1 tracked, 0 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/rs.html
+- VN — 1 tracked, 0 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/vn.html
 - UY — 1 tracked, 0 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/uy.html
 - EC — 1 tracked, 0 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/ec.html
 - TN — 1 tracked, 0 online on the last check. https://xyzs996.github.io/iptv-doctor/countries/tn.html
@@ -159,217 +159,217 @@ Every match as one iCalendar file: https://xyzs996.github.io/iptv-doctor/worldcu
 
 ## By channel
 
-- 7plus Sport (AU, Public Sports) — online, 264 ms. https://xyzs996.github.io/iptv-doctor/channels/7plus-sport.html · official site https://7plus.com.au/sport
-- A Bola (PT, Public Sports) — online, 358 ms. https://xyzs996.github.io/iptv-doctor/channels/a-bola.html · official site https://www.abola.pt/
-- ABC Sport (AU, Public Sports) — online, 540 ms. https://xyzs996.github.io/iptv-doctor/channels/abc-sport.html · official site https://www.abc.net.au/news/sport
-- ABEMA (JP, World Cup 2026) — online, 572 ms. https://xyzs996.github.io/iptv-doctor/channels/abema.html · official site https://abema.tv/
-- ABEMA Sports (JP, Public Sports) — online, 1173 ms. https://xyzs996.github.io/iptv-doctor/channels/abema-sports.html · official site https://abema.tv/
-- Abu Dhabi Sports (AE, World Cup 2026) — online, 1092 ms. https://xyzs996.github.io/iptv-doctor/channels/abu-dhabi-sports.html · official site https://adsports.ae/
-- ADN Deportes (CL, Public Sports) — online, 426 ms. https://xyzs996.github.io/iptv-doctor/channels/adn-deportes.html · official site https://www.adnradio.cl/deportes/
-- Al Kass (QA, World Cup 2026) — online, 102 ms. https://xyzs996.github.io/iptv-doctor/channels/al-kass.html · official site https://www.alkass.net/
-- Al Kass Sports (QA, Public Sports) — online, 87 ms. https://xyzs996.github.io/iptv-doctor/channels/al-kass-sports.html · official site https://www.alkass.net/
-- América Televisión (PE, World Cup 2026) — online, 419 ms. https://xyzs996.github.io/iptv-doctor/channels/am-rica-televisi-n.html · official site https://www.americatv.com.pe/
-- ARD / Das Erste (DE, World Cup 2026) — online, 1522 ms. https://xyzs996.github.io/iptv-doctor/channels/ard-das-erste.html · official site https://www.daserste.de/
-- Arriyadiyah (SA, Public Sports) — online, 289 ms. https://xyzs996.github.io/iptv-doctor/channels/arriyadiyah.html · official site https://www.arriyadiyah.com/
-- AS (ES, Public Sports) — online, 1010 ms. https://xyzs996.github.io/iptv-doctor/channels/as.html · official site https://as.com/
-- Astro Arena (MY, Public Sports) — online, 424 ms. https://xyzs996.github.io/iptv-doctor/channels/astro-arena.html · official site https://www.astro.com.my/
-- BBC (GB, World Cup 2026) — online, 137 ms. https://xyzs996.github.io/iptv-doctor/channels/bbc.html · official site https://www.bbc.co.uk/sport/football
-- BBC iPlayer (GB, World Cup 2026) — online, 270 ms. https://xyzs996.github.io/iptv-doctor/channels/bbc-iplayer.html · official site https://www.bbc.co.uk/iplayer
-- BBC Sport (GB, Public Sports) — online, 56 ms. https://xyzs996.github.io/iptv-doctor/channels/bbc-sport.html · official site https://www.bbc.co.uk/sport
-- beIN SPORTS France (FR, World Cup 2026) — online, 1604 ms. https://xyzs996.github.io/iptv-doctor/channels/bein-sports-france.html · official site https://www.beinsports.com/fr-fr
-- beIN SPORTS MENA (QA, World Cup 2026) — online, 1657 ms. https://xyzs996.github.io/iptv-doctor/channels/bein-sports-mena.html · official site https://www.beinsports.com/
-- BILD Sport (DE, Public Sports) — online, 389 ms. https://xyzs996.github.io/iptv-doctor/channels/bild-sport.html · official site https://sportbild.bild.de/
-- Bleacher Report (US, Public Sports) — online, 1282 ms. https://xyzs996.github.io/iptv-doctor/channels/bleacher-report.html · official site https://bleacherreport.com/
-- BNT (BG, World Cup 2026) — online, 1720 ms. https://xyzs996.github.io/iptv-doctor/channels/bnt.html · official site https://bnt.bg/
-- Caracol TV (CO, World Cup 2026) — online, 297 ms. https://xyzs996.github.io/iptv-doctor/channels/caracol-tv.html · official site https://www.caracoltv.com/
-- CBC Sports (CA, Public Sports) — online, 321 ms. https://xyzs996.github.io/iptv-doctor/channels/cbc-sports.html · official site https://www.cbc.ca/sports
-- CBS Sports (US, Public Sports) — online, 155 ms. https://xyzs996.github.io/iptv-doctor/channels/cbs-sports.html · official site https://www.cbssports.com/
-- CCTV (CN, World Cup 2026) — online, 1108 ms. https://xyzs996.github.io/iptv-doctor/channels/cctv.html · official site https://sports.cctv.com/
-- CCTV Sports (CN, Public Sports) — online, 553 ms. https://xyzs996.github.io/iptv-doctor/channels/cctv-sports.html · official site https://sports.cctv.com/
-- Channel 4 Sport (GB, Public Sports) — online, 462 ms. https://xyzs996.github.io/iptv-doctor/channels/channel-4-sport.html · official site https://www.channel4.com/
-- Chilevisión (CL, World Cup 2026) — online, 1259 ms. https://xyzs996.github.io/iptv-doctor/channels/chilevisi-n.html · official site https://www.chilevision.cl/
-- CNA Sport (SG, Public Sports) — online, 601 ms. https://xyzs996.github.io/iptv-doctor/channels/cna-sport.html · official site https://www.channelnewsasia.com/sport
-- ČT (CZ, World Cup 2026) — online, 933 ms. https://xyzs996.github.io/iptv-doctor/channels/t.html · official site https://www.ceskatelevize.cz/
-- CTV (CA, World Cup 2026) — online, 740 ms. https://xyzs996.github.io/iptv-doctor/channels/ctv.html · official site https://www.ctv.ca/
-- DD Sports (IN, Public Sports) — online, 1292 ms. https://xyzs996.github.io/iptv-doctor/channels/dd-sports.html · official site https://prasarbharati.gov.in/
-- detikSport (ID, Public Sports) — online, 1981 ms. https://xyzs996.github.io/iptv-doctor/channels/detiksport.html · official site https://sport.detik.com/
-- DR (DK, World Cup 2026) — online, 965 ms. https://xyzs996.github.io/iptv-doctor/channels/dr.html · official site https://www.dr.dk/
-- DR Sporten (DK, Public Sports) — online, 525 ms. https://xyzs996.github.io/iptv-doctor/channels/dr-sporten.html · official site https://www.dr.dk/sporten
-- Dubai Sports (AE, World Cup 2026) — online, 858 ms. https://xyzs996.github.io/iptv-doctor/channels/dubai-sports.html · official site https://www.dubaisports.ae/
-- Emtek / SCTV (ID, World Cup 2026) — online, 1133 ms. https://xyzs996.github.io/iptv-doctor/channels/emtek-sctv.html · official site https://www.sctv.co.id/
-- ENTV (DZ, World Cup 2026) — online, 1723 ms. https://xyzs996.github.io/iptv-doctor/channels/entv.html · official site https://www.entv.dz/
-- ERT (GR, World Cup 2026) — online, 1253 ms. https://xyzs996.github.io/iptv-doctor/channels/ert.html · official site https://www.ert.gr/
-- ESPN (US, Public Sports) — online, 81 ms. https://xyzs996.github.io/iptv-doctor/channels/espn.html · official site https://www.espn.com/
-- ESPN Argentina (AR, Public Sports) — online, 151 ms. https://xyzs996.github.io/iptv-doctor/channels/espn-argentina.html · official site https://www.espn.com.ar/
-- ESPN Brasil (BR, Public Sports) — online, 665 ms. https://xyzs996.github.io/iptv-doctor/channels/espn-brasil.html · official site https://www.espn.com.br/
-- ESPN Netherlands (NL, Public Sports) — online, 180 ms. https://xyzs996.github.io/iptv-doctor/channels/espn-netherlands.html · official site https://www.espn.nl/
-- FOX (US, World Cup 2026) — online, 563 ms. https://xyzs996.github.io/iptv-doctor/channels/fox.html · official site https://www.foxsports.com/
-- FOX Sports (US, Public Sports) — online, 39 ms. https://xyzs996.github.io/iptv-doctor/channels/fox-sports.html · official site https://www.foxsports.com/
-- France TV Sport (FR, Public Sports) — online, 425 ms. https://xyzs996.github.io/iptv-doctor/channels/france-tv-sport.html · official site https://www.france.tv/sport/
-- FS1 (US, World Cup 2026) — online, 568 ms. https://xyzs996.github.io/iptv-doctor/channels/fs1.html · official site https://www.foxsports.com/
-- ge.globo (BR, Public Sports) — online, 1313 ms. https://xyzs996.github.io/iptv-doctor/channels/ge-globo.html · official site https://ge.globo.com/
-- GMA Sports (PH, Public Sports) — online, 889 ms. https://xyzs996.github.io/iptv-doctor/channels/gma-sports.html · official site https://www.gmanetwork.com/news/sports/
-- HRT (HR, World Cup 2026) — online, 671 ms. https://xyzs996.github.io/iptv-doctor/channels/hrt.html · official site https://www.hrt.hr/
-- J SPORTS (JP, Public Sports) — online, 1482 ms. https://xyzs996.github.io/iptv-doctor/channels/j-sports.html · official site https://www.jsports.co.jp/
-- JioCinema (IN, World Cup 2026) — online, 769 ms. https://xyzs996.github.io/iptv-doctor/channels/jiocinema.html · official site https://www.jiocinema.com/sports
-- JioCinema Sports (IN, Public Sports) — online, 807 ms. https://xyzs996.github.io/iptv-doctor/channels/jiocinema-sports.html · official site https://www.jiocinema.com/sports
-- KAN (IL, World Cup 2026) — online, 385 ms. https://xyzs996.github.io/iptv-doctor/channels/kan.html · official site https://www.kan.org.il/
-- KBS Sports (KR, Public Sports) — online, 688 ms. https://xyzs996.github.io/iptv-doctor/channels/kbs-sports.html · official site https://sports.kbs.co.kr/
-- KBS World (KR, World Cup 2026) — online, 1574 ms. https://xyzs996.github.io/iptv-doctor/channels/kbs-world.html · official site https://kbsworld.kbs.co.kr/
-- L Equipe (FR, Public Sports) — online, 1028 ms. https://xyzs996.github.io/iptv-doctor/channels/l-equipe.html · official site https://www.lequipe.fr/
-- La Gazzetta dello Sport (IT, Public Sports) — online, 215 ms. https://xyzs996.github.io/iptv-doctor/channels/la-gazzetta-dello-sport.html · official site https://www.gazzetta.it/
-- MARCA (ES, Public Sports) — online, 17 ms. https://xyzs996.github.io/iptv-doctor/channels/marca.html · official site https://www.marca.com/
-- MARCA Mexico (MX, Public Sports) — online, 51 ms. https://xyzs996.github.io/iptv-doctor/channels/marca-mexico.html · official site https://www.marca.com/mx/
-- Mediotiempo (MX, Public Sports) — online, 80 ms. https://xyzs996.github.io/iptv-doctor/channels/mediotiempo.html · official site https://www.mediotiempo.com/
-- meWATCH (SG, World Cup 2026) — online, 632 ms. https://xyzs996.github.io/iptv-doctor/channels/mewatch.html · official site https://www.mewatch.sg/
-- meWATCH Sport (SG, Public Sports) — online, 1017 ms. https://xyzs996.github.io/iptv-doctor/channels/mewatch-sport.html · official site https://www.mewatch.sg/
-- Migu (CN, World Cup 2026) — online, 1564 ms. https://xyzs996.github.io/iptv-doctor/channels/migu.html · official site https://www.migu.cn/
-- MLB (US, Public Sports) — online, 152 ms. https://xyzs996.github.io/iptv-doctor/channels/mlb.html · official site https://www.mlb.com/
-- Movistar Plus Deportes (ES, Public Sports) — online, 1138 ms. https://xyzs996.github.io/iptv-doctor/channels/movistar-plus-deportes.html · official site https://www.movistarplus.es/deportes
-- Movistar Plus+ (ES, World Cup 2026) — online, 2315 ms. https://xyzs996.github.io/iptv-doctor/channels/movistar-plus.html · official site https://www.movistarplus.es/
-- MTV Urheilu (FI, Public Sports) — online, 895 ms. https://xyzs996.github.io/iptv-doctor/channels/mtv-urheilu.html · official site https://www.mtvuutiset.fi/urheilu
-- MTVA (HU, World Cup 2026) — online, 2184 ms. https://xyzs996.github.io/iptv-doctor/channels/mtva.html · official site https://www.mediaklikk.hu/
-- NBA (US, Public Sports) — online, 578 ms. https://xyzs996.github.io/iptv-doctor/channels/nba.html · official site https://www.nba.com/
-- NBC Sports (US, Public Sports) — online, 125 ms. https://xyzs996.github.io/iptv-doctor/channels/nbc-sports.html · official site https://www.nbcsports.com/
-- NCAA (US, Public Sports) — online, 211 ms. https://xyzs996.github.io/iptv-doctor/channels/ncaa.html · official site https://www.ncaa.com/
-- NFL (US, Public Sports) — online, 34 ms. https://xyzs996.github.io/iptv-doctor/channels/nfl.html · official site https://www.nfl.com/
-- NHK (JP, World Cup 2026) — online, 591 ms. https://xyzs996.github.io/iptv-doctor/channels/nhk.html · official site https://www.nhk.or.jp/
-- NHK Sports (JP, Public Sports) — online, 2479 ms. https://xyzs996.github.io/iptv-doctor/channels/nhk-sports.html · official site https://www3.nhk.or.jp/sports/
-- NHL (US, Public Sports) — online, 72 ms. https://xyzs996.github.io/iptv-doctor/channels/nhl.html · official site https://www.nhl.com/
-- NOS Sport (NL, Public Sports) — online, 350 ms. https://xyzs996.github.io/iptv-doctor/channels/nos-sport.html · official site https://nos.nl/sport
-- Now Sports (HK, Public Sports) — online, 707 ms. https://xyzs996.github.io/iptv-doctor/channels/now-sports.html · official site https://sports.now.com/
-- NPO (NL, World Cup 2026) — online, 1322 ms. https://xyzs996.github.io/iptv-doctor/channels/npo.html · official site https://www.npostart.nl/
-- NRK (NO, World Cup 2026) — online, 1208 ms. https://xyzs996.github.io/iptv-doctor/channels/nrk.html · official site https://www.nrk.no/
-- NRK Sport (NO, Public Sports) — online, 285 ms. https://xyzs996.github.io/iptv-doctor/channels/nrk-sport.html · official site https://www.nrk.no/sport/
-- NTV Spor (TR, Public Sports) — online, 167 ms. https://xyzs996.github.io/iptv-doctor/channels/ntv-spor.html · official site https://www.ntvspor.net/
-- Ole (AR, Public Sports) — online, 199 ms. https://xyzs996.github.io/iptv-doctor/channels/ole.html · official site https://www.ole.com.ar/
-- ON Time Sports (EG, World Cup 2026) — online, 1563 ms. https://xyzs996.github.io/iptv-doctor/channels/on-time-sports.html · official site https://www.ontimesports.com/
-- One Sports (PH, Public Sports) — online, 860 ms. https://xyzs996.github.io/iptv-doctor/channels/one-sports.html · official site https://www.onesports.ph/
-- ORF (AT, World Cup 2026) — online, 2122 ms. https://xyzs996.github.io/iptv-doctor/channels/orf.html · official site https://tvthek.orf.at/
-- ORF Sport (AT, Public Sports) — online, 1262 ms. https://xyzs996.github.io/iptv-doctor/channels/orf-sport.html · official site https://sport.orf.at/
-- Peacock (US, World Cup 2026) — online, 177 ms. https://xyzs996.github.io/iptv-doctor/channels/peacock.html · official site https://www.peacocktv.com/
-- PGA Tour (US, Public Sports) — online, 160 ms. https://xyzs996.github.io/iptv-doctor/channels/pga-tour.html · official site https://www.pgatour.com/
-- RAI (IT, World Cup 2026) — online, 835 ms. https://xyzs996.github.io/iptv-doctor/channels/rai.html · official site https://www.raiplay.it/
-- Rai Sport (IT, Public Sports) — online, 1298 ms. https://xyzs996.github.io/iptv-doctor/channels/rai-sport.html · official site https://www.raisport.rai.it/
-- ran (DE, Public Sports) — online, 1632 ms. https://xyzs996.github.io/iptv-doctor/channels/ran.html · official site https://www.ran.de/
-- RCN Deportes (CO, Public Sports) — online, 391 ms. https://xyzs996.github.io/iptv-doctor/channels/rcn-deportes.html · official site https://www.noticiasrcn.com/deportes
-- RDS (CA, Public Sports) — online, 360 ms. https://xyzs996.github.io/iptv-doctor/channels/rds.html · official site https://www.rds.ca/
-- Record (PT, Public Sports) — online, 1185 ms. https://xyzs996.github.io/iptv-doctor/channels/record.html · official site https://www.record.pt/
-- RMC Sport (FR, Public Sports) — online, 372 ms. https://xyzs996.github.io/iptv-doctor/channels/rmc-sport.html · official site https://rmcsport.bfmtv.com/
-- RTBF (BE, World Cup 2026) — online, 701 ms. https://xyzs996.github.io/iptv-doctor/channels/rtbf.html · official site https://www.rtbf.be/auvio
-- RTBF Sport (BE, Public Sports) — online, 199 ms. https://xyzs996.github.io/iptv-doctor/channels/rtbf-sport.html · official site https://www.rtbf.be/sport
-- RTÉ (IE, World Cup 2026) — online, 690 ms. https://xyzs996.github.io/iptv-doctor/channels/rt.html · official site https://www.rte.ie/player/
-- RTE Sport (IE, Public Sports) — online, 220 ms. https://xyzs996.github.io/iptv-doctor/channels/rte-sport.html · official site https://www.rte.ie/sport/
-- RTHK Sport (HK, Public Sports) — online, 1950 ms. https://xyzs996.github.io/iptv-doctor/channels/rthk-sport.html · official site https://www.rthk.hk/
-- RTP (PT, World Cup 2026) — online, 1079 ms. https://xyzs996.github.io/iptv-doctor/channels/rtp.html · official site https://www.rtp.pt/play/
-- RTP Desporto (PT, Public Sports) — online, 105 ms. https://xyzs996.github.io/iptv-doctor/channels/rtp-desporto.html · official site https://www.rtp.pt/noticias/desporto
-- RTS (RS, World Cup 2026) — online, 2374 ms. https://xyzs996.github.io/iptv-doctor/channels/rts.html · official site https://www.rts.rs/
-- RTS Sport (CH, Public Sports) — online, 740 ms. https://xyzs996.github.io/iptv-doctor/channels/rts-sport.html · official site https://www.rts.ch/sport/
-- RTVE (ES, World Cup 2026) — online, 909 ms. https://xyzs996.github.io/iptv-doctor/channels/rtve.html · official site https://www.rtve.es/play/
-- RTVE Deportes (ES, Public Sports) — online, 15 ms. https://xyzs996.github.io/iptv-doctor/channels/rtve-deportes.html · official site https://www.rtve.es/deportes/
-- RTVS (SK, World Cup 2026) — online, 1690 ms. https://xyzs996.github.io/iptv-doctor/channels/rtvs.html · official site https://www.rtvs.sk/
-- SBS (AU, World Cup 2026) — online, 1084 ms. https://xyzs996.github.io/iptv-doctor/channels/sbs.html · official site https://www.sbs.com.au/ondemand
-- SBS Sport (AU, Public Sports) — online, 864 ms. https://xyzs996.github.io/iptv-doctor/channels/sbs-sport.html · official site https://www.sbs.com.au/sport
-- Sky Sport Italia (IT, World Cup 2026) — online, 1118 ms. https://xyzs996.github.io/iptv-doctor/channels/sky-sport-italia.html · official site https://sport.sky.it/
-- Sky Sport NZ (NZ, World Cup 2026) — online, 450 ms. https://xyzs996.github.io/iptv-doctor/channels/sky-sport-nz.html · official site https://www.skysportnow.co.nz/
-- Sky Sports (GB, Public Sports) — online, 271 ms. https://xyzs996.github.io/iptv-doctor/channels/sky-sports.html · official site https://www.skysports.com/
-- Sport (ES, Public Sports) — online, 938 ms. https://xyzs996.github.io/iptv-doctor/channels/sport.html · official site https://www.sport.es/
-- Sport TV (PT, World Cup 2026) — online, 920 ms. https://xyzs996.github.io/iptv-doctor/channels/sport-tv.html · official site https://www.sporttv.pt/
-- Sport TV Portugal (PT, Public Sports) — online, 610 ms. https://xyzs996.github.io/iptv-doctor/channels/sport-tv-portugal.html · official site https://www.sporttv.pt/
-- SPORT1 (DE, Public Sports) — online, 1380 ms. https://xyzs996.github.io/iptv-doctor/channels/sport1.html · official site https://www.sport1.de/
-- SportMediaset (IT, Public Sports) — online, 952 ms. https://xyzs996.github.io/iptv-doctor/channels/sportmediaset.html · official site https://www.sportmediaset.mediaset.it/
-- Sports18 (IN, World Cup 2026) — online, 890 ms. https://xyzs996.github.io/iptv-doctor/channels/sports18.html · official site https://www.sports18.com/
-- Sportschau (DE, World Cup 2026) — online, 1149 ms. https://xyzs996.github.io/iptv-doctor/channels/sportschau.html · official site https://www.sportschau.de/
-- Sportsnet (CA, World Cup 2026) — online, 45 ms. https://xyzs996.github.io/iptv-doctor/channels/sportsnet.html · official site https://www.sportsnet.ca/
-- Sporza (BE, World Cup 2026) — online, 599 ms. https://xyzs996.github.io/iptv-doctor/channels/sporza.html · official site https://sporza.be/
-- SPOTV NOW Korea (KR, Public Sports) — online, 1640 ms. https://xyzs996.github.io/iptv-doctor/channels/spotv-now-korea.html · official site https://www.spotvnow.co.kr/
-- SRF (CH, World Cup 2026) — online, 467 ms. https://xyzs996.github.io/iptv-doctor/channels/srf.html · official site https://www.srf.ch/
-- SRF Sport (CH, Public Sports) — online, 352 ms. https://xyzs996.github.io/iptv-doctor/channels/srf-sport.html · official site https://www.srf.ch/sport
-- Stadium Astro (MY, Public Sports) — online, 556 ms. https://xyzs996.github.io/iptv-doctor/channels/stadium-astro.html · official site https://www.stadiumastro.com/
-- SuperSport (NG, World Cup 2026) — online, 1143 ms. https://xyzs996.github.io/iptv-doctor/channels/supersport.html · official site https://supersport.com/
-- SVT (SE, World Cup 2026) — online, 1128 ms. https://xyzs996.github.io/iptv-doctor/channels/svt.html · official site https://www.svt.se/
-- SVT Sport (SE, Public Sports) — online, 984 ms. https://xyzs996.github.io/iptv-doctor/channels/svt-sport.html · official site https://www.svt.se/sport/
-- TapGO / Tap Sports (PH, World Cup 2026) — online, 488 ms. https://xyzs996.github.io/iptv-doctor/channels/tapgo-tap-sports.html · official site https://www.tapgo.tv/
-- Telemundo (US, World Cup 2026) — online, 84 ms. https://xyzs996.github.io/iptv-doctor/channels/telemundo.html · official site https://www.telemundo.com/
-- Teletica (CR, World Cup 2026) — online, 158 ms. https://xyzs996.github.io/iptv-doctor/channels/teletica.html · official site https://www.teletica.com/
-- Televisa (MX, World Cup 2026) — online, 415 ms. https://xyzs996.github.io/iptv-doctor/channels/televisa.html · official site https://www.televisa.com/
-- Tencent Sports (CN, Public Sports) — online, 2108 ms. https://xyzs996.github.io/iptv-doctor/channels/tencent-sports.html · official site https://sports.qq.com/
-- TF1 (FR, World Cup 2026) — online, 611 ms. https://xyzs996.github.io/iptv-doctor/channels/tf1.html · official site https://www.tf1.fr/
-- Thairath Sport (TH, Public Sports) — online, 287 ms. https://xyzs996.github.io/iptv-doctor/channels/thairath-sport.html · official site https://www.thairath.co.th/sport
-- TRT (TR, World Cup 2026) — online, 911 ms. https://xyzs996.github.io/iptv-doctor/channels/trt.html · official site https://www.trt.com.tr/
-- TRT Spor (TR, Public Sports) — online, 1105 ms. https://xyzs996.github.io/iptv-doctor/channels/trt-spor.html · official site https://www.trtspor.com.tr/
-- TrueID Sports (TH, Public Sports) — online, 510 ms. https://xyzs996.github.io/iptv-doctor/channels/trueid-sports.html · official site https://sport.trueid.net/
-- TSN (CA, World Cup 2026) — online, 700 ms. https://xyzs996.github.io/iptv-doctor/channels/tsn.html · official site https://www.tsn.ca/
-- Tubi Sports (US, Public Sports) — online, 1670 ms. https://xyzs996.github.io/iptv-doctor/channels/tubi-sports.html · official site https://tubitv.com/
-- TUDN (MX, World Cup 2026) — online, 374 ms. https://xyzs996.github.io/iptv-doctor/channels/tudn.html · official site https://www.tudn.com/
-- TV 2 Norway (NO, World Cup 2026) — online, 378 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-2-norway.html · official site https://www.tv2.no/
-- TV 2 Sport Denmark (DK, Public Sports) — online, 528 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-2-sport-denmark.html · official site https://sport.tv2.dk/
-- TV 2 Sport Norway (NO, Public Sports) — online, 827 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-2-sport-norway.html · official site https://www.tv2.no/sport/
-- TV Azteca (MX, World Cup 2026) — online, 1360 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-azteca.html · official site https://www.tvazteca.com/aztecadeportes/
-- TV Azteca Deportes (MX, Public Sports) — online, 325 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-azteca-deportes.html · official site https://www.tvazteca.com/aztecadeportes/
-- TV Globo (BR, World Cup 2026) — online, 1146 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-globo.html · official site https://globoplay.globo.com/
-- TV Pública (AR, World Cup 2026) — online, 864 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-p-blica.html · official site https://www.tvpublica.com.ar/
-- TV4 Sport (SE, Public Sports) — online, 868 ms. https://xyzs996.github.io/iptv-doctor/channels/tv4-sport.html · official site https://www.tv4.se/sport
-- TVP (PL, World Cup 2026) — online, 1149 ms. https://xyzs996.github.io/iptv-doctor/channels/tvp.html · official site https://sport.tvp.pl/
-- TVP Sport (PL, Public Sports) — online, 910 ms. https://xyzs996.github.io/iptv-doctor/channels/tvp-sport.html · official site https://sport.tvp.pl/
-- TyC Sports (AR, World Cup 2026) — online, 515 ms. https://xyzs996.github.io/iptv-doctor/channels/tyc-sports.html · official site https://www.tycsports.com/
-- Vidio Sports (ID, Public Sports) — online, 1789 ms. https://xyzs996.github.io/iptv-doctor/channels/vidio-sports.html · official site https://www.vidio.com/categories/sports
-- Vix (MX, World Cup 2026) — online, 792 ms. https://xyzs996.github.io/iptv-doctor/channels/vix.html · official site https://vix.com/
-- VTV (VN, World Cup 2026) — online, 1564 ms. https://xyzs996.github.io/iptv-doctor/channels/vtv.html · official site https://vtv.vn/
-- Wide World of Sports (AU, Public Sports) — online, 1032 ms. https://xyzs996.github.io/iptv-doctor/channels/wide-world-of-sports.html · official site https://wwos.nine.com.au/
-- Xsport+ (UA, World Cup 2026) — online, 1242 ms. https://xyzs996.github.io/iptv-doctor/channels/xsport.html · official site https://xsport.ua/
-- Yle (FI, World Cup 2026) — online, 410 ms. https://xyzs996.github.io/iptv-doctor/channels/yle.html · official site https://yle.fi/
-- Yle Urheilu (FI, Public Sports) — online, 457 ms. https://xyzs996.github.io/iptv-doctor/channels/yle-urheilu.html · official site https://yle.fi/urheilu
-- ZDF (DE, World Cup 2026) — online, 918 ms. https://xyzs996.github.io/iptv-doctor/channels/zdf.html · official site https://www.zdf.de/
-- ZDF Sport (DE, Public Sports) — online, 1587 ms. https://xyzs996.github.io/iptv-doctor/channels/zdf-sport.html · official site https://www.zdf.de/sport
-- Ziggo Sport (NL, World Cup 2026) — online, 1020 ms. https://xyzs996.github.io/iptv-doctor/channels/ziggo-sport.html · official site https://www.ziggosport.nl/
-- Africa Magic (NG, World Cup 2026) — slow, 3980 ms. https://xyzs996.github.io/iptv-doctor/channels/africa-magic.html · official site https://www.dstv.com/africamagic/
-- FOX Sports Australia (AU, Public Sports) — slow, 3071 ms. https://xyzs996.github.io/iptv-doctor/channels/fox-sports-australia.html · official site https://www.foxsports.com.au/
-- Red Bull TV (GLOBAL, Public Sports) — slow, 3143 ms. https://xyzs996.github.io/iptv-doctor/channels/red-bull-tv.html · official site https://www.redbull.com/int-en/discover
-- SBS Sports Korea (KR, Public Sports) — slow, 2598 ms. https://xyzs996.github.io/iptv-doctor/channels/sbs-sports-korea.html · official site https://programs.sbs.co.kr/sports
-- ServusTV Sport (AT, Public Sports) — slow, 2690 ms. https://xyzs996.github.io/iptv-doctor/channels/servustv-sport.html · official site https://www.servustv.com/sport/
-- Sina Sports (CN, Public Sports) — slow, 3064 ms. https://xyzs996.github.io/iptv-doctor/channels/sina-sports.html · official site https://sports.sina.com.cn/
-- Canal 4 (UY, World Cup 2026) — unreachable, 346 ms. https://xyzs996.github.io/iptv-doctor/channels/canal-4.html · official site https://www.canal4.com.uy/
-- Canal+ Sport (FR, Public Sports) — unreachable, 499 ms. https://xyzs996.github.io/iptv-doctor/channels/canal-sport.html · official site https://www.canalplus.com/sport/
-- Caracol Deportes (CO, Public Sports) — unreachable, 969 ms. https://xyzs996.github.io/iptv-doctor/channels/caracol-deportes.html · official site https://www.caracoltv.com/deportes
+- 7plus Sport (AU, Public Sports) — online, 199 ms. https://xyzs996.github.io/iptv-doctor/channels/7plus-sport.html · official site https://7plus.com.au/sport
+- A Bola (PT, Public Sports) — online, 784 ms. https://xyzs996.github.io/iptv-doctor/channels/a-bola.html · official site https://www.abola.pt/
+- ABC Sport (AU, Public Sports) — online, 1722 ms. https://xyzs996.github.io/iptv-doctor/channels/abc-sport.html · official site https://www.abc.net.au/news/sport
+- ABEMA (JP, World Cup 2026) — online, 956 ms. https://xyzs996.github.io/iptv-doctor/channels/abema.html · official site https://abema.tv/
+- ABEMA Sports (JP, Public Sports) — online, 1540 ms. https://xyzs996.github.io/iptv-doctor/channels/abema-sports.html · official site https://abema.tv/
+- Abu Dhabi Sports (AE, World Cup 2026) — online, 1763 ms. https://xyzs996.github.io/iptv-doctor/channels/abu-dhabi-sports.html · official site https://adsports.ae/
+- ADN Deportes (CL, Public Sports) — online, 579 ms. https://xyzs996.github.io/iptv-doctor/channels/adn-deportes.html · official site https://www.adnradio.cl/deportes/
+- Al Kass (QA, World Cup 2026) — online, 1194 ms. https://xyzs996.github.io/iptv-doctor/channels/al-kass.html · official site https://www.alkass.net/
+- Al Kass Sports (QA, Public Sports) — online, 184 ms. https://xyzs996.github.io/iptv-doctor/channels/al-kass-sports.html · official site https://www.alkass.net/
+- América Televisión (PE, World Cup 2026) — online, 987 ms. https://xyzs996.github.io/iptv-doctor/channels/am-rica-televisi-n.html · official site https://www.americatv.com.pe/
+- ARD / Das Erste (DE, World Cup 2026) — online, 2109 ms. https://xyzs996.github.io/iptv-doctor/channels/ard-das-erste.html · official site https://www.daserste.de/
+- Arriyadiyah (SA, Public Sports) — online, 462 ms. https://xyzs996.github.io/iptv-doctor/channels/arriyadiyah.html · official site https://www.arriyadiyah.com/
+- AS (ES, Public Sports) — online, 1919 ms. https://xyzs996.github.io/iptv-doctor/channels/as.html · official site https://as.com/
+- Astro Arena (MY, Public Sports) — online, 402 ms. https://xyzs996.github.io/iptv-doctor/channels/astro-arena.html · official site https://www.astro.com.my/
+- BBC (GB, World Cup 2026) — online, 179 ms. https://xyzs996.github.io/iptv-doctor/channels/bbc.html · official site https://www.bbc.co.uk/sport/football
+- BBC iPlayer (GB, World Cup 2026) — online, 697 ms. https://xyzs996.github.io/iptv-doctor/channels/bbc-iplayer.html · official site https://www.bbc.co.uk/iplayer
+- BBC Sport (GB, Public Sports) — online, 126 ms. https://xyzs996.github.io/iptv-doctor/channels/bbc-sport.html · official site https://www.bbc.co.uk/sport
+- beIN SPORTS France (FR, World Cup 2026) — online, 2043 ms. https://xyzs996.github.io/iptv-doctor/channels/bein-sports-france.html · official site https://www.beinsports.com/fr-fr
+- BILD Sport (DE, Public Sports) — online, 530 ms. https://xyzs996.github.io/iptv-doctor/channels/bild-sport.html · official site https://sportbild.bild.de/
+- Bleacher Report (US, Public Sports) — online, 1833 ms. https://xyzs996.github.io/iptv-doctor/channels/bleacher-report.html · official site https://bleacherreport.com/
+- BNT (BG, World Cup 2026) — online, 1920 ms. https://xyzs996.github.io/iptv-doctor/channels/bnt.html · official site https://bnt.bg/
+- Caracol TV (CO, World Cup 2026) — online, 301 ms. https://xyzs996.github.io/iptv-doctor/channels/caracol-tv.html · official site https://www.caracoltv.com/
+- CBC Sports (CA, Public Sports) — online, 645 ms. https://xyzs996.github.io/iptv-doctor/channels/cbc-sports.html · official site https://www.cbc.ca/sports
+- CBS Sports (US, Public Sports) — online, 317 ms. https://xyzs996.github.io/iptv-doctor/channels/cbs-sports.html · official site https://www.cbssports.com/
+- CCTV (CN, World Cup 2026) — online, 756 ms. https://xyzs996.github.io/iptv-doctor/channels/cctv.html · official site https://sports.cctv.com/
+- CCTV Sports (CN, Public Sports) — online, 467 ms. https://xyzs996.github.io/iptv-doctor/channels/cctv-sports.html · official site https://sports.cctv.com/
+- Channel 4 Sport (GB, Public Sports) — online, 528 ms. https://xyzs996.github.io/iptv-doctor/channels/channel-4-sport.html · official site https://www.channel4.com/
+- Chilevisión (CL, World Cup 2026) — online, 1649 ms. https://xyzs996.github.io/iptv-doctor/channels/chilevisi-n.html · official site https://www.chilevision.cl/
+- CNA Sport (SG, Public Sports) — online, 547 ms. https://xyzs996.github.io/iptv-doctor/channels/cna-sport.html · official site https://www.channelnewsasia.com/sport
+- ČT (CZ, World Cup 2026) — online, 1142 ms. https://xyzs996.github.io/iptv-doctor/channels/t.html · official site https://www.ceskatelevize.cz/
+- CTV (CA, World Cup 2026) — online, 1272 ms. https://xyzs996.github.io/iptv-doctor/channels/ctv.html · official site https://www.ctv.ca/
+- DD Sports (IN, Public Sports) — online, 1572 ms. https://xyzs996.github.io/iptv-doctor/channels/dd-sports.html · official site https://prasarbharati.gov.in/
+- detikSport (ID, Public Sports) — online, 1857 ms. https://xyzs996.github.io/iptv-doctor/channels/detiksport.html · official site https://sport.detik.com/
+- DR (DK, World Cup 2026) — online, 1459 ms. https://xyzs996.github.io/iptv-doctor/channels/dr.html · official site https://www.dr.dk/
+- DR Sporten (DK, Public Sports) — online, 639 ms. https://xyzs996.github.io/iptv-doctor/channels/dr-sporten.html · official site https://www.dr.dk/sporten
+- Dubai Sports (AE, World Cup 2026) — online, 1580 ms. https://xyzs996.github.io/iptv-doctor/channels/dubai-sports.html · official site https://www.dubaisports.ae/
+- Emtek / SCTV (ID, World Cup 2026) — online, 1021 ms. https://xyzs996.github.io/iptv-doctor/channels/emtek-sctv.html · official site https://www.sctv.co.id/
+- ENTV (DZ, World Cup 2026) — online, 2329 ms. https://xyzs996.github.io/iptv-doctor/channels/entv.html · official site https://www.entv.dz/
+- ERT (GR, World Cup 2026) — online, 968 ms. https://xyzs996.github.io/iptv-doctor/channels/ert.html · official site https://www.ert.gr/
+- ESPN (US, Public Sports) — online, 231 ms. https://xyzs996.github.io/iptv-doctor/channels/espn.html · official site https://www.espn.com/
+- ESPN Argentina (AR, Public Sports) — online, 325 ms. https://xyzs996.github.io/iptv-doctor/channels/espn-argentina.html · official site https://www.espn.com.ar/
+- ESPN Brasil (BR, Public Sports) — online, 650 ms. https://xyzs996.github.io/iptv-doctor/channels/espn-brasil.html · official site https://www.espn.com.br/
+- ESPN Netherlands (NL, Public Sports) — online, 290 ms. https://xyzs996.github.io/iptv-doctor/channels/espn-netherlands.html · official site https://www.espn.nl/
+- FOX (US, World Cup 2026) — online, 735 ms. https://xyzs996.github.io/iptv-doctor/channels/fox.html · official site https://www.foxsports.com/
+- FOX Sports (US, Public Sports) — online, 163 ms. https://xyzs996.github.io/iptv-doctor/channels/fox-sports.html · official site https://www.foxsports.com/
+- FOX Sports Australia (AU, Public Sports) — online, 1644 ms. https://xyzs996.github.io/iptv-doctor/channels/fox-sports-australia.html · official site https://www.foxsports.com.au/
+- France TV Sport (FR, Public Sports) — online, 541 ms. https://xyzs996.github.io/iptv-doctor/channels/france-tv-sport.html · official site https://www.france.tv/sport/
+- FS1 (US, World Cup 2026) — online, 735 ms. https://xyzs996.github.io/iptv-doctor/channels/fs1.html · official site https://www.foxsports.com/
+- GMA Sports (PH, Public Sports) — online, 1566 ms. https://xyzs996.github.io/iptv-doctor/channels/gma-sports.html · official site https://www.gmanetwork.com/news/sports/
+- HRT (HR, World Cup 2026) — online, 1071 ms. https://xyzs996.github.io/iptv-doctor/channels/hrt.html · official site https://www.hrt.hr/
+- J SPORTS (JP, Public Sports) — online, 1285 ms. https://xyzs996.github.io/iptv-doctor/channels/j-sports.html · official site https://www.jsports.co.jp/
+- JioCinema (IN, World Cup 2026) — online, 962 ms. https://xyzs996.github.io/iptv-doctor/channels/jiocinema.html · official site https://www.jiocinema.com/sports
+- JioCinema Sports (IN, Public Sports) — online, 982 ms. https://xyzs996.github.io/iptv-doctor/channels/jiocinema-sports.html · official site https://www.jiocinema.com/sports
+- KAN (IL, World Cup 2026) — online, 388 ms. https://xyzs996.github.io/iptv-doctor/channels/kan.html · official site https://www.kan.org.il/
+- KBS Sports (KR, Public Sports) — online, 995 ms. https://xyzs996.github.io/iptv-doctor/channels/kbs-sports.html · official site https://sports.kbs.co.kr/
+- L Equipe (FR, Public Sports) — online, 491 ms. https://xyzs996.github.io/iptv-doctor/channels/l-equipe.html · official site https://www.lequipe.fr/
+- La Gazzetta dello Sport (IT, Public Sports) — online, 609 ms. https://xyzs996.github.io/iptv-doctor/channels/la-gazzetta-dello-sport.html · official site https://www.gazzetta.it/
+- MARCA (ES, Public Sports) — online, 93 ms. https://xyzs996.github.io/iptv-doctor/channels/marca.html · official site https://www.marca.com/
+- MARCA Mexico (MX, Public Sports) — online, 232 ms. https://xyzs996.github.io/iptv-doctor/channels/marca-mexico.html · official site https://www.marca.com/mx/
+- Mediotiempo (MX, Public Sports) — online, 429 ms. https://xyzs996.github.io/iptv-doctor/channels/mediotiempo.html · official site https://www.mediotiempo.com/
+- meWATCH (SG, World Cup 2026) — online, 705 ms. https://xyzs996.github.io/iptv-doctor/channels/mewatch.html · official site https://www.mewatch.sg/
+- meWATCH Sport (SG, Public Sports) — online, 564 ms. https://xyzs996.github.io/iptv-doctor/channels/mewatch-sport.html · official site https://www.mewatch.sg/
+- Migu (CN, World Cup 2026) — online, 2247 ms. https://xyzs996.github.io/iptv-doctor/channels/migu.html · official site https://www.migu.cn/
+- MLB (US, Public Sports) — online, 456 ms. https://xyzs996.github.io/iptv-doctor/channels/mlb.html · official site https://www.mlb.com/
+- Movistar Plus+ (ES, World Cup 2026) — online, 2352 ms. https://xyzs996.github.io/iptv-doctor/channels/movistar-plus.html · official site https://www.movistarplus.es/
+- NBA (US, Public Sports) — online, 756 ms. https://xyzs996.github.io/iptv-doctor/channels/nba.html · official site https://www.nba.com/
+- NBC Sports (US, Public Sports) — online, 372 ms. https://xyzs996.github.io/iptv-doctor/channels/nbc-sports.html · official site https://www.nbcsports.com/
+- NCAA (US, Public Sports) — online, 458 ms. https://xyzs996.github.io/iptv-doctor/channels/ncaa.html · official site https://www.ncaa.com/
+- NFL (US, Public Sports) — online, 133 ms. https://xyzs996.github.io/iptv-doctor/channels/nfl.html · official site https://www.nfl.com/
+- NHK (JP, World Cup 2026) — online, 581 ms. https://xyzs996.github.io/iptv-doctor/channels/nhk.html · official site https://www.nhk.or.jp/
+- NHK Sports (JP, Public Sports) — online, 1761 ms. https://xyzs996.github.io/iptv-doctor/channels/nhk-sports.html · official site https://www3.nhk.or.jp/sports/
+- NHL (US, Public Sports) — online, 254 ms. https://xyzs996.github.io/iptv-doctor/channels/nhl.html · official site https://www.nhl.com/
+- NOS Sport (NL, Public Sports) — online, 754 ms. https://xyzs996.github.io/iptv-doctor/channels/nos-sport.html · official site https://nos.nl/sport
+- Now Sports (HK, Public Sports) — online, 593 ms. https://xyzs996.github.io/iptv-doctor/channels/now-sports.html · official site https://sports.now.com/
+- NPO (NL, World Cup 2026) — online, 1485 ms. https://xyzs996.github.io/iptv-doctor/channels/npo.html · official site https://www.npostart.nl/
+- NRK (NO, World Cup 2026) — online, 1262 ms. https://xyzs996.github.io/iptv-doctor/channels/nrk.html · official site https://www.nrk.no/
+- NRK Sport (NO, Public Sports) — online, 551 ms. https://xyzs996.github.io/iptv-doctor/channels/nrk-sport.html · official site https://www.nrk.no/sport/
+- NTV Spor (TR, Public Sports) — online, 314 ms. https://xyzs996.github.io/iptv-doctor/channels/ntv-spor.html · official site https://www.ntvspor.net/
+- Ole (AR, Public Sports) — online, 294 ms. https://xyzs996.github.io/iptv-doctor/channels/ole.html · official site https://www.ole.com.ar/
+- ON Time Sports (EG, World Cup 2026) — online, 1505 ms. https://xyzs996.github.io/iptv-doctor/channels/on-time-sports.html · official site https://www.ontimesports.com/
+- One Sports (PH, Public Sports) — online, 702 ms. https://xyzs996.github.io/iptv-doctor/channels/one-sports.html · official site https://www.onesports.ph/
+- ORF Sport (AT, Public Sports) — online, 1560 ms. https://xyzs996.github.io/iptv-doctor/channels/orf-sport.html · official site https://sport.orf.at/
+- Peacock (US, World Cup 2026) — online, 415 ms. https://xyzs996.github.io/iptv-doctor/channels/peacock.html · official site https://www.peacocktv.com/
+- PGA Tour (US, Public Sports) — online, 255 ms. https://xyzs996.github.io/iptv-doctor/channels/pga-tour.html · official site https://www.pgatour.com/
+- Polsat Sport (PL, Public Sports) — online, 1309 ms. https://xyzs996.github.io/iptv-doctor/channels/polsat-sport.html · official site https://www.polsatsport.pl/
+- RAI (IT, World Cup 2026) — online, 1057 ms. https://xyzs996.github.io/iptv-doctor/channels/rai.html · official site https://www.raiplay.it/
+- Rai Sport (IT, Public Sports) — online, 2399 ms. https://xyzs996.github.io/iptv-doctor/channels/rai-sport.html · official site https://www.raisport.rai.it/
+- ran (DE, Public Sports) — online, 1959 ms. https://xyzs996.github.io/iptv-doctor/channels/ran.html · official site https://www.ran.de/
+- RCN Deportes (CO, Public Sports) — online, 499 ms. https://xyzs996.github.io/iptv-doctor/channels/rcn-deportes.html · official site https://www.noticiasrcn.com/deportes
+- RDS (CA, Public Sports) — online, 793 ms. https://xyzs996.github.io/iptv-doctor/channels/rds.html · official site https://www.rds.ca/
+- Record (PT, Public Sports) — online, 1188 ms. https://xyzs996.github.io/iptv-doctor/channels/record.html · official site https://www.record.pt/
+- RMC Sport (FR, Public Sports) — online, 421 ms. https://xyzs996.github.io/iptv-doctor/channels/rmc-sport.html · official site https://rmcsport.bfmtv.com/
+- RTBF (BE, World Cup 2026) — online, 1691 ms. https://xyzs996.github.io/iptv-doctor/channels/rtbf.html · official site https://www.rtbf.be/auvio
+- RTBF Sport (BE, Public Sports) — online, 606 ms. https://xyzs996.github.io/iptv-doctor/channels/rtbf-sport.html · official site https://www.rtbf.be/sport
+- RTÉ (IE, World Cup 2026) — online, 386 ms. https://xyzs996.github.io/iptv-doctor/channels/rt.html · official site https://www.rte.ie/player/
+- RTE Sport (IE, Public Sports) — online, 418 ms. https://xyzs996.github.io/iptv-doctor/channels/rte-sport.html · official site https://www.rte.ie/sport/
+- RTHK Sport (HK, Public Sports) — online, 2095 ms. https://xyzs996.github.io/iptv-doctor/channels/rthk-sport.html · official site https://www.rthk.hk/
+- RTP (PT, World Cup 2026) — online, 1572 ms. https://xyzs996.github.io/iptv-doctor/channels/rtp.html · official site https://www.rtp.pt/play/
+- RTP Desporto (PT, Public Sports) — online, 199 ms. https://xyzs996.github.io/iptv-doctor/channels/rtp-desporto.html · official site https://www.rtp.pt/noticias/desporto
+- RTS (RS, World Cup 2026) — slow, 3671 ms. https://xyzs996.github.io/iptv-doctor/channels/rts.html · official site https://www.rts.rs/
+- RTS Sport (CH, Public Sports) — online, 1461 ms. https://xyzs996.github.io/iptv-doctor/channels/rts-sport.html · official site https://www.rts.ch/sport/
+- RTVE (ES, World Cup 2026) — online, 960 ms. https://xyzs996.github.io/iptv-doctor/channels/rtve.html · official site https://www.rtve.es/play/
+- RTVE Deportes (ES, Public Sports) — online, 59 ms. https://xyzs996.github.io/iptv-doctor/channels/rtve-deportes.html · official site https://www.rtve.es/deportes/
+- RTVS (SK, World Cup 2026) — online, 1995 ms. https://xyzs996.github.io/iptv-doctor/channels/rtvs.html · official site https://www.rtvs.sk/
+- SBS (AU, World Cup 2026) — online, 1908 ms. https://xyzs996.github.io/iptv-doctor/channels/sbs.html · official site https://www.sbs.com.au/ondemand
+- SBS Sport (AU, Public Sports) — online, 2114 ms. https://xyzs996.github.io/iptv-doctor/channels/sbs-sport.html · official site https://www.sbs.com.au/sport
+- ServusTV Sport (AT, Public Sports) — online, 2225 ms. https://xyzs996.github.io/iptv-doctor/channels/servustv-sport.html · official site https://www.servustv.com/sport/
+- Sina Sports (CN, Public Sports) — online, 2500 ms. https://xyzs996.github.io/iptv-doctor/channels/sina-sports.html · official site https://sports.sina.com.cn/
+- Sky Sport Italia (IT, World Cup 2026) — online, 1803 ms. https://xyzs996.github.io/iptv-doctor/channels/sky-sport-italia.html · official site https://sport.sky.it/
+- Sky Sport NZ (NZ, World Cup 2026) — online, 831 ms. https://xyzs996.github.io/iptv-doctor/channels/sky-sport-nz.html · official site https://www.skysportnow.co.nz/
+- Sky Sports (GB, Public Sports) — online, 300 ms. https://xyzs996.github.io/iptv-doctor/channels/sky-sports.html · official site https://www.skysports.com/
+- Sport (ES, Public Sports) — online, 1630 ms. https://xyzs996.github.io/iptv-doctor/channels/sport.html · official site https://www.sport.es/
+- Sport TV (PT, World Cup 2026) — online, 1590 ms. https://xyzs996.github.io/iptv-doctor/channels/sport-tv.html · official site https://www.sporttv.pt/
+- Sport TV Portugal (PT, Public Sports) — online, 1020 ms. https://xyzs996.github.io/iptv-doctor/channels/sport-tv-portugal.html · official site https://www.sporttv.pt/
+- SPORT1 (DE, Public Sports) — online, 1038 ms. https://xyzs996.github.io/iptv-doctor/channels/sport1.html · official site https://www.sport1.de/
+- SportMediaset (IT, Public Sports) — online, 1566 ms. https://xyzs996.github.io/iptv-doctor/channels/sportmediaset.html · official site https://www.sportmediaset.mediaset.it/
+- Sports18 (IN, World Cup 2026) — online, 1458 ms. https://xyzs996.github.io/iptv-doctor/channels/sports18.html · official site https://www.sports18.com/
+- Sportschau (DE, World Cup 2026) — online, 1587 ms. https://xyzs996.github.io/iptv-doctor/channels/sportschau.html · official site https://www.sportschau.de/
+- Sportsnet (CA, World Cup 2026) — online, 494 ms. https://xyzs996.github.io/iptv-doctor/channels/sportsnet.html · official site https://www.sportsnet.ca/
+- Sporza (BE, World Cup 2026) — online, 1163 ms. https://xyzs996.github.io/iptv-doctor/channels/sporza.html · official site https://sporza.be/
+- SPOTV NOW Korea (KR, Public Sports) — online, 1248 ms. https://xyzs996.github.io/iptv-doctor/channels/spotv-now-korea.html · official site https://www.spotvnow.co.kr/
+- SRF (CH, World Cup 2026) — online, 725 ms. https://xyzs996.github.io/iptv-doctor/channels/srf.html · official site https://www.srf.ch/
+- SRF Sport (CH, Public Sports) — online, 1142 ms. https://xyzs996.github.io/iptv-doctor/channels/srf-sport.html · official site https://www.srf.ch/sport
+- Stadium Astro (MY, Public Sports) — online, 1962 ms. https://xyzs996.github.io/iptv-doctor/channels/stadium-astro.html · official site https://www.stadiumastro.com/
+- SuperSport (NG, World Cup 2026) — online, 715 ms. https://xyzs996.github.io/iptv-doctor/channels/supersport.html · official site https://supersport.com/
+- SVT (SE, World Cup 2026) — online, 1707 ms. https://xyzs996.github.io/iptv-doctor/channels/svt.html · official site https://www.svt.se/
+- SVT Sport (SE, Public Sports) — online, 1700 ms. https://xyzs996.github.io/iptv-doctor/channels/svt-sport.html · official site https://www.svt.se/sport/
+- TapGO / Tap Sports (PH, World Cup 2026) — online, 935 ms. https://xyzs996.github.io/iptv-doctor/channels/tapgo-tap-sports.html · official site https://www.tapgo.tv/
+- Telemundo (US, World Cup 2026) — online, 188 ms. https://xyzs996.github.io/iptv-doctor/channels/telemundo.html · official site https://www.telemundo.com/
+- Teletica (CR, World Cup 2026) — online, 259 ms. https://xyzs996.github.io/iptv-doctor/channels/teletica.html · official site https://www.teletica.com/
+- Televisa (MX, World Cup 2026) — online, 670 ms. https://xyzs996.github.io/iptv-doctor/channels/televisa.html · official site https://www.televisa.com/
+- Tencent Sports (CN, Public Sports) — online, 1392 ms. https://xyzs996.github.io/iptv-doctor/channels/tencent-sports.html · official site https://sports.qq.com/
+- TF1 (FR, World Cup 2026) — online, 1046 ms. https://xyzs996.github.io/iptv-doctor/channels/tf1.html · official site https://www.tf1.fr/
+- Thairath Sport (TH, Public Sports) — online, 682 ms. https://xyzs996.github.io/iptv-doctor/channels/thairath-sport.html · official site https://www.thairath.co.th/sport
+- TRT (TR, World Cup 2026) — online, 884 ms. https://xyzs996.github.io/iptv-doctor/channels/trt.html · official site https://www.trt.com.tr/
+- TRT Spor (TR, Public Sports) — online, 894 ms. https://xyzs996.github.io/iptv-doctor/channels/trt-spor.html · official site https://www.trtspor.com.tr/
+- TrueID Sports (TH, Public Sports) — online, 462 ms. https://xyzs996.github.io/iptv-doctor/channels/trueid-sports.html · official site https://sport.trueid.net/
+- TSN (CA, World Cup 2026) — online, 1336 ms. https://xyzs996.github.io/iptv-doctor/channels/tsn.html · official site https://www.tsn.ca/
+- Tubi Sports (US, Public Sports) — online, 1633 ms. https://xyzs996.github.io/iptv-doctor/channels/tubi-sports.html · official site https://tubitv.com/
+- TUDN (MX, World Cup 2026) — online, 533 ms. https://xyzs996.github.io/iptv-doctor/channels/tudn.html · official site https://www.tudn.com/
+- TV 2 Norway (NO, World Cup 2026) — online, 1024 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-2-norway.html · official site https://www.tv2.no/
+- TV 2 Sport Denmark (DK, Public Sports) — online, 557 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-2-sport-denmark.html · official site https://sport.tv2.dk/
+- TV 2 Sport Norway (NO, Public Sports) — online, 1350 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-2-sport-norway.html · official site https://www.tv2.no/sport/
+- TV Azteca (MX, World Cup 2026) — online, 236 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-azteca.html · official site https://www.tvazteca.com/aztecadeportes/
+- TV Azteca Deportes (MX, Public Sports) — online, 446 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-azteca-deportes.html · official site https://www.tvazteca.com/aztecadeportes/
+- TV Globo (BR, World Cup 2026) — online, 1736 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-globo.html · official site https://globoplay.globo.com/
+- TV Pública (AR, World Cup 2026) — online, 1075 ms. https://xyzs996.github.io/iptv-doctor/channels/tv-p-blica.html · official site https://www.tvpublica.com.ar/
+- TV4 Sport (SE, Public Sports) — online, 1118 ms. https://xyzs996.github.io/iptv-doctor/channels/tv4-sport.html · official site https://www.tv4.se/sport
+- TVP (PL, World Cup 2026) — online, 1917 ms. https://xyzs996.github.io/iptv-doctor/channels/tvp.html · official site https://sport.tvp.pl/
+- TVP Sport (PL, Public Sports) — online, 1348 ms. https://xyzs996.github.io/iptv-doctor/channels/tvp-sport.html · official site https://sport.tvp.pl/
+- TyC Sports (AR, World Cup 2026) — online, 412 ms. https://xyzs996.github.io/iptv-doctor/channels/tyc-sports.html · official site https://www.tycsports.com/
+- Vidio Sports (ID, Public Sports) — online, 1734 ms. https://xyzs996.github.io/iptv-doctor/channels/vidio-sports.html · official site https://www.vidio.com/categories/sports
+- Vix (MX, World Cup 2026) — online, 909 ms. https://xyzs996.github.io/iptv-doctor/channels/vix.html · official site https://vix.com/
+- Wide World of Sports (AU, Public Sports) — online, 1071 ms. https://xyzs996.github.io/iptv-doctor/channels/wide-world-of-sports.html · official site https://wwos.nine.com.au/
+- Xsport+ (UA, World Cup 2026) — online, 1531 ms. https://xyzs996.github.io/iptv-doctor/channels/xsport.html · official site https://xsport.ua/
+- Yle (FI, World Cup 2026) — online, 1027 ms. https://xyzs996.github.io/iptv-doctor/channels/yle.html · official site https://yle.fi/
+- Yle Urheilu (FI, Public Sports) — online, 450 ms. https://xyzs996.github.io/iptv-doctor/channels/yle-urheilu.html · official site https://yle.fi/urheilu
+- ZDF (DE, World Cup 2026) — online, 1510 ms. https://xyzs996.github.io/iptv-doctor/channels/zdf.html · official site https://www.zdf.de/
+- ZDF Sport (DE, Public Sports) — online, 1659 ms. https://xyzs996.github.io/iptv-doctor/channels/zdf-sport.html · official site https://www.zdf.de/sport
+- Ziggo Sport (NL, World Cup 2026) — online, 1030 ms. https://xyzs996.github.io/iptv-doctor/channels/ziggo-sport.html · official site https://www.ziggosport.nl/
+- Africa Magic (NG, World Cup 2026) — slow, 4432 ms. https://xyzs996.github.io/iptv-doctor/channels/africa-magic.html · official site https://www.dstv.com/africamagic/
+- beIN SPORTS MENA (QA, World Cup 2026) — slow, 3048 ms. https://xyzs996.github.io/iptv-doctor/channels/bein-sports-mena.html · official site https://www.beinsports.com/
+- ge.globo (BR, Public Sports) — slow, 2649 ms. https://xyzs996.github.io/iptv-doctor/channels/ge-globo.html · official site https://ge.globo.com/
+- KBS World (KR, World Cup 2026) — slow, 2729 ms. https://xyzs996.github.io/iptv-doctor/channels/kbs-world.html · official site https://kbsworld.kbs.co.kr/
+- Movistar Plus Deportes (ES, Public Sports) — slow, 3032 ms. https://xyzs996.github.io/iptv-doctor/channels/movistar-plus-deportes.html · official site https://www.movistarplus.es/deportes
+- MTVA (HU, World Cup 2026) — slow, 4363 ms. https://xyzs996.github.io/iptv-doctor/channels/mtva.html · official site https://www.mediaklikk.hu/
+- ORF (AT, World Cup 2026) — slow, 3211 ms. https://xyzs996.github.io/iptv-doctor/channels/orf.html · official site https://tvthek.orf.at/
+- Red Bull TV (GLOBAL, Public Sports) — slow, 2709 ms. https://xyzs996.github.io/iptv-doctor/channels/red-bull-tv.html · official site https://www.redbull.com/int-en/discover
+- SBS Sports Korea (KR, Public Sports) — slow, 3182 ms. https://xyzs996.github.io/iptv-doctor/channels/sbs-sports-korea.html · official site https://programs.sbs.co.kr/sports
+- VTV (VN, World Cup 2026) — slow, 3297 ms. https://xyzs996.github.io/iptv-doctor/channels/vtv.html · official site https://vtv.vn/
+- Canal 4 (UY, World Cup 2026) — unreachable, 1316 ms. https://xyzs996.github.io/iptv-doctor/channels/canal-4.html · official site https://www.canal4.com.uy/
+- Canal+ Sport (FR, Public Sports) — unreachable, 475 ms. https://xyzs996.github.io/iptv-doctor/channels/canal-sport.html · official site https://www.canalplus.com/sport/
+- Caracol Deportes (CO, Public Sports) — unreachable, 1032 ms. https://xyzs996.github.io/iptv-doctor/channels/caracol-deportes.html · official site https://www.caracoltv.com/deportes
 - Cazé TV (BR, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/caz-tv.html · official site https://www.cazetv.com.br/
-- DAZN Italia (IT, Public Sports) — unreachable, 17 ms. https://xyzs996.github.io/iptv-doctor/channels/dazn-italia.html · official site https://www.dazn.com/it-IT/home
-- DAZN Italy (IT, World Cup 2026) — unreachable, 87 ms. https://xyzs996.github.io/iptv-doctor/channels/dazn-italy.html · official site https://www.dazn.com/it-IT/home
-- DAZN Japan (JP, World Cup 2026) — unreachable, 98 ms. https://xyzs996.github.io/iptv-doctor/channels/dazn-japan.html · official site https://www.dazn.com/ja-JP/home
-- Ecuavisa (EC, World Cup 2026) — unreachable, 160 ms. https://xyzs996.github.io/iptv-doctor/channels/ecuavisa.html · official site https://www.ecuavisa.com/
+- DAZN Italia (IT, Public Sports) — unreachable, 78 ms. https://xyzs996.github.io/iptv-doctor/channels/dazn-italia.html · official site https://www.dazn.com/it-IT/home
+- DAZN Italy (IT, World Cup 2026) — unreachable, 158 ms. https://xyzs996.github.io/iptv-doctor/channels/dazn-italy.html · official site https://www.dazn.com/it-IT/home
+- DAZN Japan (JP, World Cup 2026) — unreachable, 217 ms. https://xyzs996.github.io/iptv-doctor/channels/dazn-japan.html · official site https://www.dazn.com/ja-JP/home
+- Ecuavisa (EC, World Cup 2026) — unreachable, 232 ms. https://xyzs996.github.io/iptv-doctor/channels/ecuavisa.html · official site https://www.ecuavisa.com/
 - El Wataniya (TN, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/el-wataniya.html · official site https://www.wataniya.tn/
-- FIFA+ (GLOBAL, Public Sports) — unreachable, 473 ms. https://xyzs996.github.io/iptv-doctor/channels/fifa.html · official site https://www.plus.fifa.com/
+- FIFA+ (GLOBAL, Public Sports) — unreachable, 1943 ms. https://xyzs996.github.io/iptv-doctor/channels/fifa.html · official site https://www.plus.fifa.com/
 - IRIB (IR, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/irib.html · official site https://www.irinn.ir/
 - ITV (GB, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/itv.html · official site https://www.itv.com/sport
 - ITV Sport (GB, Public Sports) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/itv-sport.html · official site https://www.itv.com/sport
 - ITVX (GB, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/itvx.html · official site https://www.itv.com/watch
 - Match TV (RU, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/match-tv.html · official site https://matchtv.ru/
-- MyCanal (FR, World Cup 2026) — unreachable, 59 ms. https://xyzs996.github.io/iptv-doctor/channels/mycanal.html · official site https://www.canalplus.com/
+- MTV Urheilu (FI, Public Sports) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/mtv-urheilu.html · official site https://www.mtvuutiset.fi/urheilu
+- MyCanal (FR, World Cup 2026) — unreachable, 207 ms. https://xyzs996.github.io/iptv-doctor/channels/mycanal.html · official site https://www.canalplus.com/
 - Olympics Channel (GLOBAL, Public Sports) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/olympics-channel.html · official site https://olympics.com/
 - Optus Sport (AU, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/optus-sport.html · official site https://sport.optus.com.au/
-- Polsat Sport (PL, Public Sports) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/polsat-sport.html · official site https://www.polsatsport.pl/
-- RCN (CO, World Cup 2026) — unreachable, 59 ms. https://xyzs996.github.io/iptv-doctor/channels/rcn.html · official site https://www.canalrcn.com/
-- RTM (MY, World Cup 2026) — unreachable, 535 ms. https://xyzs996.github.io/iptv-doctor/channels/rtm.html · official site https://rtmklik.rtm.gov.my/
-- SABC (ZA, World Cup 2026) — unreachable, 352 ms. https://xyzs996.github.io/iptv-doctor/channels/sabc.html · official site https://www.sabcsport.com/
-- SABC Sport (ZA, Public Sports) — unreachable, 397 ms. https://xyzs996.github.io/iptv-doctor/channels/sabc-sport.html · official site https://www.sabcsport.com/
+- RCN (CO, World Cup 2026) — unreachable, 150 ms. https://xyzs996.github.io/iptv-doctor/channels/rcn.html · official site https://www.canalrcn.com/
+- RTM (MY, World Cup 2026) — unreachable, 398 ms. https://xyzs996.github.io/iptv-doctor/channels/rtm.html · official site https://rtmklik.rtm.gov.my/
+- SABC (ZA, World Cup 2026) — unreachable, 1388 ms. https://xyzs996.github.io/iptv-doctor/channels/sabc.html · official site https://www.sabcsport.com/
+- SABC Sport (ZA, Public Sports) — unreachable, 394 ms. https://xyzs996.github.io/iptv-doctor/channels/sabc-sport.html · official site https://www.sabcsport.com/
 - Saudi Sports Company (SSC) (SA, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/saudi-sports-company-ssc.html · official site https://ssc.tv/
 - SBA (SA, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/sba.html · official site https://www.sba.sa/
-- SIC Noticias Desporto (PT, Public Sports) — unreachable, 275 ms. https://xyzs996.github.io/iptv-doctor/channels/sic-noticias-desporto.html · official site https://sicnoticias.pt/desporto
-- SNRT (MA, World Cup 2026) — unreachable, 420 ms. https://xyzs996.github.io/iptv-doctor/channels/snrt.html · official site https://www.snrt.ma/
-- Sony Sports Network (IN, Public Sports) — unreachable, 277 ms. https://xyzs996.github.io/iptv-doctor/channels/sony-sports-network.html · official site https://www.sonysportsnetwork.com/
+- SIC Noticias Desporto (PT, Public Sports) — unreachable, 431 ms. https://xyzs996.github.io/iptv-doctor/channels/sic-noticias-desporto.html · official site https://sicnoticias.pt/desporto
+- SNRT (MA, World Cup 2026) — unreachable, 698 ms. https://xyzs996.github.io/iptv-doctor/channels/snrt.html · official site https://www.snrt.ma/
+- Sony Sports Network (IN, Public Sports) — unreachable, 426 ms. https://xyzs996.github.io/iptv-doctor/channels/sony-sports-network.html · official site https://www.sonysportsnetwork.com/
 - SporTV (BR, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/sportv.html · official site https://canaisglobo.globo.com/
 - SSC Sports (SA, Public Sports) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/ssc-sports.html · official site https://ssc.tv/
-- TNT Sports (GB, Public Sports) — unreachable, 236 ms. https://xyzs996.github.io/iptv-doctor/channels/tnt-sports.html · official site https://www.tntsports.co.uk/
-- TNT Sports Argentina (AR, World Cup 2026) — unreachable, 299 ms. https://xyzs996.github.io/iptv-doctor/channels/tnt-sports-argentina.html · official site https://tntsports.com.ar/
-- TNT Sports Brasil (BR, Public Sports) — unreachable, 801 ms. https://xyzs996.github.io/iptv-doctor/channels/tnt-sports-brasil.html · official site https://tntsports.com.br/
-- TNT Sports Chile (CL, World Cup 2026) — unreachable, 473 ms. https://xyzs996.github.io/iptv-doctor/channels/tnt-sports-chile.html · official site https://tntsports.cl/
-- True4U (TH, World Cup 2026) — unreachable, 248 ms. https://xyzs996.github.io/iptv-doctor/channels/true4u.html · official site https://true4u.com/
+- TNT Sports (GB, Public Sports) — unreachable, 222 ms. https://xyzs996.github.io/iptv-doctor/channels/tnt-sports.html · official site https://www.tntsports.co.uk/
+- TNT Sports Argentina (AR, World Cup 2026) — unreachable, 410 ms. https://xyzs996.github.io/iptv-doctor/channels/tnt-sports-argentina.html · official site https://tntsports.com.ar/
+- TNT Sports Brasil (BR, Public Sports) — unreachable, 884 ms. https://xyzs996.github.io/iptv-doctor/channels/tnt-sports-brasil.html · official site https://tntsports.com.br/
+- TNT Sports Chile (CL, World Cup 2026) — unreachable, 543 ms. https://xyzs996.github.io/iptv-doctor/channels/tnt-sports-chile.html · official site https://tntsports.cl/
+- True4U (TH, World Cup 2026) — unreachable, 279 ms. https://xyzs996.github.io/iptv-doctor/channels/true4u.html · official site https://true4u.com/
 - TVA Sports (CA, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/tva-sports.html · official site https://www.tvasports.ca/
-- TVNZ Sport (NZ, Public Sports) — unreachable, 674 ms. https://xyzs996.github.io/iptv-doctor/channels/tvnz-sport.html · official site https://www.tvnz.co.nz/shows/sport
+- TVNZ Sport (NZ, Public Sports) — unreachable, 927 ms. https://xyzs996.github.io/iptv-doctor/channels/tvnz-sport.html · official site https://www.tvnz.co.nz/shows/sport
 - TVR (RO, World Cup 2026) — unreachable. https://xyzs996.github.io/iptv-doctor/channels/tvr.html · official site https://www.tvr.ro/
-- Universo (US, World Cup 2026) — unreachable, 237 ms. https://xyzs996.github.io/iptv-doctor/channels/universo.html · official site https://www.telemundo.com/universo
-- Viaplay (SE, World Cup 2026) — unreachable, 1162 ms. https://xyzs996.github.io/iptv-doctor/channels/viaplay.html · official site https://www.viaplay.se/
-- Virgin Media Sport (IE, Public Sports) — unreachable, 368 ms. https://xyzs996.github.io/iptv-doctor/channels/virgin-media-sport.html · official site https://www.virginmediatelevision.ie/sport/
+- Universo (US, World Cup 2026) — unreachable, 306 ms. https://xyzs996.github.io/iptv-doctor/channels/universo.html · official site https://www.telemundo.com/universo
+- Viaplay (SE, World Cup 2026) — unreachable, 1642 ms. https://xyzs996.github.io/iptv-doctor/channels/viaplay.html · official site https://www.viaplay.se/
+- Virgin Media Sport (IE, Public Sports) — unreachable, 842 ms. https://xyzs996.github.io/iptv-doctor/channels/virgin-media-sport.html · official site https://www.virginmediatelevision.ie/sport/
 
 ## Questions answered in full
 
