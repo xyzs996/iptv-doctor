@@ -145,13 +145,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/countries/dk.html</loc>
+    <loc>https://xyzs996.github.io/iptv-doctor/countries/in.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/countries/id.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/countries/dk.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -188,12 +194,6 @@
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/countries/hr.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/countries/in.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -266,6 +266,12 @@
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/countries/pl.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/countries/global.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -344,12 +350,6 @@
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/countries/hu.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/countries/global.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -511,6 +511,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/bein-sports-mena.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/bild-sport.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
@@ -584,6 +590,18 @@
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/ctv.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/dd-sports.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/detiksport.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -721,12 +739,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/kbs-world.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/la-gazzetta-dello-sport.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
@@ -763,12 +775,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/migu.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/mlb.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
@@ -776,6 +782,12 @@
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/movistar-plus-deportes.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/movistar-plus.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -943,6 +955,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/red-bull-tv.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/rmc-sport.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
@@ -980,6 +998,12 @@
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/rtp.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/rtp-desporto.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1333,37 +1357,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/bein-sports-mena.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/caracol-deportes.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/dd-sports.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/movistar-plus.html</loc>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/kbs-world.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/mtva.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/red-bull-tv.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1399,6 +1399,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/caracol-deportes.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/caz-tv.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
@@ -1418,12 +1424,6 @@
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/dazn-japan.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/detiksport.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1489,6 +1489,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://xyzs996.github.io/iptv-doctor/channels/migu.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/mycanal.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
@@ -1520,12 +1526,6 @@
   </url>
   <url>
     <loc>https://xyzs996.github.io/iptv-doctor/channels/rtm.html</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xyzs996.github.io/iptv-doctor/channels/rtp-desporto.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
