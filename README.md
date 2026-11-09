@@ -83,38 +83,38 @@ Auto-updated by GitHub Actions every 2 hours for official viewing paths and priv
 
 | Metric | Value |
 |---|---:|
-| Last updated | 2026-11-08T21:36:23.304Z |
+| Last updated | 2026-11-09T01:23:42.689Z |
 | Source mode | official websites |
 | Total entries checked | 212 |
 | Online | 157 |
-| Slow / warning | 7 |
-| Offline | 48 |
-| Health score | 76% |
+| Slow / warning | 6 |
+| Offline | 49 |
+| Health score | 75% |
 | Countries | 63 |
 | Categories | 2 |
 
 | Country | Entry | Status | Latency ms | Host | Checked at |
 |---|---|---|---:|---|---|
-| AU | 7plus Sport | ONLINE | 555 | 7plus.com.au | 2026-11-08T21:36:02.392Z |
-| PT | A Bola | ONLINE | 394 | www.abola.pt | 2026-11-08T21:35:56.654Z |
-| AU | ABC Sport | ONLINE | 495 | www.abc.net.au | 2026-11-08T21:35:57.430Z |
-| JP | ABEMA | ONLINE | 687 | abema.tv | 2026-11-08T21:35:23.205Z |
-| JP | ABEMA Sports | ONLINE | 1352 | abema.tv | 2026-11-08T21:36:02.396Z |
-| AE | Abu Dhabi Sports | ONLINE | 942 | adsports.ae | 2026-11-08T21:34:54.003Z |
-| CL | ADN Deportes | ONLINE | 276 | www.adnradio.cl | 2026-11-08T21:36:07.124Z |
-| QA | Al Kass | ONLINE | 73 | www.alkass.net | 2026-11-08T21:35:28.918Z |
-| QA | Al Kass Sports | ONLINE | 97 | www.alkass.net | 2026-11-08T21:36:15.056Z |
-| PE | América Televisión | ONLINE | 417 | www.americatv.com.pe | 2026-11-08T21:35:27.106Z |
-| DE | ARD / Das Erste | ONLINE | 1377 | www.daserste.de | 2026-11-08T21:35:05.755Z |
-| SA | Arriyadiyah | ONLINE | 261 | www.arriyadiyah.com | 2026-11-08T21:36:15.057Z |
-| MY | Astro Arena | ONLINE | 310 | www.astro.com.my | 2026-11-08T21:36:18.253Z |
-| GB | BBC | ONLINE | 152 | www.bbc.co.uk | 2026-11-08T21:35:09.197Z |
-| GB | BBC iPlayer | ONLINE | 472 | www.bbc.co.uk | 2026-11-08T21:35:09.199Z |
-| GB | BBC Sport | ONLINE | 39 | www.bbc.co.uk | 2026-11-08T21:35:46.049Z |
-| FR | beIN SPORTS France | ONLINE | 1238 | www.beinsports.com | 2026-11-08T21:35:07.136Z |
-| QA | beIN SPORTS MENA | ONLINE | 1810 | www.beinsports.com | 2026-11-08T21:35:27.108Z |
-| DE | BILD Sport | ONLINE | 319 | sportbild.bild.de | 2026-11-08T21:35:55.589Z |
-| US | Bleacher Report | ONLINE | 1052 | bleacherreport.com | 2026-11-08T21:35:44.570Z |
+| AU | 7plus Sport | ONLINE | 1013 | 7plus.com.au | 2026-11-09T01:23:24.090Z |
+| PT | A Bola | ONLINE | 882 | www.abola.pt | 2026-11-09T01:23:16.307Z |
+| AU | ABC Sport | ONLINE | 1016 | www.abc.net.au | 2026-11-09T01:23:17.662Z |
+| JP | ABEMA | ONLINE | 1117 | abema.tv | 2026-11-09T01:22:40.617Z |
+| JP | ABEMA Sports | ONLINE | 1515 | abema.tv | 2026-11-09T01:23:24.094Z |
+| AE | Abu Dhabi Sports | ONLINE | 1349 | adsports.ae | 2026-11-09T01:22:05.947Z |
+| CL | ADN Deportes | ONLINE | 729 | www.adnradio.cl | 2026-11-09T01:23:33.823Z |
+| QA | Al Kass | ONLINE | 1477 | www.alkass.net | 2026-11-09T01:22:47.931Z |
+| QA | Al Kass Sports | ONLINE | 147 | www.alkass.net | 2026-11-09T01:23:38.173Z |
+| PE | América Televisión | ONLINE | 554 | www.americatv.com.pe | 2026-11-09T01:22:45.101Z |
+| DE | ARD / Das Erste | ONLINE | 1712 | www.daserste.de | 2026-11-09T01:22:17.895Z |
+| SA | Arriyadiyah | ONLINE | 419 | www.arriyadiyah.com | 2026-11-09T01:23:38.174Z |
+| MY | Astro Arena | ONLINE | 345 | www.astro.com.my | 2026-11-09T01:23:39.682Z |
+| GB | BBC | ONLINE | 133 | www.bbc.co.uk | 2026-11-09T01:22:26.609Z |
+| GB | BBC iPlayer | ONLINE | 355 | www.bbc.co.uk | 2026-11-09T01:22:26.610Z |
+| GB | BBC Sport | ONLINE | 143 | www.bbc.co.uk | 2026-11-09T01:23:06.272Z |
+| FR | beIN SPORTS France | ONLINE | 1823 | www.beinsports.com | 2026-11-09T01:22:19.613Z |
+| DE | BILD Sport | ONLINE | 334 | sportbild.bild.de | 2026-11-09T01:23:14.929Z |
+| US | Bleacher Report | ONLINE | 1161 | bleacherreport.com | 2026-11-09T01:23:04.125Z |
+| BG | BNT | ONLINE | 2101 | bnt.bg | 2026-11-09T01:22:08.295Z |
 
 Machine-readable outputs:
 
